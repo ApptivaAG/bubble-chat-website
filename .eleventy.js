@@ -5,8 +5,6 @@ const jpgImageUrl = require("./shortcodes/jpgImageUrl");
 const fs = require("fs");
 const path = require("path");
 
-const card = require("./src/shortcodes/--card.js");
-
 const manifestPath = path.resolve(__dirname, "dist", "assets", "manifest.json");
 const manifest = JSON.parse(
   fs.readFileSync(manifestPath, { encoding: "utf8" })
@@ -27,8 +25,6 @@ module.exports = function (eleventyConfig) {
     }
     return manifest[name];
   });
-
-  eleventyConfig.addPairedShortcode("card", card);
 
   // Copy all images directly to dist.
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
