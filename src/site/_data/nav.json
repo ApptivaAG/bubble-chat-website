@@ -2,11 +2,19 @@
     "items": [
         {
             "url": "/",
-            "name": "Home"
+            "name": "Funktionen"
+        },
+        {
+            "url": "/",
+            "name": "Preise"
         },
         {
             "url": "/about",
-            "name": "About"
+            "name": "Über uns"
+        },
+        {
+            "url": "/",
+            "name": "Kontakt"
         }
     ]
 }
