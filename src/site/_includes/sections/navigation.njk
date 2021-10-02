@@ -1,0 +1,49 @@
+<section>
+    <div 
+        {% if page.url === "/" %}
+            id="navigation"
+            class="menu"
+            {% else %}
+            class="menu--sticky"
+        {% endif %}
+    >
+        <div class="container">
+
+            <ul role="menu">
+                <li>
+                    <a href="/">Bubble Chat Logo</a>
+                </li>
+                {% for item in nav.items %}
+                    <li>
+                        <a href="{{ item.url }}"
+                        {% if item.url === page.url %}
+                            aria-current="page" data-state="active"
+                        {% endif %}
+                        >{{ item.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            {# 
+            <ul role="menu">
+                <li>
+                    <a href="/">Bubble Chat Logo</a>
+                </li>
+                <li>
+                    <a href="#">Funktionen</a>
+                </li>
+                <li>
+                    <a href="#">Unternehmen</a>
+                </li>
+                <li>
+                    <a href="#">Preise</a>
+                </li>
+                <li>
+                    <a href="#">Kontakt</a>
+                </li>
+            </ul> #}
+            <div class="cta">
+                <a href="#">Kostenlos testen</a>
+            </div>
+        </div>
+    </div>
+</section>

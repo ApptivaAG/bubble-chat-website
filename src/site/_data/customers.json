@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/Molekule.svg",
+            "name": "Molekule"
+        },
+        {
+            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/au-rate.svg",
+            "name": "au-rate"
+        },
+        {
+            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/billiondollarboy.png",
+            "name": "billiondollarboy"
+        },
+        {
+            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/OrganicBasics.svg",
+            "name": "OrganicBasics"
+        },
+        {
+            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/Otherland.svg",
+            "name": "Otherland"
+        },
+        {
+            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/absolutelyx.svg",
+            "name": "absolutelyx"
+        }
+    ]
+}

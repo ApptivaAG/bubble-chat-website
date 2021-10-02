@@ -1,0 +1,39 @@
+button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #fff;
+
+  background-color: var(--color-bubble-blue);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 15px -3px rgb(16 42 67 / 10%),
+    0 4px 6px -2px rgb(16 42 67 / 5%);
+
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  min-width: 28px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  &:hover {
+    box-shadow: 0 10px 15px 0px rgb(16 42 67 / 15%),
+      0 4px 6px 0px rgb(16 42 67 / 15%);
+    background-color: color-mod(var(--color-bubble-blue) alpha(90%));
+  }
+}
+
+a.button.button-action {
+  &::before {
+    content: "→";
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 0.3em;
+  }
+}

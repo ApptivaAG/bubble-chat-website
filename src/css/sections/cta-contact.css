@@ -1,0 +1,30 @@
+.cta-contact {
+  color: white;
+
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+
+  padding: 0px 40px;
+
+  & .container {
+    padding-bottom: 152px;
+    padding-top: 152px;
+
+    & .content {
+      max-width: 800px;
+
+      & p {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+
+      & .button {
+        font-size: 1.2rem;
+        color: #85a5ff;
+      }
+    }
+  }
+}
