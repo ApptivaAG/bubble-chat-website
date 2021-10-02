@@ -16,6 +16,10 @@ footer {
 
   font-size: 14px;
   font-weight: 300;
+
+  & a {
+    color: white;
+  }
 }
 
 .footer div {
@@ -40,10 +44,6 @@ footer {
 .quick-links ul {
   padding-left: 0px;
   list-style-type: none;
-}
-
-.quick-links a {
-  color: white;
 }
 
 .quick-links .last-of-section {
