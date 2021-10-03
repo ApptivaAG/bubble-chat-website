@@ -14,12 +14,17 @@
     <body>
         {% include 'sections/navigation.njk' %}
 
-        <main>
+        <main
+            {% if page.url === "/" %}
+                class="page page-home"
+            {% else %}
+                class="page page-subpage"
+            {% endif %}
+        >
             {{ content | safe }}
         </main>
 
         {% include 'sections/footer.njk' %}
 
-        
     </body>
 </html>
