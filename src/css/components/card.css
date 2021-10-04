@@ -86,9 +86,11 @@
     border-top-right-radius: 18px;
   }
 
-  /* & img {
-    width: 100%;
-  } */
+  & .footer-img {
+    vertical-align: bottom;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
 
   & .card-content {
     padding: 30px;

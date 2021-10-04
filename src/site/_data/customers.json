@@ -1,28 +1,40 @@
 {
     "items": [
         {
-            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/Molekule.svg",
-            "name": "Molekule"
+            "logo": "/img/customers/roche.png",
+            "name": "Roche"
         },
         {
-            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/au-rate.svg",
-            "name": "au-rate"
+            "logo": "/img/customers/energie360.png",
+            "name": "Energie 360°"
         },
         {
-            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/billiondollarboy.png",
-            "name": "billiondollarboy"
+            "logo": "/img/customers/fbz.svg",
+            "name": "Fachstelle Beschaffungswesen der Stadt Zürich"
         },
         {
-            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/OrganicBasics.svg",
-            "name": "OrganicBasics"
+            "logo": "/img/customers/kanton-bern.png",
+            "name": "Kantonales Amt für Informatik der Stadt Bern"
         },
         {
-            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/Otherland.svg",
-            "name": "Otherland"
+            "logo": "/img/customers/luzerner-kantonsspital.png",
+            "name": "Luzerner Kantonsspital"
         },
         {
-            "logo": "https://s3-us-west-2.amazonaws.com/lumanu-user-uploads/team-logos/absolutelyx.svg",
-            "name": "absolutelyx"
+            "logo": "/img/customers/maxon.svg",
+            "name": "Maxon"
+        },
+        {
+            "logo": "/img/customers/post.png",
+            "name": "Die Schweizerische Post"
+        },
+        {
+            "logo": "/img/customers/suva.png",
+            "name": "Suva"
+        },
+        {
+            "logo": "/img/customers/fachstelle-mobbing.png",
+            "name": "Fachstelle Mobbing und Belästigung"
         }
     ]
 }

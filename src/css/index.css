@@ -2,13 +2,17 @@
 
 @import "./base.css";
 @import "./navigation.css";
+@import "./page.css";
 @import "./footer.css";
 
 @import "./sections/cta-contact.css";
 @import "./sections/cta-request-demo.css";
-@import "./sections/customers.css";
 @import "./sections/features.css";
 @import "./sections/landing.css";
 
 @import "./components/button.css";
 @import "./components/card.css";
+
+@import "./partials/customers.css";
+@import "./partials/customers-scroller.css";
+@import "./partials/team.css";

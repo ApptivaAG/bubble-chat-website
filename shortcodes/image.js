@@ -8,7 +8,7 @@ module.exports = async function imageShortcode(src, cls, alt, sizes, widths) {
     widths,
     formats: ["webp", "jpeg"],
     outputDir: "./dist/img/",
-    urlPath: "img/",
+    urlPath: "/img/",
     useCache: true,
     filenameFormat: function (id, src, width, format, options) {
       const extension = path.extname(src);

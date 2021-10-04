@@ -1,0 +1,16 @@
+.partials-team {
+  background-color: var(--color-background-gray);
+
+  & .card {
+    text-align: center;
+  }
+
+  & .team-member-picture {
+    flex: 1;
+
+    & img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

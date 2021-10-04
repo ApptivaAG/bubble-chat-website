@@ -1,15 +1,8 @@
-<section class="customers">
-        <div class="scroller-container">
-                <div class="scroller">
-                        {% for item in customers.items %}
-                                <img class="scroller-img" name="{{ item.name }}" src="{{ item.logo }}">
-                        {% endfor %}
-                        {% for item in customers.items %}
-                                <img class="scroller-img" name="{{ item.name }}" src="{{ item.logo }}">
-                        {% endfor %}
-                        {% for item in customers.items %}
-                                <img class="scroller-img" name="{{ item.name }}" src="{{ item.logo }}">
-                        {% endfor %}
-                </div>
+<section class="partials-customers">
+    {% for item in customers.items %}
+        <div class="customer">
+            <img name="{{ item.name }}" src="{{ item.logo }}">
         </div>
+    {% endfor %}
+
 </section>

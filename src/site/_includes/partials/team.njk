@@ -1,0 +1,21 @@
+<div class="partials-team">
+    <div class="cards">
+        {% for item in team.items %}
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-title">{{ item.name }}</div>
+                    <div class="card-desc">
+                        <div>{{ item.role}}</div>
+                    </div>
+                </div>
+                <div class="team-member-picture">
+                    {% image item.picture,
+                    "footer-img",
+                    item.name,
+                    "100vw",
+                    [750, 1080, 1366, 1920] %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,34 @@
+---
+layout: default
+title: Über uns
+---
+<div class="ueber-uns">
+    <div class="container">
+        <h2>Über uns</h2>
+
+        <p>Bubble Chat ist ein Produkt der Apptiva AG aus Sempach, Luzern.</p>
+        <p>Seit 2016 entwickeln wir kundenindividuelle Chatbots für zahlreiche Schweizer Unternehmen. Über all diese Jahre hat sich
+        ein Set an Tools, Technologien und Vorgehensweisen angesammelt, welche wir in unserer Lösung Bubble Chat als <i>Best Practice</i> vereinen und bei unseren Projekten auch selber nutzen.</p>
+        <p>Wir sind davon überzeugt, dass ein Chatbot nur erfolgreich ist, wenn der Inhalt von denjenigen verwaltet wird, die damit am besten vertraut sind. Bubble Chat wurde entwickelt, um dies zu ermöglichen.</p>
+        <p>Unsere Kunden betrachten wir als Partner und wir setzen alles daran, gemeinsam einen guten Chatbot zu erstellen. Wir haben keinen Verkäufer, der Ihnen unsere Lösung aufschwatzt. Überzeugen Sie sich selber.</p>
+
+    </div>
+
+    <div class="customers-container">
+        <div class="container">
+            <h3>Auswahl unserer Kunden</h3>
+            <div>
+                {% include 'partials/customers.njk' %}
+            </div>
+        </div>
+    </div>
+
+    {% image "/img/buero.jpg", "buero-img", "Unser Büro", "100vw", [750, 1080, 1366, 1920] %}
+
+    <div class="team-container">
+        <div class="container">
+            <h2>Unser Team</h2>
+            {% include 'partials/team.njk' %}
+        </div>
+    </div>
+</div>

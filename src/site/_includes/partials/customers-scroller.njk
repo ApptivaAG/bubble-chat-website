@@ -1,0 +1,20 @@
+<section class="partials-customers-scroller">
+        <div class="scroller-container">
+                <style>
+                        :root {
+                                --number-of-customers: {{customers.items.length * 3}}
+                        }
+                </style>
+                <div class="scroller">
+                        {% for item in customers.items %}
+                                <img class="scroller-img" name="{{ item.name }}" src="{{ item.logo }}">
+                        {% endfor %}
+                        {% for item in customers.items %}
+                                <img class="scroller-img" name="{{ item.name }}" src="{{ item.logo }}">
+                        {% endfor %}
+                        {% for item in customers.items %}
+                                <img class="scroller-img" name="{{ item.name }}" src="{{ item.logo }}">
+                        {% endfor %}
+                </div>
+        </div>
+</section>

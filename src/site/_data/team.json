@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "name": "Linus Hüsler",
+            "role": "Product Owner",
+            "phone": "+41 79 794 76 85",
+            "mail": "linus.huesler@apptiva.ch",
+            "picture": "/img/team/linus-huesler.jpg"
+        },
+        {
+            "name": "Markus Tanner",
+            "role": "Chatbot Architekt",
+            "phone": "+41 78 909 82 44",
+            "mail": "markus.tanner@apptiva.ch",
+            "picture": "/img/team/markus-tanner.jpg"
+        },
+        {
+            "name": "Philip Schönholzer",
+            "role": "Berater",
+            "phone": "+41 79 407 00 83",
+            "mail": "philip.schoenholzer@apptiva.ch",
+            "picture": "/img/team/philip-schoenholzer.jpg"
+        },
+        {
+            "name": "Roman Schaller",
+            "role": "Softwareentwickler",
+            "phone": "+41 79 607 51 40",
+            "mail": "roman.schaller@apptiva.ch",
+            "picture": "/img/team/roman-schaller.jpg"
+        },
+        {
+            "name": "Patrik Stutz",
+            "role": "Softwareentwickler",
+            "phone": "+41 78 623 55 33",
+            "mail": "patrik.stutz@apptiva.ch",
+            "picture": "/img/team/patrik-stutz.jpg"
+        },
+        {
+            "name": "David Decker",
+            "role": "Softwareentwickler",
+            "phone": "+41 79 489 41 19",
+            "mail": "david.decker@apptiva.ch",
+            "picture": "/img/team/david-decker.jpg"
+        }
+    ]
+}

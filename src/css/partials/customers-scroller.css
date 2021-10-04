@@ -1,0 +1,38 @@
+.partials-customers-scroller {
+  --logo-width: 100px;
+  --logo-padding: 100px;
+  --scroller-size: calc(var(--number-of-customers) * 300px);
+
+  overflow: hidden;
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  & .scroller-container {
+    overflow: hidden;
+
+    & .scroller {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: var(--scroller-size);
+      animation: customer-icon-scroller calc(var(--number-of-customers) * 10s)
+        linear 0s normal infinite;
+      will-change: transform;
+    }
+
+    & .scroller-img {
+      margin-left: var(--logo-padding);
+      margin-right: var(--logo-padding);
+      max-width: var(--logo-width);
+    }
+  }
+}
+
+/* TODO: use css next */
+
+@keyframes customer-icon-scroller {
+  100% {
+    transform: translateX(calc(var(--scroller-size) * -0.5));
+  }
+}
