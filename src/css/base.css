@@ -45,6 +45,10 @@ section {
   align-items: center;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 .subtitle {
   color: #6e6e73;
   font-size: 18px;
