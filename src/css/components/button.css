@@ -7,15 +7,12 @@ button {
   color: #fff;
 
   background-color: var(--color-bubble-blue);
-  border-radius: 8px;
+  border-radius: 2px;
   border-width: 0;
-  box-shadow: 0 10px 15px -3px rgb(16 42 67 / 10%),
-    0 4px 6px -2px rgb(16 42 67 / 5%);
 
   font-size: 17px;
   line-height: 1.17648;
-  font-weight: 400;
-  letter-spacing: -0.022em;
+  font-weight: 500;
   min-width: 28px;
   padding-left: 16px;
   padding-right: 16px;
@@ -23,8 +20,6 @@ button {
   padding-bottom: 8px;
 
   &:hover {
-    box-shadow: 0 10px 15px 0px rgb(16 42 67 / 15%),
-      0 4px 6px 0px rgb(16 42 67 / 15%);
     background-color: color-mod(var(--color-bubble-blue) alpha(90%));
   }
 }
