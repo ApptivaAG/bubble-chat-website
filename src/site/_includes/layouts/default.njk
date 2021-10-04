@@ -11,16 +11,16 @@
             {% endif %}
         </title>
     </head>
-    <body>
+    <body 
+        {% if page.url === "/" %}
+            class="page page-home"
+        {% else %}
+            class="page page-subpage"
+        {% endif %}
+    >
         {% include 'sections/navigation.njk' %}
 
-        <main
-            {% if page.url === "/" %}
-                class="page page-home"
-            {% else %}
-                class="page page-subpage"
-            {% endif %}
-        >
+        <main>
             {{ content | safe }}
         </main>
 

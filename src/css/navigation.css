@@ -1,6 +1,18 @@
+:root {
+  --menu-padding-top: 50px;
+  --menu-padding-bottom: 30px;
+  --menu-sticky-padding-top: 30px;
+  --menu-sticky-padding-bottom: 15px;
+
+  & .page-subpage {
+    --menu-padding-top: var(--menu-sticky-padding-top);
+    --menu-padding-bottom: var(--menu-sticky-padding-bottom);
+  }
+}
+
 .menu {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-top: var(--menu-padding-top);
+  padding-bottom: var(--menu-padding-bottom);
   font-size: 20px;
 
   width: 100%;
@@ -31,10 +43,29 @@
   justify-content: space-between;
 }
 
+.page.page-home {
+  & .menu--sticky {
+    animation: fade-menu 0.25s forwards;
+  }
+}
+
+@keyframes fade-menu {
+  from {
+    background-color: rgb(var(--color-background-gray) / 30%);
+    transform: scale(1);
+    padding-top: var(--menu-padding-top);
+    padding-bottom: var(--menu-padding-bottom);
+  }
+  to {
+    background-color: var(--color-background-gray);
+    padding-top: var(--menu-sticky-padding-top);
+    padding-bottom: var(--menu-sticky-padding-bottom);
+  }
+}
+
 .menu--sticky {
   color: black;
   background-color: var(--color-background-gray);
-  animation: fade 0.5s forwards;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
 
   & .logo-color {
@@ -43,20 +74,6 @@
 
   & .logo-white {
     display: none;
-  }
-}
-
-@keyframes fade {
-  from {
-    background-color: rgb(var(--color-background-gray) / 30%);
-    transform: scale(1);
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  to {
-    background-color: var(--color-background-gray);
-    padding-top: 20px;
-    padding-bottom: 5px;
   }
 }
 

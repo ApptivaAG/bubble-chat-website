@@ -1,5 +1,7 @@
 .page-subpage {
-  padding-top: 160px;
+  & main {
+    padding-top: 160px;
+  }
 }
 
 .ueber-uns-page {
