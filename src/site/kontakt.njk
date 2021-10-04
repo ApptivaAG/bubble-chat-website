@@ -1,0 +1,63 @@
+---
+layout: default
+title: Kontakt
+---
+
+<div class="contact-page">
+    <div class="container">
+        <h2>Kontakt</h2>
+
+        <p>Wir sind immer interessiert am Austausch, zögern Sie nicht mit uns in Kontakt zu treten.</p>
+
+        <div class="contact-infos-grid">
+            <div class="contact-infos">
+                <p>Telefon</p>
+                <a href="tel:+41413222626" class="button">041 322 26 26</a>
+                <p>Mail</p>
+                <a href="mailto:info@bubble-chat.ch" class="button">info@bubble-chat.ch</a>
+                <p>Chatbot</p>
+                <a class="button">Chatten Sie via Chatbot</a>
+            </div>
+
+            <form class="contact-form" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+                <p hidden="">
+                    <label for="bot-field">Nicht ausfüllen: <input type="text" name="bot-field"></label><input type="text" name="subject"></p>
+                <p>
+                    <label for="name">Ihr Name (Pflichtfeld) <input type="text" name="name" class="text-input" value=""></label>
+                </p>
+                <p>
+                    <label for="email">Ihre Email-Adresse (Pflichtfeld) <input type="email" name="email" class="text-input" value=""></label>
+                </p>
+                <p>
+                    <label for="company">Firma <input type="text" name="company" class="text-input" value=""></label>
+                </p>
+                <p>
+                    <label for="message">Ihre Nachricht <textarea name="message" class="text-input"></textarea>
+                    </label>
+                </p>
+                <p class="">
+                    <button type="submit" class="">Senden</button>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+    {% image "/img/gebaeude.jpg", "gebaeude-img", "Unser Büro", "100vw", [750, 1080, 1366, 1920] %}
+
+    <div class="contact-location">
+        <div class="container">
+            <h3>Standort</h3>
+            <p>Unser Büro befindet sich in Sempach an der Autobahn A2 und der Bahnlinie zwischen Luzern und Sursee.</p>
+
+            <div class="address">
+                <p>Apptiva AG</p>
+                <p>Neuenkirchstrasse 19</p>
+                <p>6203 Sempach Station</p>
+            </div>
+
+            <iframe title="Google Maps" frameborder="0" height="550px" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=Apptiva%20AG,%20Neuenkirchstrasse%2019,%20Sempach%20Station&amp;hl=de&amp;geocode=+&amp;hnear=Apptiva%20AG+Neuenkirchstrasse%2019,+Sempach%20Station&amp;t=m&amp;z=10&amp;iwloc=A&amp;output=embed" width="100%"></iframe>
+        </div>
+    </div>
+
+</div>
