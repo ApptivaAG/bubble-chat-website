@@ -1,4 +1,4 @@
-.features2 {
+.section-features {
   --card-margin: 10px;
   --card-padding: 30px;
 
@@ -39,61 +39,6 @@
 
       & .image {
         padding: 0 var(--card-padding) var(--card-padding) var(--card-padding);
-
-        & img {
-          width: 100%;
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-        }
-      }
-    }
-  }
-}
-
-.features {
-  --border-radius: 18px;
-
-  & .feature-list {
-    display: flex;
-    flex-direction: column;
-
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-left: -2rem;
-    margin-right: -2rem;
-
-    & .feature {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-
-      padding: 2rem;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      border-radius: var(--border-radius);
-      transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
-
-      &:hover {
-        background-color: white;
-        box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
-        transform: scale3d(1.01, 1.01, 1.01);
-      }
-
-      & .content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        max-width: 55%;
-
-        & .subtitle {
-          padding-bottom: 1rem;
-          font-weight: 300;
-        }
-      }
-
-      & .image {
-        width: 100%;
-        max-width: 45%;
-        padding-left: 3rem;
 
         & img {
           width: 100%;
