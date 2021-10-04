@@ -58,7 +58,7 @@ section.landing {
   }
 
   & .chat {
-    display: flex;
+    display: none;
     align-items: flex-end;
 
     & .bot {
@@ -98,5 +98,11 @@ section.landing {
         position: absolute;
       }
     }
+  }
+}
+
+@media (--for-desktop-only) {
+  .landing .chat {
+    display: flex;
   }
 }
