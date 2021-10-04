@@ -69,31 +69,6 @@ section {
   max-width: 50%;
 }
 
-/* XXXXXXX LOGOS XXXXXXX */
-
-/* ####### wave ###### */
-
-.custom-shape-divider-bottom-1632336778 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1632336778 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.custom-shape-divider-bottom-1632336778 .shape-fill {
-  fill: #f5f5f7;
-}
-
 /* ####### call to action ###### */
 
 .section-bubble-chat-cta {

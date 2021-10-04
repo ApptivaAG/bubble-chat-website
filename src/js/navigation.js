@@ -2,6 +2,10 @@ window.onscroll = function () {
   toggleSticky();
 };
 
+window.onload = function () {
+  toggleSticky();
+};
+
 function toggleSticky() {
   const navigation = document.getElementById("navigation");
   if (navigation) {
