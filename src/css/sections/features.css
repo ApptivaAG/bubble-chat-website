@@ -3,46 +3,69 @@
   --card-padding: 30px;
 
   background-color: white;
-  padding-top: calc(2 * var(--card-margin));
 
-  & .feature-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    & .feature {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: calc(calc(var(--max-content-width) / 2) - var(--card-margin));
-      flex-shrink: 0;
-      margin-bottom: calc(2 * var(--card-margin));
-      background-color: var(--color-background-gray);
+  & .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 
-      &:nth-child(odd) {
-        margin-right: var(--card-margin);
-      }
-      &:nth-child(even) {
-        margin-left: var(--card-margin);
-      }
+    & .feature-list {
+      & .feature {
+        background-color: var(--color-background-gray);
 
-      & .content {
-        padding: var(--card-padding);
-        display: flex;
-        flex-direction: column;
+        & .content {
+          padding: var(--card-padding);
+          display: flex;
+          flex-direction: column;
 
-        & .subtitle {
-          padding-bottom: 1rem;
-          font-weight: 300;
+          & .subtitle {
+            padding-bottom: 1rem;
+            font-weight: 300;
+          }
+        }
+
+        & .image {
+          padding: 0 var(--card-padding) var(--card-padding) var(--card-padding);
+
+          & img {
+            width: 100%;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+          }
         }
       }
+    }
+  }
+}
 
-      & .image {
-        padding: 0 var(--card-padding) var(--card-padding) var(--card-padding);
+@media (--media-desktop-size) {
+  .section-features {
+    padding-top: calc(2 * var(--card-margin));
 
-        & img {
-          width: 100%;
-          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    & .container {
+      width: calc(100% - calc(var(--container-padding) * 2));
+      padding: 0 var(--container-padding);
+
+      & .feature-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        & .feature {
+          display: flex;
+          flex-direction: column;
+          flex-shrink: 0;
+          justify-content: space-between;
+
+          width: calc(calc(var(--max-content-width) / 2) - var(--card-margin));
+          margin-bottom: calc(2 * var(--card-margin));
+
+          &:nth-child(odd) {
+            margin-right: var(--card-margin);
+          }
+
+          &:nth-child(even) {
+            margin-left: var(--card-margin);
+          }
         }
       }
     }

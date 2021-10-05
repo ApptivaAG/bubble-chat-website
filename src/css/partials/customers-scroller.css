@@ -1,7 +1,8 @@
 .partials-customers-scroller {
   --logo-width: 100px;
-  --logo-padding: 100px;
-  --scroller-size: calc(var(--number-of-customers) * 300px);
+  --logo-padding: 40px;
+  --logo-size: calc(var(--logo-width) + calc(2 * var(--logo-padding)));
+  --scroller-size: calc(var(--number-of-customers) * var(--logo-size));
 
   overflow: hidden;
   background-color: white;
@@ -30,10 +31,14 @@
   }
 }
 
-/* TODO: use css next */
-
 @keyframes customer-icon-scroller {
   100% {
     transform: translateX(calc(var(--scroller-size) * -0.5));
+  }
+}
+
+@media (--media-desktop-size) {
+  .partials-customers-scroller {
+    --logo-padding: 100px;
   }
 }

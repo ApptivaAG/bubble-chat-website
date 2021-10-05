@@ -24,11 +24,25 @@ button {
   }
 }
 
+a.button {
+  text-decoration: none;
+  display: flex;
+}
+
 a.button.button-action {
   &::before {
     content: "→";
     display: inline-block;
     text-decoration: none;
     margin-right: 0.3em;
+  }
+}
+
+@media (--media-desktop-size) {
+  a.button {
+    display: inline;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

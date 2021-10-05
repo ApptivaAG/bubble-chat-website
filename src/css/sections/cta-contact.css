@@ -10,8 +10,8 @@
   padding: 0px 40px;
 
   & .container {
-    padding-bottom: 152px;
-    padding-top: 152px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 
     & .content {
       max-width: 800px;
@@ -25,6 +25,15 @@
         font-size: 1.2rem;
         color: #85a5ff;
       }
+    }
+  }
+}
+
+@media (--media-desktop-size) {
+  .cta-contact {
+    & .container {
+      padding-bottom: 152px;
+      padding-top: 152px;
     }
   }
 }

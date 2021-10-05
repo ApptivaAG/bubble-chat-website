@@ -1,10 +1,11 @@
 :root {
   --max-content-width: 1200px;
+  --container-padding: 25px;
   --color-bubble-blue: #2f55eb;
   --color-bubble-red: #eb2f96;
   --color-background-gray: #f5f5f7;
 }
 
-@custom-media --for-phone-only (width < 600px);
-@custom-media --for-tablet-only (width >= 600px) and (width < 1200px);
-@custom-media --for-desktop-only (width >= 1200px);
+@custom-media --media-phone-size (width < 600px);
+@custom-media --media-tablet-size (width >= 600px);
+@custom-media --media-desktop-size (width >= 1240px);

@@ -5,6 +5,7 @@ body {
   font-weight: 300;
   color: rgb(46, 46, 46);
   background-color: white;
+  text-size-adjust: none;
 
   overflow-x: hidden;
   overscroll-behavior-x: none;
@@ -30,6 +31,8 @@ p {
 }
 
 a {
+  display: inline-block;
+
   color: var(--color-bubble-blue);
   text-decoration: none;
 
@@ -57,9 +60,9 @@ img {
 }
 
 .container {
-  width: 100%;
+  width: calc(100% - calc(var(--container-padding) * 2));
   max-width: var(--max-content-width, 1200px);
-  padding: 0 25px;
+  padding: 0 var(--container-padding);
   margin: 0 auto;
 }
 

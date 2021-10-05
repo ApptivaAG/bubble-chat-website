@@ -1,0 +1,38 @@
+<section class="partials-sector-list">
+    <div class="container">
+        <div class="header">
+            <h2>Anwendungsfälle</h2>
+            <span class="subtitle">Chatbots sind so einzigartig wie Ihr Unternehmen. Mit Bubble Chat geben Sie
+                    Ihrem
+                    Chatbot die passende Persönlichkeit und stellen ihn exakt auf Ihren Anwendungsfall ein.
+                </span>
+        </div>
+    </div>
+    <div class="cards cards--scrollable">
+        {% for item in sectors.items %}
+            <div class="card">
+                <div class="header-img" style="background-image: url('{% jpgUrl item.image, 500 %}')"></div>
+                <div class="card-content">
+                    <div class="card-title">
+                        {{ item.name }}
+                    </div>
+                    <div class="card-desc">
+                        {{ item.description }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        <div class="card light-content" style="background-color: #192933;">
+            <div class="header-img" style="background-image: url('{% jpgUrl "/img/sector-custom.jpg", 500 %}')"></div>
+            <div class="card-content">
+                <div class="card-title">Ihr Unternehmen</div>
+                <div class="card-desc">
+                    <p>Nutzen Sie die Chancen die ein Chatbot Ihrem Unternehmen bieten kann. Wir helfen Ihnen, die dazu passende Lösung zu finden.</p>
+                    <p>
+                        <a class="button button-action" href="#">Jetzt bei uns melden</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

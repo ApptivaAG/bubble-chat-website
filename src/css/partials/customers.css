@@ -6,14 +6,22 @@
   justify-content: space-around;
 
   & .customer {
-    margin: 2em 2em;
-    width: 150px;
+    margin: 2rem 2rem;
+    width: 100px;
 
     & img {
       bottom: 0;
       height: 100%;
       width: 100%;
       vertical-align: bottom;
+    }
+  }
+}
+
+@media (--media-desktop-size) {
+  .partials-customers {
+    & .customer {
+      width: 150px;
     }
   }
 }

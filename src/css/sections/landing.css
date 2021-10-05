@@ -11,6 +11,11 @@ section.landing {
 }
 
 .landing {
+  & .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   padding-top: 9rem;
   color: white;
 
@@ -32,6 +37,7 @@ section.landing {
 
   & .content {
     padding-top: 3rem;
+    padding-bottom: 3rem;
 
     & .cta {
       margin-top: 50px;
@@ -101,8 +107,17 @@ section.landing {
   }
 }
 
-@media (--for-desktop-only) {
-  .landing .chat {
-    display: flex;
+@media (--media-desktop-size) {
+  .landing {
+    & .content {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    & .chat {
+      display: flex;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
   }
 }

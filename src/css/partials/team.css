@@ -14,3 +14,11 @@
     }
   }
 }
+
+@media (--media-desktop-size) {
+  .partials-team {
+    & .card {
+      width: calc(calc(var(--max-content-width) / 3) - 14px);
+    }
+  }
+}

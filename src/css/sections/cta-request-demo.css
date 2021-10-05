@@ -4,12 +4,10 @@
   display: flex;
   justify-content: center;
 
-  padding: 0px 40px;
-  /* margin-top: 3rem; */
-
   & .container {
-    padding-bottom: 152px;
-    padding-top: 152px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,25 +16,42 @@
       max-width: 900px;
       display: flex;
       flex-direction: column;
-      align-items: center;
 
       & img {
         max-width: 40%;
         margin-bottom: 1rem;
       }
 
-      & h2 {
-        text-align: center;
-      }
-
       & p {
-        text-align: center;
         margin-top: 3rem;
         margin-bottom: 3rem;
       }
 
       & .button {
         font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media (--media-desktop-size) {
+  .cta-request-demo {
+    padding: 0px 40px;
+
+    & .container {
+      padding-bottom: 152px;
+      padding-top: 152px;
+
+      & .content {
+        align-items: center;
+
+        & h2 {
+          text-align: center;
+        }
+
+        & p {
+          text-align: center;
+        }
       }
     }
   }
