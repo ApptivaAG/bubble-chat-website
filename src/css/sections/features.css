@@ -56,7 +56,7 @@
           flex-shrink: 0;
           justify-content: space-between;
 
-          width: calc(calc(var(--max-content-width) / 2) - var(--card-margin));
+          flex-basis: calc(50% - var(--card-margin));
           margin-bottom: calc(2 * var(--card-margin));
 
           &:nth-child(odd) {

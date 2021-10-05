@@ -6,6 +6,9 @@
   --color-background-gray: #f5f5f7;
 }
 
-@custom-media --media-phone-size (width < 600px);
-@custom-media --media-tablet-size (width >= 600px);
-@custom-media --media-desktop-size (width >= 1240px);
+@custom-media --media-phone-size (max-width: 767px);
+@custom-media --media-tablet-size (min-width: 768px);
+@custom-media --media-below-desktop-size (max-width: 1023px);
+@custom-media --media-desktop-size (min-width: 1024px);
+/* larger then max-content-width */
+@custom-media --media-large-desktop-size (min-width: 1200px);

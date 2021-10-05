@@ -16,7 +16,7 @@ section.landing {
     flex-wrap: wrap;
   }
 
-  padding-top: 9rem;
+  padding-top: 6rem;
   color: white;
 
   & h2 {
@@ -29,9 +29,9 @@ section.landing {
   }
 
   & p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 42px;
+    line-height: 34px;
     letter-spacing: 0.2px;
   }
 
@@ -107,11 +107,18 @@ section.landing {
   }
 }
 
-@media (--media-desktop-size) {
+@media (--media-large-desktop-size) {
   .landing {
+    padding-top: 9rem;
+
     & .content {
       flex: 0 0 50%;
       max-width: 50%;
+    }
+
+    & p {
+      font-size: 24px;
+      line-height: 42px;
     }
 
     & .chat {

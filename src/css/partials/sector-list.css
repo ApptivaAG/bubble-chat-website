@@ -1,5 +1,12 @@
-.section.partials-sector-list {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+section.partials-sector-list {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: var(--color-background-gray);
+}
+
+@media (--media-desktop-size) {
+  partials-sector-list {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }

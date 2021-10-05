@@ -3,6 +3,15 @@
 
   & .card {
     text-align: center;
+    flex-grow: 0;
+
+    @media (--media-tablet-size) {
+      flex-basis: calc(50% - 20px);
+    }
+
+    @media (--media-desktop-size) {
+      flex-basis: calc(33% - 20px);
+    }
   }
 
   & .team-member-picture {
@@ -11,14 +20,6 @@
     & img {
       width: 100%;
       height: auto;
-    }
-  }
-}
-
-@media (--media-desktop-size) {
-  .partials-team {
-    & .card {
-      width: calc(calc(var(--max-content-width) / 3) - 14px);
     }
   }
 }

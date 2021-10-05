@@ -207,7 +207,7 @@
   }
 }
 
-@media (max-width: 1239px) {
+@media (--media-below-desktop-size) {
   .menu .container .menu-container {
     & .logo-color {
       margin: 0;
