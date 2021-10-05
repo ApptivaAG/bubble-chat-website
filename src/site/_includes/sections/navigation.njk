@@ -19,21 +19,21 @@
                         </svg>
                     </div>
                     <ul role="menu">
-                        <li class="menu-item-home">
-                            <a href="/"
-                                    {% if page.url === '/' %}
-                                    aria-current="page" data-state="active"
-                                    {% endif %}
-                                >Start</a>
-                        </li>
+                        <a href="/"
+                            {% if page.url === '/' %}
+                                aria-current="page" data-state="active"
+                            {% endif %}>
+                            <li class="menu-item-home">Start</li>
+                        </a>
                         {% for item in nav.items %}
-                            <li>
-                                <a href="{{ item.url }}"
+                            <a href="{{ item.url }}"
                                     {% if item.url === page.url %}
                                     aria-current="page" data-state="active"
                                     {% endif %}
-                                >{{ item.name }}</a>
-                            </li>
+                                >
+                                <li>{{ item.name }}</li>
+                            </a>
+
                         {% endfor %}
                     </ul>
                 </div>

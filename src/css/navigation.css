@@ -106,9 +106,10 @@
         margin-right: 50px;
         float: none;
         display: inline-block;
+        color: white;
 
-        & a {
-          color: white;
+        &:hover {
+          text-decoration: underline;
           text-underline-offset: 5px;
         }
       }
@@ -153,9 +154,7 @@
 
       & ul {
         & li {
-          & a {
-            color: black;
-          }
+          color: black;
         }
       }
     }
@@ -257,13 +256,11 @@
         font-weight: 300;
 
         & li {
+          width: 100%;
           border-bottom: 1px solid #ffffff47;
           padding: 1.5rem 0;
           margin: 0;
-
-          & a {
-            color: white;
-          }
+          color: white;
         }
       }
     }
