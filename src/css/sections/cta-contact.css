@@ -1,13 +1,13 @@
 .cta-contact {
   color: white;
 
-  background-position: center bottom;
+  background-color: black;
+  background-position: unset;
+
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-
-  padding: 0px 40px;
 
   & .container {
     padding-bottom: 50px;
@@ -31,6 +31,9 @@
 
 @media (--media-desktop-size) {
   .cta-contact {
+    padding: 0px 40px;
+    background-position: center bottom;
+
     & .container {
       padding-bottom: 152px;
       padding-top: 152px;
