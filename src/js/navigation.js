@@ -18,3 +18,19 @@ function toggleSticky() {
     }
   }
 }
+
+const menuButton = document.getElementById("menu-button");
+menuButton.addEventListener("focus", disableBodyScroll, true);
+menuButton.addEventListener("blur", enableBodyScroll, true);
+
+let scrollY;
+
+function disableBodyScroll() {
+  scrollY = window.scrollY;
+  bodyScrollLock.disableBodyScroll(document.body);
+}
+
+function enableBodyScroll() {
+  bodyScrollLock.enableBodyScroll(document.body);
+  window.scrollTo(0, parseInt(scrollY || "0"));
+}
