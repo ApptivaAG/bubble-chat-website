@@ -4,6 +4,7 @@
   --color-bubble-blue: #2f55eb;
   --color-bubble-red: #eb2f96;
   --color-background-gray: #f5f5f7;
+  --color-background-black: #001220;
 }
 
 @custom-media --media-phone-size (max-width: 767px);

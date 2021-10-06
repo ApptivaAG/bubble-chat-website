@@ -116,7 +116,8 @@
 
     flex-basis: 40%;
 
-    background-position: center bottom;
+    background-color: var(--color-background-black);
+    background-position: unset;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -126,6 +127,7 @@
 
     @media (--media-desktop-size) {
       margin: 0;
+      background-position: center bottom;
       box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
     }
 

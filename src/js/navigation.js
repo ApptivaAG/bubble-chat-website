@@ -34,3 +34,11 @@ function enableBodyScroll() {
   bodyScrollLock.enableBodyScroll(document.body);
   window.scrollTo(0, parseInt(scrollY || "0"));
 }
+
+document.getElementById("menu-close").ontouchstart = function (eve) {
+  document.activeElement.blur();
+};
+
+document.getElementById("menu-close").onclick = function (eve) {
+  document.activeElement.blur();
+};

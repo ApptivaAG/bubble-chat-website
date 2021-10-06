@@ -1,7 +1,7 @@
 .cta-contact {
   color: white;
 
-  background-color: black;
+  background-color: var(--color-background-black);
   background-position: unset;
 
   background-size: cover;
