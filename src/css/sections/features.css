@@ -40,6 +40,7 @@
 @media (--media-desktop-size) {
   .section-features {
     padding-top: calc(2 * var(--card-margin));
+    padding-bottom: calc(2 * var(--card-margin));
 
     & .container {
       width: calc(100% - calc(var(--container-padding) * 2));

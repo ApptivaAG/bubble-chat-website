@@ -4,10 +4,10 @@
   --logo-size: calc(var(--logo-width) + calc(2 * var(--logo-padding)));
   --scroller-size: calc(var(--number-of-customers) * var(--logo-size));
 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   overflow: hidden;
   background-color: white;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 
   & .scroller-container {
     overflow: hidden;

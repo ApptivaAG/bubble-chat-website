@@ -1,6 +1,6 @@
 .page-subpage {
   & main {
-    padding-top: 100px;
+    padding-top: 120px;
 
     @media (--media-desktop-size) {
       padding-top: 160px;
@@ -102,12 +102,18 @@
     padding-bottom: 3rem;
   }
 
-  & .container {
-    flex-basis: 40%;
+  & .content {
+    flex-basis: 50%;
+
+    & h2 {
+      margin-top: 1rem;
+    }
   }
 
   & .form-container {
-    margin-top: 3rem;
+    margin: 3rem calc(var(--container-padding) * -1) 0
+      calc(var(--container-padding) * -1);
+
     flex-basis: 40%;
 
     background-position: center bottom;
@@ -119,13 +125,8 @@
     color: white;
 
     @media (--media-desktop-size) {
-      margin-top: 1rem;
+      margin: 0;
       box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
-
-      width: calc(100% - calc(var(--container-padding) * 2));
-      max-width: var(--max-content-width, 1200px);
-      padding: 1rem var(--container-padding);
-      margin: 0 auto;
     }
 
     & h3 {
