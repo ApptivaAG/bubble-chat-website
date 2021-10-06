@@ -18,6 +18,9 @@
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--container-padding);
+
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
@@ -27,23 +30,27 @@
     display: none;
   }
 
+  @media (--media-large-desktop-size) {
+    scroll-snap-type: none;
+  }
+
   & .card {
     flex-basis: 80%;
     flex-shrink: 0;
+
+    scroll-snap-align: start;
 
     &:first-child {
       margin-left: var(--container-padding);
     }
 
+    &:last-child {
+      margin-right: 2rem;
+    }
+
     @media (--media-tablet-size) {
       flex-basis: auto;
       width: 380px;
-    }
-
-    @media (--media-below-desktop-size) {
-      &:first-child {
-        margin-left: var(--container-padding);
-      }
     }
 
     @media (--media-large-desktop-size) {
