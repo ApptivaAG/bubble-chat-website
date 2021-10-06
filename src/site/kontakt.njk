@@ -5,41 +5,36 @@ title: Kontakt
 
 <div class="contact-page">
     <div class="container">
-        <h2>Kontakt</h2>
 
-        <p>Wir sind immer interessiert am Austausch, zögern Sie nicht mit uns in Kontakt zu treten.</p>
+        <div class="common-form-layout">
+            <div class="content">
+                <h2>Kontakt</h2>
+                <p>Wir sind immer an einem Austausch interessiert. Zögern Sie nicht mit uns in Kontakt zu treten.</p>
 
-        <div class="contact-infos-grid">
-            <div class="contact-infos">
-                <p>Telefon</p>
-                <a href="tel:+41413222626" class="button">041 322 26 26</a>
-                <p>Mail</p>
-                <a href="mailto:info@bubble-chat.ch" class="button">info@bubble-chat.ch</a>
-                <p>Chatbot</p>
-                <a class="button">Chatten Sie via Chatbot</a>
+                <div class="contact-infos">
+                    <p class="label">Telefon</p>
+                    <a href="tel:+41413222626" class="button">041 322 26 26</a>
+                    <p class="label">Mail</p>
+                    <a href="mailto:info@bubble-chat.ch" class="button">info@bubble-chat.ch</a>
+                    <p class="label">Chatbot</p>
+                    <a class="button">Chatten Sie via Chatbot</a>
+                </div>
             </div>
-
-            <form class="contact-form" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
-                <p hidden="">
-                    <label for="bot-field">Nicht ausfüllen: <input type="text" name="bot-field"></label><input type="text" name="subject"></p>
-                <p>
-                    <label for="name">Ihr Name (Pflichtfeld) <input class="input" type="text" name="name" class="text-input" value=""></label>
-                </p>
-                <p>
-                    <label for="email">Ihre Email-Adresse (Pflichtfeld) <input class="input" type="email" name="email" class="text-input" value=""></label>
-                </p>
-                <p>
-                    <label for="company">Firma <input class="input" type="text" name="company" class="text-input" value=""></label>
-                </p>
-                <p>
-                    <label for="message">Ihre Nachricht <textarea class="input" name="message" rows="6" class="text-input"></textarea>
-                    </label>
-                </p>
-                <p class="">
-                    <button type="submit" class="">Senden</button>
-                </p>
-            </form>
-
+            <div class="form-wrapper" style="background-image: url('/img/layered-waves-haikei.svg');">
+                <h3>Senden Sie uns eine Nachricht</h3>
+                <form name="kontakt" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <p hidden="">
+                        <label for="bot-field">Nicht ausfüllen: <input type="text" name="bot-field"/></label><input type="text" name="subject"/>
+                    </p>
+                    <input class="input" type="text" name="firstname" placeholder="Vorname*" class="text-input" required value=""/>
+                    <input class="input" type="text" name="lastname" placeholder="Nachname*" class="text-input" required value=""/>
+                    <input class="input" type="text" name="company" placeholder="Unternehmen*" class="text-input" required value=""/>
+                    <input class="input" type="text" name="phonenumber" placeholder="Telefonnummer" class="text-input" value=""/>
+                    <input class="input" type="email" name="email" placeholder="Geschäftliche E-Mail-Adresse*" required class="text-input" value=""/>
+                    <textarea class="input" name="message" rows="6" placeholder="Ihre Nachricht" class="text-input"></textarea>
+                    <button type="submit">Absenden</button>
+                </form>
+            </div>
         </div>
     </div>
 
