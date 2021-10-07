@@ -1,7 +1,11 @@
 <section class="partials-customers">
     {% for item in customers.items %}
         <div class="customer">
-            <img  src="{{ item.logo }}" name="{{ item.name }}" alt="{{ item.name }}"/>
+            {% image item.logo,
+            "logo",
+            item.name,
+            "100vw",
+            [200] %}
         </div>
     {% endfor %}
 

@@ -7,13 +7,13 @@
                 </style>
                 <div class="scroller">
                         {% for item in customers.items %}
-                                <img class="scroller-img" src="{{ item.logo }}" name="{{ item.name }}" alt="{{ item.name }}"/>
+                                {% image item.logo, "scroller-img", item.name, "100vw", [200] %}
                         {% endfor %}
                         {% for item in customers.items %}
-                                <img class="scroller-img" src="{{ item.logo }}" name="{{ item.name }}" alt="{{ item.name }}"/>
+                                {% image item.logo, "scroller-img", item.name, "100vw", [200] %}
                         {% endfor %}
                         {% for item in customers.items %}
-                                <img class="scroller-img" src="{{ item.logo }}" name="{{ item.name }}" alt="{{ item.name }}"/>
+                                {% image item.logo, "scroller-img", item.name, "100vw", [200] %}
                         {% endfor %}
                 </div>
         </div>

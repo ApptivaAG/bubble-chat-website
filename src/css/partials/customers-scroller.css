@@ -26,6 +26,7 @@
       margin-left: var(--logo-padding);
       margin-right: var(--logo-padding);
       max-width: var(--logo-width);
+      height: auto;
       vertical-align: bottom;
     }
   }
