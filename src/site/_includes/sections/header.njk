@@ -23,9 +23,7 @@
                             <a href="/"
                             {% if page.url === '/' %}
                                 aria-current="page" data-state="active"
-                            {% endif %}>
-                            Start
-                        </a>
+                            {% endif %}>Start</a>
                         </li>
                         {% for item in nav.items %}
                             <li>
@@ -33,9 +31,7 @@
                                     {% if item.url === page.url %}
                                     aria-current="page" data-state="active"
                                     {% endif %}
-                                >
-                                    {{ item.name }}
-                                </a>
+                                >{{ item.name }}</a>
                             </li>
                         {% endfor %}
                     </ul>
