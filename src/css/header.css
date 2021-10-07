@@ -101,14 +101,15 @@
       padding: 0;
       font-weight: 500;
 
-      & a {
-        margin-right: 50px;
+      & li {
+        position: relative;
+        float: none;
+        display: inline-block;
 
-        & li {
-          position: relative;
-          float: none;
-          display: inline-block;
+        & a {
           color: white;
+          margin-right: 50px;
+          width: 100%;
           &:hover {
             text-decoration: underline;
             text-underline-offset: 5px;
@@ -154,10 +155,8 @@
         display: none;
       }
 
-      & ul {
-        & li {
-          color: black;
-        }
+      & ul li a {
+        color: black;
       }
     }
 
