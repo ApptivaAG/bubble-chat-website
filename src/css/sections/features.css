@@ -2,7 +2,7 @@
   --card-margin: 10px;
   --card-padding: 30px;
 
-  background-color: white;
+  background-color: var(--color-background-gray);
 
   & .container {
     margin: 0;
@@ -39,6 +39,7 @@
 
 @media (--media-desktop-size) {
   .section-features {
+    background-color: white;
     padding-top: calc(2 * var(--card-margin));
     padding-bottom: calc(2 * var(--card-margin));
 
