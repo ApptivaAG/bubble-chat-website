@@ -28,7 +28,7 @@
   & .container {
     display: flex;
     justify-content: space-between;
-
+    
     & .menu-container {
       display: flex;
       justify-content: space-between;
@@ -147,6 +147,7 @@
 
   & .container {
     & .menu-container {
+      align-items: center;
       & .logo-color {
         display: initial;
       }
