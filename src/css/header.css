@@ -28,7 +28,7 @@
   & .container {
     display: flex;
     justify-content: space-between;
-    
+
     & .menu-container {
       display: flex;
       justify-content: space-between;
@@ -178,6 +178,16 @@
   }
 }
 
+.menu .container .menu-container .menu-items {
+  & .menu-close {
+    display: none;
+  }
+
+  & .menu-item-home {
+    display: none;
+  }
+}
+
 @media (--media-desktop-size) {
   .menu {
     & .container {
@@ -200,17 +210,11 @@
   }
 }
 
-.menu .container .menu-container .menu-items {
-  & .menu-close {
-    display: none;
-  }
-
-  & .menu-item-home {
-    display: none;
-  }
-}
-
 @media (--media-below-desktop-size) {
+  .menu--sticky .container .menu-container ul li a {
+    color: white;
+  }
+
   .menu .container .menu-container {
     & .logo-color {
       margin: 0;
