@@ -1,4 +1,4 @@
-.cta-contact {
+.cta-request-demo-dark {
   color: white;
 
   background-color: var(--color-background-black);
@@ -16,9 +16,13 @@
     & .content {
       max-width: 800px;
 
-      & p {
+      & .description {
         margin-top: 3rem;
         margin-bottom: 3rem;
+      }
+
+      & p {
+        margin-top: 1rem;
       }
 
       & .button {

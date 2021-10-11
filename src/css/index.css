@@ -5,8 +5,8 @@
 @import "./page.css";
 @import "./footer.css";
 
-@import "./sections/cta-contact.css";
-@import "./sections/cta-request-demo.css";
+@import "./sections/cta-request-demo-dark.css";
+@import "./sections/cta-request-demo-light.css";
 @import "./sections/features.css";
 @import "./sections/landing.css";
 

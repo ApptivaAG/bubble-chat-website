@@ -1,4 +1,4 @@
-.cta-request-demo {
+.cta-request-demo-light {
   background-color: white;
 
   display: flex;
@@ -22,7 +22,7 @@
       }
 
       & img {
-        max-width: 40%;
+        max-width: 30%;
         margin-bottom: 1rem;
       }
 
@@ -39,7 +39,7 @@
 }
 
 @media (--media-desktop-size) {
-  .cta-request-demo {
+  .cta-request-demo-light {
     padding: 0px 40px;
 
     & .container {
@@ -51,6 +51,7 @@
 
         & .logo {
           display: block;
+          margin-bottom: 4rem;
         }
 
         & h2 {
