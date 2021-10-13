@@ -219,7 +219,11 @@
 
         & .content.header.enterprise {
           background-color: var(--color-bubble-red);
-          color: white;
+          color: var(--color-background-black);
+
+          & .subtitle {
+            color: var(--color-background-black);
+          }
 
           & a {
             color: var(--color-background-black);
@@ -235,7 +239,7 @@
           & a {
             margin-top: 1rem;
             margin-bottom: 1rem;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
           }
         }
 
