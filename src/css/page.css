@@ -301,9 +301,6 @@
   }
 
   @media (--media-desktop-size) {
-    padding-top: calc(2 * var(--card-margin));
-    padding-bottom: calc(2 * var(--card-margin));
-
     & .container {
       & .plans {
         display: flex;
