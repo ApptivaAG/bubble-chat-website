@@ -1,27 +1,51 @@
 button {
-  cursor: pointer;
+  line-height: 1.5715;
+  position: relative;
   display: inline-block;
-  text-align: center;
+  font-weight: 400;
   white-space: nowrap;
-
-  color: #fff;
-
-  background-color: var(--color-bubble-blue);
-  border-radius: 2px;
-  border-width: 0;
-
-  font-size: 17px;
-  line-height: 1.17648;
-  font-weight: 500;
-  min-width: 28px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  color: var(--color-bubble-blue);
+  border-color: var(--color-bubble-blue);
+  background-color: #fff;
 
   &:hover {
-    background-color: color-mod(var(--color-bubble-blue) alpha(90%));
+    color: var(--color-bubble-blue);
+    background-color: color-mod(var(--color-bubble-blue) alpha(5%));
+    border-color: var(--color-bubble-blue);
   }
+}
+
+button.btn-primary {
+  color: #fff;
+  border-color: var(--color-bubble-blue);
+  background-color: var(--color-bubble-blue);
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px #0000000b;
+
+  & :hover {
+    background-color: color-mod(var(--color-bubble-blue) alpha(90%));
+    border-color: var(--color-bubble-blue);
+  }
+}
+
+button.btn-lg {
+  height: 40px;
+  padding: 6.4px 15px;
+  font-size: 16px;
 }
 
 a.button {
