@@ -28,6 +28,9 @@ module.exports = function (eleventyConfig) {
 
   // Copy all images directly to dist.
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
+  eleventyConfig.addPassthroughCopy({
+    "src/chatbot-images": "img/chatbot-images",
+  });
 
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
 
