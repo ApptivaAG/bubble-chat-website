@@ -1,4 +1,4 @@
-button {
+.btn {
   line-height: 1.5715;
   position: relative;
   display: inline-block;
@@ -29,7 +29,7 @@ button {
   }
 }
 
-button.btn-primary {
+.btn.btn-primary {
   color: #fff;
   border-color: var(--color-bubble-blue);
   background-color: var(--color-bubble-blue);
@@ -42,7 +42,7 @@ button.btn-primary {
   }
 }
 
-button.btn-lg {
+.btn.btn-lg {
   height: 40px;
   padding: 6.4px 15px;
   font-size: 16px;
