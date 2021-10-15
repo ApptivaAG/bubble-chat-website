@@ -1,2 +1,3 @@
 require("./navigation.js");
 require("./cards.js");
+require("./chatbot.js");
