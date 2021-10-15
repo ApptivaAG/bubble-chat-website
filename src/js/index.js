@@ -1,1 +1,2 @@
-require("./navigation");
+require("./navigation.js");
+require("./cards.js");
