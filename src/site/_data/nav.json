@@ -1,10 +1,6 @@
 {
     "items": [
         {
-            "url": "/",
-            "name": "Funktionen"
-        },
-        {
             "url": "/preise/",
             "name": "Preise"
         },
