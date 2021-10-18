@@ -136,6 +136,7 @@
     }
 
     & .btn {
+      font-size: 1rem;
       font-weight: 700;
       height: 3em;
       padding: 0 1em;
