@@ -341,3 +341,17 @@
     }
   }
 }
+
+.form-success-page {
+  @media (--media-desktop-size) {
+    min-height: 60vh;
+  }
+
+  & .form-container {
+    background-color: transparent;
+    box-shadow: none;
+    & img {
+      width: 100%;
+    }
+  }
+}
