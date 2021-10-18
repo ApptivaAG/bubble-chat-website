@@ -239,6 +239,16 @@
           }
         }
 
+        & .content.features {
+          & ul {
+            padding: 0 1rem;
+          }
+
+          & .btn {
+            font-size: 1.1rem;
+          }
+        }
+
         & .content {
           padding: var(--card-padding);
           display: flex;
@@ -284,18 +294,6 @@
               font-weight: 500;
             }
           }
-
-          & .features {
-            width: 100%;
-
-            & ul {
-              padding: 0 1rem;
-            }
-
-            & a {
-              padding: 0 1.6rem;
-            }
-          }
         }
       }
     }
@@ -324,17 +322,23 @@
             height: 220px;
           }
 
+          & .content.features {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            justify-content: space-between;
+
+            & ul {
+              padding: 0 3rem 1rem 3rem;
+            }
+          }
+
           & .content {
             align-items: center;
 
             & .subtitle {
               text-align: center;
-            }
-
-            & .features {
-              & ul {
-                padding: 0 3rem;
-              }
             }
           }
         }

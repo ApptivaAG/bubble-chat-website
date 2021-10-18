@@ -1,17 +1,21 @@
 button {
   border: 0;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   line-height: 1.5715;
   position: relative;
-  display: inline-block;
   font-weight: 400;
   white-space: nowrap;
   text-align: center;
   border: 1px solid transparent;
   box-shadow: 0 2px #00000004;
+  box-sizing: border-box;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-user-select: none;
@@ -19,19 +23,27 @@ button {
   -ms-user-select: none;
   user-select: none;
   touch-action: manipulation;
-  height: 32px;
-  padding: 4px 15px;
+
+  margin: 0em;
+  padding: 0.3rem;
+
   font-size: 14px;
-  border-radius: 8px;
+  border-radius: 4px;
   color: var(--color-bubble-blue);
   border-color: var(--color-bubble-blue);
   background-color: #fff;
+  text-decoration: none;
 
   &:hover {
-    color: var(--color-bubble-blue);
-    background-color: color-mod(var(--color-bubble-blue) alpha(5%));
+    background-color: var(--color-bubble-blue);
+    color: white;
     border-color: var(--color-bubble-blue);
+    text-decoration: none;
   }
+}
+
+.btn-block {
+  width: 100%;
 }
 
 .btn.btn-primary {
@@ -48,9 +60,8 @@ button {
 }
 
 .btn.btn-lg {
-  height: 40px;
-  padding: 6.4px 15px;
   font-size: 16px;
+  border-radius: 8px;
 }
 
 a.button {
