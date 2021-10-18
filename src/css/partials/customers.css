@@ -19,6 +19,11 @@
 }
 
 @media (--media-desktop-size) {
+  section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .partials-customers {
     & .customer {
       margin: 2rem;

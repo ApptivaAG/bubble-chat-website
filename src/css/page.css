@@ -344,15 +344,26 @@
 }
 
 .form-success-page {
-  @media (--media-desktop-size) {
-    min-height: 60vh;
-  }
-
   & .form-container {
     background-color: transparent;
     box-shadow: none;
     & img {
       width: 100%;
+    }
+  }
+}
+
+.jetzt-kaufen-page {
+  & .customers {
+    padding-top: 4rem;
+    @media (--media-desktop-size) {
+      & h3 {
+        text-align: center;
+      }
+      & section {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+      }
     }
   }
 }

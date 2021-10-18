@@ -1,0 +1,45 @@
+---
+layout: default
+title: Jetzt kaufen
+---
+
+<div class="jetzt-kaufen-page">
+    <div class="container common-form-layout">
+        <div class="content">
+            <h2>Holen Sie sich noch heute Ihre Bubble Chat Lizenz!</h2>
+            <p>Bubble Chat hilft Ihnen dank Einsatz von Künstlicher Intelligenz beim Automatisieren von Kundenanfragen.</p>
+            <p>Erwerben Sie eine Jahres-Lizenz und kommen Sie in den Genuss einer flexiblen Chatbot Lösung aus der Schweiz, inklusive:</p>
+            <ul>
+                <li>Integration in Ihre Webseite</li>
+                <li>intuitiver Verwaltung von Inhalten</li>
+                <li>einfachem Trainieren des Chatbots</li>
+                <li>wichtige Analytics und Chatbot KPIs</li>
+                <li>persönlicher Betreuung durch unsere Experten</li>
+                <li>Betrieb, Hosting, Wartung und Updates</li>
+            </ul>
+        </div>
+        <div class="form-container" style="background-image: url('/img/layered-waves-haikei.svg');">
+            <h3>Bubble Chat Lizenz kaufen</h3>
+            <form name="demo-vereinbaren" data-netlify="true" data-netlify-honeypot="bot-field" action="/form-success/">
+                <p hidden="">
+                    <label for="bot-field">Nicht ausfüllen: <input type="text" name="bot-field"/></label><input type="text" name="subject"/>
+                </p>
+                <input type="hidden" name="subject" value="Bubble Chat Lizenz kaufen">
+                <input class="input" type="text" name="firstname" placeholder="Vorname*" required value=""/>
+                <input class="input" type="text" name="lastname" placeholder="Nachname*"  required value=""/>
+                <input class="input" type="text" name="company" placeholder="Unternehmen*" required value=""/>
+                <input class="input" type="text" name="phonenumber" placeholder="Telefonnummer" value=""/>
+                <input class="input" type="email" name="email" placeholder="Geschäftliche E-Mail-Adresse*" required value=""/>
+                <button type="submit" class="btn btn-primary">Jetzt kaufen</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container customers">
+        <h3>Sie sind in bester Gesellschaft</h3>
+        <div>
+            {% include 'partials/customers.njk' %}
+        </div>
+    </div>
+
+</div>
