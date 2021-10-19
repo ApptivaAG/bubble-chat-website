@@ -3,8 +3,8 @@ section.partials-sector-list {
 }
 
 @media (--media-desktop-size) {
-  partials-sector-list {
-    padding-top: 3rem;
+  section.partials-sector-list {
+    padding-top: 6rem;
     padding-bottom: 3rem;
   }
 }
