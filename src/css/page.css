@@ -358,7 +358,9 @@
 
 .jetzt-kaufen-page {
   & .customers {
+    margin-top: 1rem;
     padding-top: 4rem;
+    background-color: var(--color-background-gray);
     @media (--media-desktop-size) {
       & h3 {
         text-align: center;
