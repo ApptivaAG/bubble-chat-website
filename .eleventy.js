@@ -1,4 +1,6 @@
 const eleventyGoogleFonts = require("eleventy-google-fonts");
+const pluginSEO = require("eleventy-plugin-seo");
+
 const imageShortcode = require("./shortcodes/image");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
 
@@ -47,6 +49,16 @@ module.exports = function (eleventyConfig) {
 
   // Download and inline Google Font's CSS.
   eleventyConfig.addPlugin(eleventyGoogleFonts);
+
+  // SEO Plugin
+  eleventyConfig.addPlugin(pluginSEO, {
+    ...require("./src/site/_data/site.json"),
+    options: {
+      twitterCardType: "summary_large_image",
+      imageWithBaseUrl: true,
+      showPageNumbers: false,
+    },
+  });
 
   return {
     dir: {

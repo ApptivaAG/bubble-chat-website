@@ -1,5 +1,8 @@
 {
     "title": "Bubble Chat",
-    "url": "https://bubble-chat.ch/",
-    "description": "Bubble Chat ist die Plattform zum Automatisieren von Kundenanfragen mit Hilfe von Künstlicher Intelligenz."
+    "url": "https://hardcore-goldberg-871ee4.netlify.app",
+    "description": "Bubble Chat ist die Plattform zum Automatisieren von Kundenanfragen mit Hilfe von Künstlicher Intelligenz.",
+    "author": "Apptiva AG",
+    "twitter": "apptivateam",
+    "image": "/img/og-image.png"
 }
