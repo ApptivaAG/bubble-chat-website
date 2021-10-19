@@ -10,6 +10,18 @@ body {
   overflow-x: hidden;
   overscroll-behavior-x: none;
   overscroll-behavior-y: none;
+
+  @media (--media-desktop-size) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}
+
+main {
+  @media (--media-desktop-size) {
+    flex-grow: 1;
+  }
 }
 
 h2 {
