@@ -3,6 +3,7 @@ const pluginSEO = require("eleventy-plugin-seo");
 
 const imageShortcode = require("./shortcodes/image");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
+const browserScreenshot = require("./shortcodes/browserScreenshot");
 
 const fs = require("fs");
 const path = require("path");
@@ -18,6 +19,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addNunjucksAsyncShortcode("jpgUrl", jpgImageUrl);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addNunjucksAsyncShortcode("browserScreenshot", browserScreenshot);
 
   // Adds a universal shortcode to return the URL to a webpack asset. In Nunjack templates:
   // {% webpackAsset 'main.js' %} or {% webpackAsset 'main.css' %}
