@@ -1,9 +1,31 @@
 .browserScreenshot {
   --border-radius: 5px;
+  --title-bar-height: 18px;
 
-  & .browserScreenshot-browser {
+  @media (max-width: 568px) {
+    --title-bar-height: 12px;
+  }
+
+  & .browserScreenshot-title-bar {
+    background-color: #35363a;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
+    height: var(--title-bar-height);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    & svg {
+      padding-left: calc(var(--title-bar-height) / 4);
+      height: calc(var(--title-bar-height) / 3);
+      width: auto;
+    }
+
+    & svg:first-child {
+      padding-left: calc(var(--title-bar-height) / 2);
+    }
   }
 
   & .browserScreenshot-img {
