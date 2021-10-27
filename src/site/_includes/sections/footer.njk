@@ -23,18 +23,13 @@
                 <div class="quick-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li>
-                            <a href="/demo-vereinbaren/">Demo vereinbaren</a>
-                        </li>
-                        <li>
-                            <a href="/preise/">Preise</a>
-                        </li>
-                        <li>
-                            <a href="/ueber-uns/">Unternehmen</a>
-                        </li>
-                        <li class="last-of-section">
-                            <a href="/kontakt/">Kontakt</a>
-                        </li>
+                        {% for item in quicklinks.items %}
+                            <li>
+                                <a href="{{ item.url }}">{{ item.name }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <ul>
                         <li>
                             <a href="https://apptiva.ch" target="_blank" rel="noopener">Apptiva AG</a>
                         </li>

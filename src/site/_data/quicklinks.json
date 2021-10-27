@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "url": "/demo-vereinbaren/",
+            "name": "Demo vereinbaren"
+        },
+        {
+            "url": "/preise/",
+            "name": "Preise"
+        },
+        {
+            "url": "/ueber-uns/",
+            "name": "Unternehmen"
+        },
+        {
+            "url": "/contact/",
+            "name": "Kontakt"
+        }
+    ]
+}

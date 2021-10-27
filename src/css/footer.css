@@ -72,10 +72,6 @@ footer {
         padding-left: 0px;
         list-style-type: none;
       }
-
-      & .last-of-section {
-        padding-bottom: 0.8rem;
-      }
     }
   }
 
