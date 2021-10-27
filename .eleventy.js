@@ -1,5 +1,6 @@
 const eleventyGoogleFonts = require("eleventy-google-fonts");
 const pluginSEO = require("eleventy-plugin-seo");
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 const imageShortcode = require("./shortcodes/image");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
@@ -19,7 +20,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addNunjucksAsyncShortcode("jpgUrl", jpgImageUrl);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
-  eleventyConfig.addNunjucksAsyncShortcode("browserScreenshot", browserScreenshot);
+  eleventyConfig.addNunjucksAsyncShortcode(
+    "browserScreenshot",
+    browserScreenshot
+  );
 
   // Adds a universal shortcode to return the URL to a webpack asset. In Nunjack templates:
   // {% webpackAsset 'main.js' %} or {% webpackAsset 'main.css' %}
@@ -59,6 +63,13 @@ module.exports = function (eleventyConfig) {
       twitterCardType: "summary_large_image",
       imageWithBaseUrl: true,
       showPageNumbers: false,
+    },
+  });
+
+  // Sitemap Plugin
+  eleventyConfig.addPlugin(sitemap, {
+    sitemap: {
+      hostname: "https://bubble-chat.ch",
     },
   });
 
