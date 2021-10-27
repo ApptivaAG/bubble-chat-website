@@ -1,0 +1,33 @@
+---
+layout: default
+title: Preise
+---
+
+<div class="not-found-page">
+
+    <div class="container common-form-layout">
+        <div class="content">
+            <div class="subtitle">Ooops!</div>
+            <h2>Wir können die von Ihnen gesuchte Seite nicht finden.</h2>
+
+            <p>Hier sind stattdessen einige hilfreiche Links:</p>
+            <ul>
+                {% for item in quicklinks.items %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </p>
+
+        <p>Weitere Informationen erhalten Sie auch von unserem Chatbot: <a class="button chat-with-chatbot" href="#">Chatten Sie via Chatbot</a>
+        </p>
+
+    </div>
+
+    <div class="form-container">
+        <img src="/img/undraw_the_search.svg"/>
+    </div>
+</div>
+
+</div>

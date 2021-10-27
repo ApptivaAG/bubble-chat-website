@@ -346,6 +346,16 @@
   }
 }
 
+.not-found-page {
+  & .form-container {
+    background-color: transparent;
+    box-shadow: none;
+    & img {
+      width: 100%;
+    }
+  }
+}
+
 .form-success-page {
   & .form-container {
     background-color: transparent;
