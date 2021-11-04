@@ -1,29 +1,29 @@
 {
-    "items": [
-        {
-            "name": "Kundendienst",
-            "description": "Kunden wollen einfach eine schnelle Lösung. Beantworten Sie häufig wiederkehrende Fragen automatisiert mithilfe des Chatbots und ziehen Sie bei komplexeren Themen Experten aus dem Kundendienst bei.",
-            "image": "/img/sector-customer-service.jpg"
-        },
-        {
-            "name": "Gesundheitswesen",
-            "description": "Bei Fragen zur eigenen Gesundheit verwenden viele Leute lieber natürliche Sprache als sich durch eine komplexe Seite zu navigieren. Die Persönlichkeit und die Sprache von Chatbots speziell auf den entsprechenden Anwendungsfall optimiert.",
-            "image": "/img/sector-health-care.jpg"
-        },
-        {
-            "name": "IT",
-            "description": "Chatbots nehmen dem IT-Service-Desk einen Teil der Arbeit ab. So können sich die Mitarbeiter auf die komplexeren Anfragen konzentrieren. Direkte Anbindungen an Ticketing-Systeme sorgen für schlanke Prozesse.",
-            "image": "/img/sector-it.jpg"
-        },
-        {
-            "name": "Human Resources",
-            "description": "Gerade in grossen Firmen sind HR-Abteilungen durch repetitive Anfrage überlastet. Chatbots bieten Abhilfe, indem sie einen grossen Teil der Anfragen selbständig abarbeiten können.",
-            "image": "/img/sector-hr.jpg"
-        },
-        {
-            "name": "Bildung",
-            "description": "Lernende, Studierende und Interessenten erhalten via Chatbot Informationen über Bildungsinhalte, Ausbildungsdauer oder aktuelle Weiterbildungsmöglichkeiten. Bieten Sie dieser Zielgruppe mit einem Chatbot einen passenden Informationskanal an.",
-            "image": "/img/sector-education.jpg"
-        }
-    ]
+  "items": [
+    {
+      "name": "Kundendienst",
+      "description": "Kunden wollen einfach eine schnelle Lösung. Beantworten Sie häufig wiederkehrende Fragen automatisiert mithilfe des Chatbots und ziehen Sie bei komplexeren Themen Experten aus dem Kundendienst bei.",
+      "image": "/img/sector-customer-service.jpg"
+    },
+    {
+      "name": "Gesundheitswesen",
+      "description": "Bei Fragen zur eigenen Gesundheit verwenden viele Leute lieber natürliche Sprache als sich durch eine komplexe Seite zu navigieren. Die Persönlichkeit und die Sprache von Chatbots ist speziell auf den entsprechenden Anwendungsfall optimiert.",
+      "image": "/img/sector-health-care.jpg"
+    },
+    {
+      "name": "IT",
+      "description": "Chatbots nehmen dem IT-Service-Desk einen Teil der Arbeit ab. So können sich die Mitarbeiter auf die komplexeren Anfragen konzentrieren. Direkte Anbindungen an Ticketing-Systeme sorgen für schlanke Prozesse.",
+      "image": "/img/sector-it.jpg"
+    },
+    {
+      "name": "Human Resources",
+      "description": "Gerade in grossen Firmen sind HR-Abteilungen durch repetitive Anfragen überlastet. Chatbots bieten Abhilfe, indem sie einen grossen Teil der Anfragen selbständig beantworten können.",
+      "image": "/img/sector-hr.jpg"
+    },
+    {
+      "name": "Bildung",
+      "description": "Lernende, Studierende und Interessenten erhalten via Chatbot Informationen über Bildungsinhalte, Ausbildungsdauer oder aktuelle Weiterbildungsmöglichkeiten. Bieten Sie dieser Zielgruppe mit einem Chatbot einen passenden Informationskanal an.",
+      "image": "/img/sector-education.jpg"
+    }
+  ]
 }
