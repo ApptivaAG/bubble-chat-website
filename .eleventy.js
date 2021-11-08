@@ -69,7 +69,7 @@ module.exports = function (eleventyConfig) {
   // Sitemap Plugin
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
-      hostname: "https://bubble-chat.ch",
+      hostname: "https://www.bubble-chat.ch",
     },
   });
 
