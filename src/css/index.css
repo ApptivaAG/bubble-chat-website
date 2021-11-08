@@ -9,6 +9,7 @@
 @import "./sections/cta-request-demo-light.css";
 @import "./sections/features.css";
 @import "./sections/landing.css";
+@import "./sections/image-modal.css";
 
 @import "./components/browserScreenshot.css";
 @import "./components/button.css";
