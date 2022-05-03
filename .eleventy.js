@@ -17,6 +17,7 @@ const manifest = JSON.parse(
 module.exports = function (eleventyConfig) {
   // Layout aliases make templates more portable.
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
+  eleventyConfig.addLayoutAlias("feature", "layouts/feature.njk");
 
   eleventyConfig.addNunjucksAsyncShortcode("jpgUrl", jpgImageUrl);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
