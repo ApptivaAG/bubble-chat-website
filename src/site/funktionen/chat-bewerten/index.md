@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Chaterlebnis bewerten
-description: TODO
+description: Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten, damit sich besser beurteilen lässt, wie zufrieden die Kunden sind.
 tags:
   - WebClient
   - KPI
