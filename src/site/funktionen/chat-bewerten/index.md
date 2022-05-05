@@ -1,7 +1,8 @@
 ---
 layout: feature
 title: Chaterlebnis bewerten
-description: Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. Damit lässt sich besser beurteilen, wie zufrieden die Kunden mit der Konversation sind.
+excerpt: Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. Damit lässt sich besser beurteilen, wie zufrieden die Kunden mit der Konversation sind.
+image: /img/cms/chart-chat-bewertung.png
 tags:
   - WebClient
   - KPI
