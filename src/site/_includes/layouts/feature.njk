@@ -2,7 +2,20 @@
 layout: default
 ---
 <div class="feature container">
+
     {{ content | safe }}
+
+    <div class="tags">
+        <ul>
+            {%- for tag in tags -%}
+                {%- set tagUrl %}/funktionen/tags/{{ tag | slug }}/{% endset -%}
+                <li>
+                    {# <a href="{{ tagUrl | url }}">{{ tag }}</a> #}
+                    {{tag}}
+                </li>
+            {%- endfor %}
+        </ul>
+    </div>
 </div>
 
 {% include 'sections/cta-request-demo-dark.njk' %}
