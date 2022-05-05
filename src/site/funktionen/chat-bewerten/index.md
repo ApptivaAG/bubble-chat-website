@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Chaterlebnis bewerten
-description: Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten, damit sich besser beurteilen lässt, wie zufrieden die Kunden sind.
+description: Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. Damit lässt sich besser beurteilen, wie zufrieden die Kunden mit der Konversation sind.
 tags:
   - WebClient
   - KPI
@@ -10,19 +10,17 @@ tags:
 
 # Chaterlebnis bewerten
 
-Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten, damit sich besser beurteilen lässt, wie zufrieden die Kunden sind. Besucher können einen Chat während oder nach der Chatsitzung mit einem bis maximal fünf Sternen bewerten und optional einen Kommentar dazu abgeben.
+Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. Damit lässt sich besser beurteilen, wie zufrieden die Kunden mit der Konversation sind. Besucher können einen Chat während oder nach der Chatsitzung mit einem bis maximal fünf Sternen bewerten und optional einen Kommentar dazu abgeben.
 
 {% image "/img/cms/chat-bewerten.png", "feature-img", "Chaterlebnis bewerten", "100vw", [750, 1080, 1366, 1920] %}
 
 ## Aktivierung und Konfiguration
 
-Die Aktivierung der Chatbewertung wird in der Chatbot Engine vorgenommen.
-
-Sämtliche Texte und Farben können wie im WebClient üblich, angepasst werden.
+Die Aktivierung der Chatbewertung wird in der Chatbot Engine vorgenommen. Sämtliche Texte und Farben können wie im WebClient üblich, angepasst werden. So ist sichergestellt, dass diese Bewertung nicht als Fremdkörper im Chatfenster wahrgenommen wird.
 
 ## Bewertungen anzeigen
 
-Die Bewertungen und Kommentare können in Echtzeit im Chatverlauf in Bubble Chat eingesehen werden.
+Die Bewertungen und Kommentare können sofort im Chatverlauf in Bubble Chat eingesehen werden.
 
 {% image "/img/cms/chat-bewertung.png", "feature-img", "Bewertungen und Kommentare", "100vw", [750, 1080, 1366, 1920] %}
 
