@@ -9,12 +9,12 @@ module.exports = async function (src, width) {
 };
 
 function generateImages(src, widths) {
-  const source = path.join(__dirname, "..", "src", src);
+  const source = path.join(__dirname, "../", "src", src);
   const options = {
     widths: widths,
     formats: ["jpeg"],
     outputDir: "./dist/img/",
-    urlPath: "img/",
+    urlPath: "/img/",
     useCache: true,
     sharpJpegOptions: {
       quality: 80,
