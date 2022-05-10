@@ -3,19 +3,41 @@ layout: default
 ---
 <div class="feature container">
 
-    {{ content | safe }}
+  {{ content | safe }}
 
+  {% if not masterTag %}
     <div class="tags">
-        <ul>
-            {%- for tag in tags -%}
-                {%- set tagUrl %}/funktionen/tags/{{ tag | slug }}/{% endset -%}
-                <li>
-                    {# <a href="{{ tagUrl | url }}">{{ tag }}</a> #}
-                    {{tag}}
-                </li>
-            {%- endfor %}
-        </ul>
+      <ul>
+        {%- for tag in tags -%}
+          {%- set tagUrl %}/funktionen/tags/{{ tag | slug }}/{% endset -%}
+          <li>
+            <a href="{{ tagUrl | url }}">{{ tag }}</a>
+          </li>
+        {%- endfor %}
+      </ul>
     </div>
+  {% endif %}
+
 </div>
 
+{% if masterTag %}
+  <div style="background-color: #f5f5f7; margin-top: 4rem; padding-top: 2rem; padding-bottom: 2rem;">
+    <div class="container">
+      <h3 style="margin-bottom: 2rem;">Die wichtigsten {{masterTag}} Funktionen im Detail</h3>
+      {% set postslist = collections[masterTag] %}
+
+      {# Hack, damit partials/feature-list.njk funktioniert. Keine Ahnung, wo das Problem liegt... #}
+      <!-- {% jpgUrl "/img/og-image.png", 500 %} -->
+
+      {% include 'partials/feature-list.njk' %}
+    </div>
+  </div>
+{% endif %}
+
 {% include 'sections/cta-request-demo-dark.njk' %}
+
+<div class="container">
+  <div>
+    {% include 'partials/customers.njk' %}
+  </div>
+</div>

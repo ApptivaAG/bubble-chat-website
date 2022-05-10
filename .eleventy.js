@@ -49,11 +49,6 @@ module.exports = function (eleventyConfig) {
   // Reload the page every time the JS/CSS are changed.
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
-  // A debug utility.
-  eleventyConfig.addFilter("dump", (obj) => {
-    return util.inspect(obj);
-  });
-
   // Download and inline Google Font's CSS.
   eleventyConfig.addPlugin(eleventyGoogleFonts);
 
@@ -73,6 +68,36 @@ module.exports = function (eleventyConfig) {
       hostname: "https://www.bubble-chat.ch",
     },
   });
+
+  // Tags
+  function filterTagList(tags) {
+    return (tags || []).filter(
+      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+    );
+  }
+  eleventyConfig.addFilter("filterTagList", filterTagList);
+  // Create an array of all tags
+  eleventyConfig.addCollection("tagList", function (collection) {
+    let tagSet = new Set();
+    collection.getAll().forEach((item) => {
+      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+    });
+
+    return filterTagList([...tagSet]);
+  });
+  function getMasterFeatureByTag(featuretags, tag) {
+    return featuretags.find((i) => i.data.masterTag === tag);
+  }
+  eleventyConfig.addFilter("getMasterFeatureByTag", getMasterFeatureByTag);
+
+  // Sort by order
+  function sortByOrder(values = []) {
+    const vals = [...values];
+    return vals.sort((a, b) =>
+      Math.sign((a.data.order || 999) - (b.data.order || 999))
+    );
+  }
+  eleventyConfig.addFilter("sortByOrder", sortByOrder);
 
   return {
     dir: {

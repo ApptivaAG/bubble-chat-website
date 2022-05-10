@@ -1,0 +1,39 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+eleventyComputed:
+  title: Tagged “{{ tag }}”
+layout : default
+permalink: /funktionen/tags/{{ tag | slug }}/
+---
+<div class="container" style="padding-bottom: 2rem;">
+  <h2>{{ tag }}</h2>
+
+  {% set feature = collections.MasterTag | getMasterFeatureByTag(tag) %}
+  {% if feature %}
+    <p>{{ feature.data.excerpt }}</p>
+    <p>
+      <a href="{{ feature.url }}" class="button button-action">Mehr erfahren</a>
+    </p>
+  {% endif %}
+
+</div>
+
+<div style="background-color: #f5f5f7; padding-top: 2rem; padding-bottom: 2rem;">
+  <div class="container">
+    <h3 style="margin-bottom: 2rem;">Übersicht über die wichtigsten Funktionen</h3>
+
+    {% set postslist = collections[tag] %}
+    {% include "partials/feature-list.njk" %}
+
+  </div>
+</div>

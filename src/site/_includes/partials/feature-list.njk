@@ -1,0 +1,24 @@
+<ul class="feature-cards">
+    {% for post in postslist | sortByOrder %}
+        <li class="feature-cards__item">
+            <div class="card">
+                {% if post.data.image %}
+                    <div class="header-img" style="background-image: url('{% jpgUrl post.data.image, 500 %}')"></div>
+                {% else %}
+                    <div class="header-img" style="background-image: url('{% jpgUrl "/img/og-image.png", 500 %}')"></div>
+                {% endif %}
+                <div class="card-content">
+                    <div class="card-title">
+                        {{ post.data.title }}
+                    </div>
+                    <div class="card-desc">
+                        {{ post.data.excerpt }}
+                    </div>
+                    <div class="card-actions">
+                        <a href="{{ post.url | url }}" class="btn btn-block">Mehr erfahren</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    {% endfor %}
+</ul>

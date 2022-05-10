@@ -131,13 +131,19 @@
   }
 
   & .header-img {
-    height: 220px;
     display: inline-block;
     background-size: cover;
     background-position: center;
 
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
+
+    &::before {
+      content: "";
+      display: block;
+      padding-top: 56.25%; /* 16:9 aspect ratio */
+    }
+
   }
 
   & .footer-img {
@@ -148,6 +154,8 @@
 
   & .card-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
     flex: 1;
 
     @media (--media-tablet-size) {
@@ -169,6 +177,14 @@
     letter-spacing: -0.022em;
     padding-top: 10px;
     margin-top: 0;
+  }
+
+  & .card-actions {
+    margin-top: auto;
+
+    & .btn {
+      margin-top: 1rem;
+    }
   }
 }
 
