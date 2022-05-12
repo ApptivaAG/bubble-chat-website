@@ -10,4 +10,10 @@ blockquote {
 blockquote p {
   margin-left: 2em;
   font-style: italic;
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+}
+
+.branchen-info {
+  margin-top: 2em;
 }
