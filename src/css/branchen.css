@@ -1,0 +1,13 @@
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1em 1em 1em 0em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  quotes: "«" "»";
+}
+
+blockquote p {
+  margin-left: 2em;
+  font-style: italic;
+}
