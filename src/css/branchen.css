@@ -17,3 +17,9 @@ blockquote p {
 .branchen-info {
   margin-top: 2em;
 }
+
+@media (--media-below-desktop-size) {
+  blockquote p {
+    margin-left: 1em;
+  }
+}
