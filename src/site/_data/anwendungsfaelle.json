@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "name": "Kundendienst",
+      "description": "Kunden wollen einfach eine schnelle Lösung. Beantworten Sie häufig wiederkehrende Fragen automatisiert mithilfe des Chatbots und ziehen Sie bei komplexeren Themen Experten aus dem Kundendienst bei.",
+      "image": "/img/sector-customer-service.jpg",
+      "link": "anwendungsfaelle/kundendienst"
+    },
+
+    {
+      "name": "IT",
+      "description": "Chatbots nehmen dem IT-Service-Desk einen Teil der Arbeit ab. So können sich die Mitarbeiter auf die komplexeren Anfragen konzentrieren. Direkte Anbindungen an Ticketing-Systeme sorgen für schlanke Prozesse.",
+      "image": "/img/sector-it.jpg",
+      "link": "anwendungsfaelle/it"
+    },
+    {
+      "name": "Human Resources",
+      "description": "Gerade in grossen Firmen sind HR-Abteilungen durch repetitive Anfragen überlastet. Chatbots bieten Abhilfe, indem sie einen grossen Teil der Anfragen selbständig beantworten können.",
+      "image": "/img/sector-hr.jpg",
+      "link": "anwendungsfaelle/hr"
+    }
+  ]
+}

@@ -18,6 +18,8 @@ module.exports = function (eleventyConfig) {
   // Layout aliases make templates more portable.
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
   eleventyConfig.addLayoutAlias("feature", "layouts/feature.njk");
+  eleventyConfig.addLayoutAlias("branche", "layouts/branche.njk");
+  eleventyConfig.addLayoutAlias("anwendungsfall", "layouts/anwendungsfall.njk");
 
   eleventyConfig.addNunjucksAsyncShortcode("jpgUrl", jpgImageUrl);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);

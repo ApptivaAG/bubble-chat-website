@@ -6,8 +6,13 @@
   margin-right: -10px;
 
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.cards-link {
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .cards-scroller {
@@ -128,6 +133,7 @@
   &:hover {
     box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
     transform: scale3d(1.01, 1.01, 1.01);
+    text-decoration: none;
   }
 
   & .header-img {

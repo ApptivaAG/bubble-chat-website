@@ -1,0 +1,35 @@
+.anwendungsfall {
+  margin-bottom: 6rem;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  flex: 75%;
+}
+
+.intro-image {
+  flex: 25%;
+}
+
+.anwendungsfall-image {
+  padding-left: 1em;
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .intro-text {
+    flex: 100%;
+  }
+  .intro-image {
+    margin: 2em;
+    text-align: center;
+  }
+
+  .anwendungsfall-image {
+    max-width: 80%;
+  }
+}
