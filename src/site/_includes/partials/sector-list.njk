@@ -9,8 +9,8 @@
     </div>
     <div class="cards-scroller">
         <div id="cards-list" class="cards cards--scrollable">
-            {% for item in sectors.items %}
-                <div class="card">
+            {% for item in anwendungsfaelle.items %}
+                <a class="card" href={{ item.link }}>
                     <div class="header-img" style="background-image: url('{% jpgUrl item.image, 500 %}')"></div>
                     <div class="card-content">
                         <div class="card-title">
@@ -20,7 +20,7 @@
                             {{ item.description }}
                         </div>
                     </div>
-                </div>
+                </a>
             {% endfor %}
             <div class="card light-content" style="background-color: #192933;">
                 <div class="header-img" style="background-image: url('{% jpgUrl "/img/sector-custom.jpg", 500 %}')"></div>
