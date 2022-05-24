@@ -87,10 +87,10 @@ module.exports = function (eleventyConfig) {
 
     return filterTagList([...tagSet]);
   });
-  function getMasterFeatureByTag(featuretags, tag) {
-    return featuretags.find((i) => i.data.masterTag === tag);
+  function getRootFeatureByTag(featuretags, tag) {
+    return featuretags.find((i) => i.data.rootTag === tag);
   }
-  eleventyConfig.addFilter("getMasterFeatureByTag", getMasterFeatureByTag);
+  eleventyConfig.addFilter("getRootFeatureByTag", getRootFeatureByTag);
 
   // Sort by order
   function sortByOrder(values = []) {

@@ -2,10 +2,11 @@
 layout: feature
 title: Chatbot Engine
 excerpt: Die Chatbot Engine ist das Herzstück jedes Chatbots. Sie empfängt, verarbeitet und sendet Nachrichten an die jeweiligen Chat Clients.
+image: /img/funktionen/chatbot-engine-card.png
 order: 1
-masterTag: Chatbot Engine
+rootTag: Chatbot Engine
 tags:
-  - MasterTag
+  - RootTag
 ---
 
 # Chatbot Engine

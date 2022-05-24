@@ -83,3 +83,58 @@
     }
   }
 }
+
+.feature-contact-box {
+  width: 100%;
+
+  & p {
+    margin: 0;
+    font-weight: 500;
+  }
+
+  & div {
+    padding-bottom: 1rem;
+  }
+
+  @media (--media-tablet-size) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    & div {
+      flex: 33.33%;
+    }
+  }
+}
+
+.feature-footer {
+  padding-top: 2rem;
+
+  & section {
+    padding-top: 1rem;
+  }
+
+  & h3 {
+    text-align: left;
+    width: 100%;
+    @media (--media-tablet-size) {
+      text-align: center;
+    }
+  }
+
+  & .feature-contact-box {
+    @media (--media-tablet-size) {
+      & h3 {
+        text-align: center;
+      }
+
+      & div {
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+        background: #f5f5f7;
+        border-radius: 18px;
+      }
+    }
+  }
+}

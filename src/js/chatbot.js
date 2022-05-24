@@ -3,18 +3,22 @@ chatWithChatbotElements.forEach((el) =>
   el.addEventListener("click", onChatWithChatbot)
 );
 
-function onChatWithChatbot() {
+function onChatWithChatbot(event) {
+  const intent =
+    event.target.getAttribute("data-bubble-intent") ||
+    "6169c66cf8ed690023903e89"; // Intent: website.contact-chatbot
+
   if (chatbot?.isChatbotLoaded()) {
-    callChatWithChatbot();
+    callChatWithChatbot(intent);
   } else {
-    setTimeout(callChatWithChatbot, 3000);
+    setTimeout(() => callChatWithChatbot(intent), 3000);
   }
 }
 
-function callChatWithChatbot() {
+function callChatWithChatbot(intent) {
   chatbot.openChatWindow();
 
   setTimeout(() => {
-    chatbot.triggerStory("6169c66cf8ed690023903e89"); // Intent: website.contact-chatbot
+    chatbot.triggerStory(intent);
   }, 500);
 }

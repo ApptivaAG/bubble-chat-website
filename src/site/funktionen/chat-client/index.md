@@ -1,14 +1,15 @@
 ---
 layout: feature
-title: Chat Client
+title: Chat Clients
 excerpt: Der Client ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Dies ist auch die einzige Komponente eines Chatbot, welche die Anwender sehen.
-order: 1
-masterTag: Chat Client
+image: /img/funktionen/chat-clients-card.png
+order: 3
+rootTag: Chat Client
 tags:
-  - MasterTag
+  - RootTag
 ---
 
-# Chat Client
+# Chat Clients
 
 Der Client ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Dies ist auch die einzige Komponente eines Chatbot, welche die Anwender sehen.
 

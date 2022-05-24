@@ -1,21 +1,38 @@
 ---
 permalink: /funktionen/
 layout : default
+excerpt: Jeder Chatbot ist so einzigartig wie das Unternehmen für welches er arbeitet. Entsprechend wichtig ist es, eine flexible Chatbot Lösung zu haben die den Anforderungen gerecht wird.
 ---
 
 <div class="container" style="padding-bottom: 2rem;">
-    <h2>Funktionen</h2>
+  <h2>Funktionen</h2>
 
-    <p>TODO: Intro. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+  <p>Seit 2016 entwickeln wir in unserer <a href="https://botfabrik.ch/" target="_blank" rel="noopener noreferrer">Botfabrik</a> kundenindividuelle Chatbots für zahlreiche Schweizer Unternehmen. 
+    Über all diese Jahre hat sich ein Set an Tools, Technologien und Vorgehensweisen angesammelt, welche wir in unserer Lösung Bubble Chat als Best Practice vereinen und bei unseren Projekten auch selber nutzen.</p>
+
+  <p>Jeder Chatbot ist so einzigartig wie das Unternehmen für welches er arbeitet. Entsprechend wichtig ist es, eine flexible Chatbot Lösung zu haben die den Anforderungen gerecht wird. Trotz der grossen Flexibilität ist es wichtig, die Verwaltung der Inhalte des Chatbots so einfach wie möglich zu gestalten.
+        Denn nur so ist es möglich, das diese wichtige Aufgabe von jenen Personen gemacht werden kann, die sich mit den Inhalten am besten auskennen.
+    </p>
+
 </div>
 
 <div style="background-color: #f5f5f7; padding-top: 2rem; padding-bottom: 2rem;">
-    <div class="container">
-        <h3 style="margin-bottom: 2rem;">Übersicht über die wichtigsten Elemente</h3>
+  <div class="container">
+    <h3 style="margin-bottom: 2rem;">Übersicht über die wichtigsten Elemente</h3>
 
-        {% set postslist = collections.MasterTag %}
+    {% set postslist = collections.RootTag %}
+    {% include "partials/feature-list.njk" %}
 
-        {% include "partials/feature-list.njk" %}
+  </div>
+</div>
 
-    </div>
+<div class="feature-footer container">
+  <section>
+    <h3>Kann man das?</h3>
+    {% include "partials/feature-contact.njk" %}
+  </section>
+  <section>
+    <h3>Auswahl unserer Kunden</h3>
+    {% include 'partials/customers.njk' %}
+  </section>
 </div>

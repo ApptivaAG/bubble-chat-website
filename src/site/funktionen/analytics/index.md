@@ -2,11 +2,11 @@
 layout: feature
 title: Analytics
 excerpt: Bubble Chat gibt einen sehr guten Einblick darüber, wie Chatbots von den Anwendern benutzt werden. Mit diesen Informationen und einigen Chatbot-KPIs können die richtigen Entscheidungen zum Verbessern der Kundenerfahrung getroffen werden.
-order: 1
-masterTag: Analytics
+order: 4
+rootTag: Analytics
 image: /img/funktionen/analytics-card.png
 tags:
-  - MasterTag
+  - RootTag
 ---
 
 # Analytics
