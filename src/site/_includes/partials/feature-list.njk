@@ -1,7 +1,7 @@
 <ul class="feature-cards">
     {% for post in postslist | sortByOrder %}
         <li class="feature-cards__item">
-            <div class="card">
+            <a class="card" href="{{ post.url | url }}">
                 {% if post.data.image %}
                     <div class="header-img" style="background-image: url('{% jpgUrl post.data.image, 500 %}')"></div>
                 {% else %}
@@ -15,10 +15,10 @@
                         {{ post.data.excerpt }}
                     </div>
                     <div class="card-actions">
-                        <a href="{{ post.url | url }}" class="btn btn-block">Mehr erfahren</a>
+                        <span class="btn btn-block">Mehr erfahren</span>
                     </div>
                 </div>
-            </div>
+            </a>
         </li>
     {% endfor %}
 </ul>
