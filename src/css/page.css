@@ -20,7 +20,7 @@
   & .customers-container {
     padding-top: 6rem;
 
-    & h3 {
+    & h2 {
       text-align: center;
     }
   }
@@ -131,7 +131,7 @@
       box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
     }
 
-    & h3 {
+    & h2 {
       color: white;
     }
 
@@ -254,7 +254,7 @@
           flex-direction: column;
           align-items: flex-start;
 
-          & h3 {
+          & h2 {
             font-size: 2rem;
           }
 
@@ -372,7 +372,7 @@
     padding-top: 4rem;
     background-color: var(--color-background-gray);
     @media (--media-desktop-size) {
-      & h3 {
+      & h2 {
         text-align: center;
       }
       & section {
