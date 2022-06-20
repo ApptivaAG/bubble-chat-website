@@ -32,6 +32,13 @@
                         {% endfor %}
                     </ul>
                     <ul>
+                        {% for item in quicklinks.secondaryItems %}
+                            <li>
+                                <a href="{{ item.url }}">{{ item.name }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <ul>
                         <li>
                             <a href="https://apptiva.ch" target="_blank" rel="noopener">Apptiva AG</a>
                         </li>

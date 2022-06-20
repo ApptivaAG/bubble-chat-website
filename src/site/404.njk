@@ -19,6 +19,13 @@ eleventyExcludeFromCollections: true
                     </li>
                 {% endfor %}
             </ul>
+            <ul>
+                {% for item in quicklinks.secondaryItems %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
         </p>
 
         <p>Weitere Informationen erhalten Sie auch von unserem Chatbot: <a class="button chat-with-chatbot" href="#">Chatten Sie mit Bubbly</a>
