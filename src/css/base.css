@@ -24,7 +24,7 @@ main {
   }
 }
 
-h2 {
+h1 {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 36px;
@@ -130,7 +130,7 @@ img {
   align-items: center;
 }
 
-.section-bubble-chat-cta h2 {
+.section-bubble-chat-cta h1 {
   font-weight: 500;
 }
 
