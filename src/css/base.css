@@ -39,6 +39,10 @@ h2 {
   letter-spacing: 0.007em;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 p {
   margin-block-start: 0;
 }
