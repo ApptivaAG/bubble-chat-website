@@ -10,7 +10,7 @@ layout: default
       <ul>
         {%- for tag in tags -%}
           <li>
-          {%- set tagUrl %}/funktionen/tags/{{ tag | slug }}/{% endset -%}
+          {%- set tagUrl %}/funktionen/{{ tag | slug }}/{% endset -%}
             <a href="{{ tagUrl | url }}">{{ tag }}</a>
           </li>
         {%- endfor %}

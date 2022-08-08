@@ -5,7 +5,6 @@ excerpt: Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chater
 image: /img/funktionen/chat-bewerten-card.png
 order: 1
 tags:
-  - Web Chat Client
   - Analytics
   - CMS
 ---
