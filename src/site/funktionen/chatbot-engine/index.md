@@ -9,8 +9,6 @@ tags:
   - RootTag
 ---
 
-# Chatbot Engine
-
 Die Chatbot Engine ist das Herzstück von Bubble Chat. Die Chatbot Engine hat folgende Aufgaben:
 
 - **Nachrichten senden und empfangen**<br>

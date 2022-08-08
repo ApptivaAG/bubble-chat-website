@@ -9,8 +9,6 @@ tags:
   - RootTag
 ---
 
-# Chat Clients
-
 Der Client ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Dies ist auch die einzige Komponente eines Chatbot, welche die Anwender sehen.
 
 Einige Chatbots verwenden bestehende Messaging-Plattformen als Client, wie z.B. den Facebook-Messenger, WhatsApp oder Slack. Dies ist aus verschiedenen Gründen interessant. Zum einen können die Anwender einen bekannten Kanal nutzen. Zum anderen ist es nur so möglich, dass der Chatbot das Gespräch initiiert.

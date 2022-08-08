@@ -3,20 +3,22 @@ layout: default
 ---
 <div class="feature container">
 
-  {{ content | safe }}
+  <h1>{{ title }}</h1>
 
   {% if not rootTag %}
     <div class="tags">
       <ul>
         {%- for tag in tags -%}
-          {%- set tagUrl %}/funktionen/tags/{{ tag | slug }}/{% endset -%}
           <li>
+          {%- set tagUrl %}/funktionen/tags/{{ tag | slug }}/{% endset -%}
             <a href="{{ tagUrl | url }}">{{ tag }}</a>
           </li>
         {%- endfor %}
       </ul>
     </div>
   {% endif %}
+
+  {{ content | safe }}
 
 </div>
 

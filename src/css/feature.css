@@ -1,13 +1,5 @@
 .feature {
-  margin-bottom: 2rem;
-
-  & h1 {
-    font-size: 26px;
-    line-height: 1.14286;
-    font-weight: 700;
-    letter-spacing: 0.007em;
-    margin-top: 3rem;
-  }
+  margin-bottom: 3rem;
 
   & .feature-img {
     display: block;
@@ -20,7 +12,6 @@
   }
 
   & .tags {
-    padding-top: 3rem;
     margin-bottom: 2rem;
 
     & ul {
@@ -40,7 +31,7 @@
     }
 
     & li a {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       display: block;
       color: #722ed1;
       background: #f9f0ff;

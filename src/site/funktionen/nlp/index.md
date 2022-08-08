@@ -9,8 +9,6 @@ tags:
   - RootTag
 ---
 
-# Natürliches Sprachverständnis (NLP)
-
 NLP ermöglicht es, dass Chatbots die menschliche Sprache verstehen können. Konkret bedeutet das, dass Benutzer ihre Anliegen via Freitexteingabe oder auch via Sprache äussern können.
 Bubble Chat analyisert danach mittels NLP-Technologie die Benutzeräusserung und versucht diese der passenden Absicht zuzuordnen.
 

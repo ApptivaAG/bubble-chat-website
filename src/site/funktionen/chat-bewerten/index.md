@@ -10,8 +10,6 @@ tags:
   - CMS
 ---
 
-# Chaterlebnis bewerten
-
 Der Bubble Web Chat Client bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. Damit lässt sich besser beurteilen, wie zufrieden die Kunden mit der Konversation sind. Besucher können einen Chat während oder nach der Chatsitzung mit einem bis maximal fünf Sternen bewerten und optional einen Kommentar dazu abgeben.
 
 {% image "/img/funktionen/chat-bewerten-webclient.png", "feature-img", "Chaterlebnis bewerten", "100vw", [750, 1080, 1366, 1920] %}
