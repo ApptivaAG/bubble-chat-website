@@ -9,11 +9,18 @@ eleventyExcludeFromCollections: true
     <div class="container common-form-layout">
         <div class="content">
             <div class="subtitle">Ooops!</div>
-            <h2>Wir können die von Ihnen gesuchte Seite nicht finden.</h2>
+            <h1>Wir können die von Ihnen gesuchte Seite nicht finden.</h1>
 
             <p>Hier sind stattdessen einige hilfreiche Links:</p>
             <ul>
                 {% for item in quicklinks.items %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for item in quicklinks.secondaryItems %}
                     <li>
                         <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>

@@ -1,20 +1,30 @@
 {
-    "items": [
-        {
-            "url": "/demo-vereinbaren/",
-            "name": "Demo vereinbaren"
-        },
-        {
-            "url": "/preise/",
-            "name": "Preise"
-        },
-        {
-            "url": "/ueber-uns/",
-            "name": "Unternehmen"
-        },
-        {
-            "url": "/contact/",
-            "name": "Kontakt"
-        }
-    ]
+  "items": [
+    {
+      "url": "/demo-vereinbaren/",
+      "name": "Demo vereinbaren"
+    },
+    {
+      "url": "/preise/",
+      "name": "Preise"
+    },
+    {
+      "url": "/ueber-uns/",
+      "name": "Unternehmen"
+    },
+    {
+      "url": "/kontakt/",
+      "name": "Kontakt"
+    }
+  ],
+  "secondaryItems": [
+    {
+      "url": "/anwendungsfaelle/",
+      "name": "Anwendungsfälle"
+    },
+    {
+      "url": "/branchen/",
+      "name": "Branchen"
+    }
+  ]
 }

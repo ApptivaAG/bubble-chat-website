@@ -1,9 +1,9 @@
 {
-    "title": "Bubble Chat",
-    "url": "https://www.bubble-chat.ch",
-    "description": "Bubble Chat ist die Plattform zum Automatisieren von Kundenanfragen mit Hilfe von Künstlicher Intelligenz.",
-    "ogtype": "website",
-    "author": "Apptiva AG",
-    "twitter": "apptivateam",
-    "image": "/img/og-image.png"
+  "title": "Bubble Chat",
+  "url": "https://www.bubble-chat.ch",
+  "description": "Bubble Chat ist die Plattform zum Automatisieren von Kundenanfragen mit Hilfe von Künstlicher Intelligenz.",
+  "ogtype": "website",
+  "author": "Apptiva AG",
+  "twitter": "apptivateam",
+  "image": "/img/og-image.png"
 }
