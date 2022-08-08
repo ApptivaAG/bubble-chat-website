@@ -9,6 +9,13 @@
     margin-top: 2rem;
   }
 
+  & .image--expandable {
+    & img {
+      max-width: 100%;
+      box-shadow: 5px 5px 20px rgb(0 0 0 / 50%);
+    }
+  }
+
   & ul li {
     position: relative;
     padding-bottom: 10px;

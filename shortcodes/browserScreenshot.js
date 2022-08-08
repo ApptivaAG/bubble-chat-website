@@ -7,8 +7,7 @@ module.exports = async function browserScreenshot(
   cls = "",
   sizes = "100vw"
 ) {
-  return `
-    <div class="browserScreenshot ${cls}">
+  return `<div class="browserScreenshot ${cls}">
       <div class="browserScreenshot-title-bar">
         <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
           <circle cx="50" cy="50" r="50" fill="#ff4f4e"/>
