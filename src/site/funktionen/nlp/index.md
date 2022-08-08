@@ -9,7 +9,7 @@ tags:
   - RootTag
 ---
 
-NLP ermöglicht es, dass Chatbots die menschliche Sprache verstehen können. Konkret bedeutet das, dass Benutzer ihre Anliegen via Freitexteingabe oder auch via Sprache äussern können.
+Natürliches Sprachverständnis (NLP) ermöglicht es, dass Chatbots die menschliche Sprache verstehen können. Konkret bedeutet das, dass Benutzer ihre Anliegen via Freitexteingabe oder auch via Sprache äussern können.
 Bubble Chat analyisert danach mittels NLP-Technologie die Benutzeräusserung und versucht diese der passenden Absicht zuzuordnen.
 
 <div class="border-box">
@@ -36,7 +36,7 @@ Dank Künstlicher Intelligenz (KI) und maschinellen Lernens ist Bubble Chat in d
 ## Fallback Absicht
 
 Auch wenn Ihr Chatbot noch so gut trainiert ist, gibt es immer Situationen bei denen er nicht versteht, was der Benutzer genau meint. Für diese Fälle gibt es die sogenannte "Fallback Absicht". Bubble Chat verwendet diese, sobald die Absicht des Benuzters nicht verstanden wird. Hier können Sie dem Benutzer nochmals mitteilen, in welchen Bereichen der Chatbot Fragen
-beantworten kann und alternative Kontaktmöglichkeiten bieten (z.B. via Live-Chat).
+beantworten kann und alternative Kontaktmöglichkeiten bieten (z.B. via [Live-Chat](/funktionen/live-chat)).
 
 ## Schwellenwert für die Klassifizierung
 
