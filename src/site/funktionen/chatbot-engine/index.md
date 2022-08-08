@@ -9,19 +9,21 @@ tags:
   - RootTag
 ---
 
-Die Chatbot Engine ist das Herzstück von Bubble Chat. Die Chatbot Engine hat folgende Aufgaben:
+Die Chatbot Engine ist das Herzstück von Bubble Chat. Hier laufen sämtliche Nachrichten durch, welche der Chatbot erhält und versendet. Der Erweiterbarkeit zuliebe ist die Chatbot Engine modular aufgebaut. Das heisst, neue Funktionalitäten können laufend hinzugefügt werden, ohne bestehende zu beeinträchtigen.
+
+Die folgende Auflistung gibt einen Einblick über die Aufgaben der Chatbot Engine:
 
 - **Nachrichten senden und empfangen**<br>
   Die Engine empfängt und schickt Nachrichten an die [Chat Clients](/funktionen/chat-client). Unser Chatbot Engine ist dabei in der Lage, mit unterschiedlichen Clients (gleichzeitig) zu kommunizieren.
 
 - **Nachrichten verarbeiten**<br>
-  In der Engine wird entschieden, was mit einer Nachricht geschehen soll und wie auf die Nachricht geantwortet werden soll. Dafür werden in der Regel auch andere Bubble Chat Komponenten angefragt (wie z.B. die [Sprachverarbeitung](/funktionen/nlp)) oder via Schnittstellen Systemen des Kunden aufgerufen (z.B. CRM).
+  In der Engine wird entschieden, was mit einer Nachricht geschehen soll und wie auf die Nachricht geantwortet werden soll. Dafür werden in der Regel auch andere Bubble Chat Komponenten angefragt (wie z.B. die [Sprachverarbeitung](/funktionen/nlp)). Via Schnittstellen können auch Systeme der Kunden aufgerufen (z.B. CRM) werden. Dank dem Zugriff auf solche Systeme ist der Chatbot in der Lage, noch bessere Antworten zu liefern.
 
 - **Sitzungen verwalten**<br>
-  Die Engine muss schauen, dass die richtigen Anwender die richtigen Antworten erhalten oder die gewünschten Aktionen ausgeführt werden. Teilweise muss die Engine auch die Anwender identifizieren, um korrekt zu reagieren oder möglicherweise gewisse Aktionen gar nicht zu erlauben.
+  Die Engine sorgt dafür, dass Antworten den korrekten Adressaten finden. Sie muss auch sicherstellen, dass gewünschte Aktionen ausgeführt werden. Das ist teilweise nur möglich, wenn die Anwender identifiziert werden. Um dies zu ermöglichen, kann Bubble Chat Sitzungen verwalten. Falls gewünscht, kann die Chatbot Engine auch Benutzer identifizieren, um korrekt reagieren und Aktionen autorisieren zu können.
 
 - **Kontext merken**<br>
-  Ein guter Chatbot antwortet je nach Kontext nicht immer gleich. Wenn der Chatbot im Verlauf des Gesprächs beispielsweise bereits einmal erfahren hat, dass der Anwender an der Informatiker-Lehre interessiert ist, so kann er bei der späteren Frage "Was sind die Anforderungen?" gleich vom Kontext Informatiker-Lehre ausgehen und entsprechend antworten. 
+  Ein guter Chatbot antwortet je nach Kontext nicht immer gleich. Wenn der Chatbot im Verlauf des Gesprächs beispielsweise bereits einmal erfahren hat, dass der Anwender an der Informatiker-Lehre interessiert ist, so kann er bei der späteren Frage "Was sind die Anforderungen?" gleich vom Kontext Informatiker-Lehre ausgehen und entsprechend antworten.
 
 - **Live-Chat vermitteln**<br>
-  Soll eine Person das Antworten für den Chatbot übernehmen (Live-Chat), so muss die Chatbot-Engine dies koordinieren. Einerseits muss die Engine das Handover (Übergabe) von der Maschine an den Menschen und somit die Kommunikation zwischen den Clients zu sicherstellen. Andererseits muss sich die Engine den Zustand des Live-Chats für jeden Anwender merken, um die Nachrichten korrekt zu verarbeiten.
+  Soll eine echte Person das Antworten für den Chatbot übernehmen (Live-Chat), muss die Chatbot-Engine dies koordinieren. Einerseits muss die Engine den Handover von der Maschine an den Menschen und somit die Kommunikation zwischen den Clients zu sicherstellen. Andererseits muss sich die Engine den Zustand des Live-Chats für jeden Anwender merken, um die Nachrichten korrekt zu verarbeiten.
