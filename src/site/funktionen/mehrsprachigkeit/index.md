@@ -3,8 +3,8 @@ layout: feature
 title: Mehrsprachige Chatbots
 excerpt: Mit Bubble Chat können Chatbots erstellt werden, die mehrere Sprachen gleichzeitig beherrschen. Um den Trainingsaufwand gering zu halten, können mögliche Benutzerfragen automatisiert in die anderen Sprachen übersetzt werden.
 tags:
- - Chatbot Engine
- - CMS
+  - Chatbot Engine
+  - CMS
 ---
 
 Ein Chatbot, welcher unterschiedliche Sprachen beherrscht, kann für Unternehmen einen wichtigen Beitrag leisten, die Zielgruppe optimal anzusprechen. In der Schweiz mit ihren vier Landessprachen, für Unternehmen mit internationaler Ausrichtung oder auch im Tourismus kann dies ein wichtiger Wettbewerbsvorteil sein.
@@ -23,17 +23,18 @@ Das Ermitteln der zu verwendenden Chatbot-Sprache hängt vom eingesetzten Chat C
 
 Unser Webclient verwendet dazu folgende Priorität:
 
-1. Sprache ist in der URL als Query-Parameter enthalten (z.B. `?lang=fr`)<br>
+1. **Sprache ist in der URL als Query-Parameter enthalten (z.B. `?lang=fr`)**<br>
    Wenn Sie den Chatbot auf Ihrer Website integrieren, können Sie den Parameter einfach abhängig von der Sprache der Website machen, um dem Benutzer beide Elemente in derselben Sprache zu präsentieren. Beim Wechseln der Sprache der Website wird so automatisch auch die Sprache des Chatbots geändert.
-2. Browser Sprache<br>
+
+2. **Browser Sprache**<br>
    Jeder Browser hat eine Liste der vom Benutzer verstandenen Sprachen. Wir prüfen diese Liste und nehmen automatisch die am besten passende Sprache für den Chatbot.
 
-Bei anderen Chat Clients wird in der Regel die Sprache des Benutzers bereits mitgegeben und kann eins zu eins so verwendet werden.
+Bei anderen [Chat Clients](/funktionen/chat-client) wird in der Regel die Sprache des Benutzers bereits mitgegeben und kann eins zu eins so verwendet werden.
 
 Bei Bedarf kann die Sprache mittels kundenspezifischer Logik ermittelt werden. So ist es z.B. möglich, die Sprache des Benutzers anhand seiner Login-Daten von einem CRM abzufragen und diese zu verwenden.
 
 ## Unterstützte Sprachen
 
-Mit Bubble Chat erstellen Sie Chatbots in den Sprachen Deutsch, Englisch, Französisch und Italienisch.
+Mit Bubble Chat erstellen Sie Chatbots in den Sprachen **Deutsch**, **Englisch**, **Französisch** und **Italienisch**.
 
 Bei Bedarf können wir Bubble Chat mit weiteren Sprachen erweitern.
