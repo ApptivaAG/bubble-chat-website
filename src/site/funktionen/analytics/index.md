@@ -11,7 +11,7 @@ tags:
 
 Chatbot Metriken erlauben es, die Leistung eines Chatbots über eine bestimmte Zeit zu überwachen. Damit kann zum Beispiel der Effekt einer Änderung am Chatbot (z.B. eine Einführung einer neuen Absicht) beobachtet werden, oder es kann Hinweise darüber geben, wie der Chatbot optimiert werden soll.
 
-Metriken werden in der Regel über einen bestimmten Zeitraum betrachtet (z.B. die letzten 30 Tage) und einige stehen in Korrelation zu anderen, teils nicht Chatbot-spezifischen Metriken (z.B. "Anzahl Bot Nachrichten" vs "Anzahl Erreichung spezifischer Zielvorhaben"). Bei einem neu erstellten Chatbot schwanken Metriken in der Regel noch stark. Mit der Zeit erhält man ein immer klareres Bild darüber, wie die Besucher mit dem Chatbot interagieren.
+Metriken werden in der Regel über einen bestimmten Zeitraum betrachtet (z.B. die letzten 30 Tage) und einige stehen in Korrelation zu anderen, teils nicht Chatbot-spezifischen Metriken (z.B. "Anzahl Bot Nachrichten" vs "Anzahl Erreichung spezifischer Zielvorhaben"). Bei einem neu erstellten Chatbot schwanken Metriken in der Regel noch stark. Mit der Zeit erhält man allerdings ein immer klareres Bild darüber, wie die Besucher mit dem Chatbot interagieren.
 
 <br>
 {% browserScreenshot "./img/cms/analytics.png", "Analytics", "image image--expandable"%}
@@ -31,7 +31,7 @@ Untenstehende Chatbot Metriken können im [Bubble Chat CMS](/funktionen/cms) unt
   Wiederkehrende Benutzer sind ein Zeichen dafür, dass ihnen der Chatbot einen konkreten Nutzen gebracht hat und sie ihn wohl auch weiterempfehlen würden.
 
 - **Engagement der Benutzer**<br>
-  Hier können Sie ablesen, wie viel Prozent aller Benutzer die den Chatbot angeboten bekommen, ihn auch tatsächlich nutzen.
+  Hier können Sie ablesen, wie viel Prozent aller Benutzer, die den Chatbot angeboten bekommen, ihn auch tatsächlich nutzen.
 
 - **Anzahl Chats**<br>
   Es ist wichtig, viele Chats und somit eine grosse Datenbasis für verschiedenste Auswertungen zu haben. Die Anzahl Chats kann wichtige Informationen über die Berechnungen der Marktgrösse und möglicherweise die Auswirkungen des Chatbots liefern.

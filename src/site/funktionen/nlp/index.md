@@ -10,7 +10,7 @@ tags:
 ---
 
 Natürliches Sprachverständnis (NLP) ermöglicht es, dass Chatbots die menschliche Sprache verstehen können. Konkret bedeutet das, dass Benutzer ihre Anliegen via Freitexteingabe oder auch via Sprache äussern können.
-Bubble Chat analyisert danach mittels NLP-Technologie die Benutzeräusserung und versucht diese der passenden Absicht zuzuordnen.
+Bubble Chat analysiert danach mittels NLP-Technologie die Benutzeräusserung und versucht diese der passenden Absicht zuzuordnen.
 
 <div class="border-box">
 
@@ -26,7 +26,7 @@ Der Chatbot erkennt die Absicht «Kaffeepreis» und antwortet mit der definierte
 
 </div>
 
-Damit dies Funktioniert, müssen Sie im [Bubble Chat CMS](/funktionen/cms) für jede Absicht die Ihr Chatbot verstehen soll, einige Beispielformulierungen der Benutzer hinterlegen.
+Damit dies Funktioniert, müssen Sie im [Bubble Chat CMS](/funktionen/cms) für jede Absicht, die Ihr Chatbot verstehen soll, einige Beispielformulierungen der Benutzer hinterlegen.
 Dank Künstlicher Intelligenz (KI) und maschinellen Lernens ist Bubble Chat in der Lage, auch Äusserungen einer Absicht zuzuordnen, die nicht 1:1 als Beispielformulierung erfasst sind.
 
 ## Training
@@ -40,18 +40,18 @@ beantworten kann und alternative Kontaktmöglichkeiten bieten (z.B. via [Live-Ch
 
 ## Schwellenwert für die Klassifizierung
 
-Bei der Analayse der Benutzeräusserung werden die infrage kommenden Absichten bewertet. Die Bewertung reicht dabei von 0 (absolut unsicher) bis 1 (absolut sicher).
-Bubble Chat verwendet dann die am höchsten bewertete Absicht und prüft, ob deren Bewertung über einem definierten Schwellwert liegt. Ist dies der Fall, so wird diese Absicht ausgeührt. In allen anderen Fällen wird die "Fallback Absicht" verwendet.
+Bei der Analyse der Benutzeräusserung werden die infrage kommenden Absichten bewertet. Die Bewertung reicht dabei von 0 (absolut unsicher) bis 1 (absolut sicher).
+Bubble Chat verwendet dann die am höchsten bewertete Absicht und prüft, ob deren Bewertung über einem definierten Schwellwert liegt. Ist dies der Fall, so wird diese Absicht ausgeführt. In allen anderen Fällen wird die "Fallback Absicht" verwendet.
 
 ## Geführte Dialoge
 
-Bubble Chat erlaubt geführte Dialoge. Dabei werden dem Benutzer mögliche Antworten als Buttons angeboten (sogenannte Quick Replies). Dies können z.B. Themenvorschläge oder auch nur ein "Ja" oder "Nein" sein. Basierend auf dem was Benutzer auswählt erhält er eine Antwort vom Chatbot. Da bei einem geführten Dialog eine klare Struktur vorgegeben ist, muss Bubble Chat das NLP Modul nicht nutzen um die passende Antwort zu geben.
+Bubble Chat erlaubt geführte Dialoge. Dabei werden dem Benutzer mögliche Antworten als Buttons angeboten (sogenannte Quick Replies). Dies können z.B. Themenvorschläge oder auch nur ein "Ja" oder "Nein" sein. Basierend auf dem, was Benutzer auswählt, erhält er eine Antwort vom Chatbot. Da bei einem geführten Dialog eine klare Struktur vorgegeben ist, muss Bubble Chat das NLP Modul nicht nutzen um die passende Antwort zu geben.
 
 Bei geführten Dialogen wird die Freiheit des Benutzers zwar limitiert, jedoch kann die Absicht präziser interpretiert werden. In der Regel empfehlen wir eine Kombination
-von freitextbasierten und geführten Dialogen um ein möglichst gutes Benutzererlebnis zu erreichen.
+von freitextbasierten und geführten Dialogen, um ein möglichst gutes Benutzererlebnis zu erreichen.
 
 ## Unterstützte NLP Systeme
 
-Bubble Chat nutzt standardmässig Dialogflow als NLP System. Damit kann mit wenig Aufwand ein sehr gutes Ergebniss erziehlt werden.
+Bubble Chat nutzt standardmässig Dialogflow als NLP System. Damit kann mit einem überschaubaren Aufwand ein sehr gutes Ergebnis erzielt werden.
 
-Unsere [Chatbot Engine](/funktionen/chatbot-engine) erlaubt grundsätzliche ein beliebiges NLP System zu integrieren. So ist es z.B. möglich, bei schützenswerten Daten vollkommen auf OpenSource zu setzen und sämtliche Komponenten in Ihrerem Rechenzenter laufen zu lassen.
+Unsere [Chatbot Engine](/funktionen/chatbot-engine) erlaubt es grundsätzlich, ein beliebiges NLP System zu integrieren. So ist es z.B. möglich, bei schützenswerten Daten vollkommen auf OpenSource zu setzen und sämtliche Komponenten in Ihrem Rechenzentrum laufen zu lassen.
