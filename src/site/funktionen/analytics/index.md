@@ -14,7 +14,7 @@ Chatbot Metriken erlauben es, die Leistung eines Chatbots über eine bestimmte Z
 Metriken werden in der Regel über einen bestimmten Zeitraum betrachtet (z.B. die letzten 30 Tage) und einige stehen in Korrelation zu anderen, teils nicht Chatbot-spezifischen Metriken (z.B. "Anzahl Bot Nachrichten" vs "Anzahl Erreichung spezifischer Zielvorhaben"). Bei einem neu erstellten Chatbot schwanken Metriken in der Regel noch stark. Mit der Zeit erhält man allerdings ein immer klareres Bild darüber, wie die Besucher mit dem Chatbot interagieren.
 
 <br>
-{% browserScreenshot "./img/cms/analytics.png", "Analytics", "image image--expandable"%}
+{% browserScreenshot "./img/cms/analytics.png", "Analytics", {"class":"image image--expandable"} %}
 <br>
 
 ## Allgemeine Metriken

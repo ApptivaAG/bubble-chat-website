@@ -2,10 +2,9 @@
     {% for item in customers.items %}
         <div class="customer">
             {% image item.logo,
-            "logo",
             item.name,
-            "100vw",
-            [200] %}
+            {"class":"logo", "sizes":"100vw", "widths":[200] }
+            %}
         </div>
     {% endfor %}
 

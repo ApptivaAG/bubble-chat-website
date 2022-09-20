@@ -17,7 +17,7 @@ Analog zu Webseiten ist es sinnvoll, Chatbot-Inhalte in einem Content Management
 - **Bot-Antworten**<br>
   Wenn der Chatbot die richtige Absicht des Benutzers erkannt hat, kann er mit einer passenden Antwort darauf reagieren. In Bubble Chat kann man bei den Absichten beliebige Text-Antworten sowie formatierte Karten mit Bildern definieren.
 
-{% browserScreenshot "./img/cms/inhalte-verwalten.png", "Analytics", "image image--expandable"%}
+{% browserScreenshot "./img/cms/inhalte-verwalten.png", "Analytics", {"class":"image image--expandable"} %}
 <br>
 
 ## Suche
