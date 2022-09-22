@@ -2,6 +2,15 @@ footer {
   background-color: var(--color-background-black);
   color: white;
 
+  & .waves {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+  }
+
   & section {
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -37,6 +46,11 @@ footer {
       @media (--media-desktop-size) {
         grid-column: 1 / 3;
       }
+    }
+
+    & .social {
+      margin-top: 2rem;
+      font-size: 1.5rem;
     }
 
     & .contact {
