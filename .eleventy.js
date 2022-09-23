@@ -1,13 +1,12 @@
 const eleventyGoogleFonts = require("eleventy-google-fonts");
 const pluginSEO = require("eleventy-plugin-seo");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
+const fs = require("fs");
+const path = require("path");
 
 const imageShortcode = require("./shortcodes/image");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
 const browserScreenshot = require("./shortcodes/browserScreenshot");
-
-const fs = require("fs");
-const path = require("path");
 
 const manifestPath = path.resolve(__dirname, "dist", "assets", "manifest.json");
 const manifest = JSON.parse(
@@ -18,6 +17,7 @@ module.exports = function (eleventyConfig) {
   // Layout aliases make templates more portable.
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
   eleventyConfig.addLayoutAlias("feature", "layouts/feature.njk");
+  eleventyConfig.addLayoutAlias("blog", "layouts/blog.njk");
   eleventyConfig.addLayoutAlias("branche", "layouts/branche.njk");
   eleventyConfig.addLayoutAlias("anwendungsfall", "layouts/anwendungsfall.njk");
 
@@ -44,6 +44,8 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
+  eleventyConfig.addPassthroughCopy("src/site/blog/**/*.png");
+  eleventyConfig.addPassthroughCopy("src/site/blog/**/*.jpg");
 
   // Copy external dependencies to dist.
   eleventyConfig.addPassthroughCopy({ "src/vendor": "vendor" });
@@ -74,7 +76,7 @@ module.exports = function (eleventyConfig) {
   // Tags
   function filterTagList(tags) {
     return (tags || []).filter(
-      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+      (tag) => ["all", "nav", "blog", "post", "posts"].indexOf(tag) === -1
     );
   }
   eleventyConfig.addFilter("filterTagList", filterTagList);
@@ -91,6 +93,10 @@ module.exports = function (eleventyConfig) {
     return featuretags.find((i) => i.data.rootTag === tag);
   }
   eleventyConfig.addFilter("getRootFeatureByTag", getRootFeatureByTag);
+
+  eleventyConfig.addFilter("encodeURIComponent", function (value) {
+    return encodeURIComponent(value);
+  });
 
   // Sort by order
   function sortByOrder(values = []) {
