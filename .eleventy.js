@@ -3,6 +3,8 @@ const pluginSEO = require("eleventy-plugin-seo");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const fs = require("fs");
 const path = require("path");
+const markdownIt = require("markdown-it");
+const markdownItAttrs = require("markdown-it-attrs");
 
 const imageShortcode = require("./shortcodes/image");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
@@ -14,6 +16,16 @@ const manifest = JSON.parse(
 );
 
 module.exports = function (eleventyConfig) {
+  const markdownLib = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true,
+  })
+    .use(markdownItAttrs)
+    .disable("code");
+
+  eleventyConfig.setLibrary("md", markdownLib);
+
   // Layout aliases make templates more portable.
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
   eleventyConfig.addLayoutAlias("feature", "layouts/feature.njk");

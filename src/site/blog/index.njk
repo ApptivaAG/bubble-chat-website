@@ -23,16 +23,16 @@ excerpt: In unserem Blog teilen wir alles Relevante rund um die Themen Chatbot u
             <li class="feature-cards__item">
                 <a class="card" href="{{ post.url | url }}">
                     {% if post.data.image %}
-                        <div class="header-img" style="background-image: url('{{ post.data.image }}')"></div>
+                        <div class="header-img" style="background-image: url('{% jpgUrl "/site" + post.data.image, 500 %}')"></div>
                     {% else %}
                         <div class="header-img" style="background-image: url('{% jpgUrl "/img/og-image.png", 500 %}')"></div>
                     {% endif %}
                     <div class="card-content">
                         <div class="card-title">
-                            {{ post.data.title }}
+                            {{ post.data.title | safe }}
                         </div>
                         <div class="card-desc">
-                            {{ post.data.excerpt }}
+                            {{ post.data.excerpt | safe }}
                         </div>
                         <div class="card-actions">
                             <span class="btn btn-block">Mehr erfahren</span>
