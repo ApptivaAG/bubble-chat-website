@@ -1,20 +1,24 @@
 {
-    "items": [
-        {
-            "url": "/funktionen/",
-            "name": "Funktionen"
-        },
-        {
-            "url": "/preise/",
-            "name": "Preise"
-        },
-        {
-            "url": "/ueber-uns/",
-            "name": "Über uns"
-        },
-        {
-            "url": "/kontakt/",
-            "name": "Kontakt"
-        }
-    ]
+  "items": [
+    {
+      "url": "/funktionen/",
+      "name": "Funktionen"
+    },
+    {
+      "url": "/preise/",
+      "name": "Preise"
+    },
+    {
+      "url": "/ueber-uns/",
+      "name": "Über uns"
+    },
+    {
+      "url": "/kontakt/",
+      "name": "Kontakt"
+    },
+    {
+      "url": "/blog/",
+      "name": "Blog"
+    }
+  ]
 }
