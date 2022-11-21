@@ -8,8 +8,8 @@
 
     & span {
       font-weight: 500;
-      background: #2F55EB;
-      background: linear-gradient(to right, #2F55EB 0%, #eb2f96 100%);
+      background: #2f55eb;
+      background: linear-gradient(to right, #2f55eb 0%, #eb2f96 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -21,7 +21,6 @@
 }
 
 .blog {
-
   & h1 {
     @media (--media-desktop-size) {
       font-size: 4rem;
@@ -40,7 +39,6 @@
   & img {
     max-width: 100%;
     height: auto;
-    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
@@ -121,7 +119,6 @@
 
   & .more-infos {
     text-align: center;
-     margin-bottom: 4rem;
+    margin-bottom: 4rem;
   }
-  
 }
