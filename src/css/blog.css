@@ -20,6 +20,12 @@
   }
 }
 
+.blog-content {
+  @media (--media-desktop-size) {
+    margin: 0 15%;
+  }
+}
+
 .blog {
   & h1 {
     @media (--media-desktop-size) {

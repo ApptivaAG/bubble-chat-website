@@ -5,10 +5,11 @@ layout: default
 
   <div class="container">
 
-    <h1>{{ title | safe }}</h1>
+    <div class="blog-content">
+      <h1>{{ title | safe }}</h1>
+      {{ content | safe }}
+    </div>
 
-    {{ content | safe }}
-  
   <div class="share-icons">
     <ul>
       <li>
