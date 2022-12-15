@@ -27,6 +27,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLib);
 
   // Layout aliases make templates more portable.
+  eleventyConfig.addLayoutAlias("raw", "layouts/raw.njk");
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
   eleventyConfig.addLayoutAlias("feature", "layouts/feature.njk");
   eleventyConfig.addLayoutAlias("blog", "layouts/blog.njk");
