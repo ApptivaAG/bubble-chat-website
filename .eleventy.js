@@ -59,6 +59,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
   eleventyConfig.addPassthroughCopy("src/site/blog/**/*.png");
   eleventyConfig.addPassthroughCopy("src/site/blog/**/*.jpg");
+  eleventyConfig.addPassthroughCopy("src/site/blog/**/*.css");
 
   // Copy external dependencies to dist.
   eleventyConfig.addPassthroughCopy({ "src/vendor": "vendor" });
