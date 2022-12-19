@@ -15,6 +15,7 @@ blockquote p {
   font-style: italic;
   font-weight: 400;
   margin-left: 2em;
+  margin-right: 1em;
   margin-top: 0.1em;
   margin-bottom: 0.6em;
 }
