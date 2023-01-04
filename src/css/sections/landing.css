@@ -90,7 +90,7 @@ section.landing {
       z-index: 1;
       margin-left: 20px;
 
-      background-color: #c03ca9;
+      background-color: #192933;
 
       & .phone-header {
         -webkit-backdrop-filter: blur(30px);
