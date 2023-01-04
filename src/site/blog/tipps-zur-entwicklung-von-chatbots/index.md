@@ -40,7 +40,7 @@ Die Erstellung von Chatbots mit Bubble Chat bietet Ihnen folgende Funktionen:
 - Systeme integrieren
 - Cloud / On Premise
 
-Bubble Chat ist die Plattform zum Automatisieren von Kunden­anfragen mithilfe von Künstlicher Intelligenz. Mit Bubble Chat konzentrieren Sie sich nur auf den fachlichen Inhalt des Chats, während unser Team sich um den Rest kümmert. 
+Bubble Chat ist die Plattform zum Beantworten von Kunden­anfragen mithilfe von Künstlicher Intelligenz. Mit Bubble Chat konzentrieren Sie sich nur auf den fachlichen Inhalt des Chats, während unser Team sich um den Rest kümmert. 
 
 ### 3. Nutzung von KI-Funktionen
 
