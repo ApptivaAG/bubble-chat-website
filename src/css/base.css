@@ -30,6 +30,7 @@ h1 {
   font-size: 36px;
   line-height: 1.3;
   font-weight: 700;
+  max-width: var(--max-text-width);
 }
 
 h2 {
@@ -37,18 +38,26 @@ h2 {
   line-height: 1.14286;
   font-weight: 700;
   letter-spacing: 0.007em;
+  max-width: var(--max-text-width);
 }
 
 h3 {
   font-size: 18px;
+  max-width: var(--max-text-width);
+}
+
+h4 {
+  max-width: var(--max-text-width);
 }
 
 p {
   margin-block-start: 0;
+  max-width: var(--max-text-width);
 }
 
 a {
   display: inline-block;
+  max-width: var(--max-text-width);
 
   color: var(--color-bubble-blue);
   text-decoration: none;
@@ -56,6 +65,14 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+ul {
+  max-width: var(--max-text-width);
+}
+
+blockquote {
+  max-width: var(--max-text-width);
 }
 
 section {

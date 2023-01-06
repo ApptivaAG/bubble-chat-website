@@ -3,31 +3,38 @@ layout: default
 ---
 <div class="feature container">
 
-  <h1>{{ title }}</h1>
+  <div class="feature-content">
+    <h1>{{ title }}</h1>
 
-  {% if not rootTag %}
-    <div class="tags">
-      <ul>
-        {%- for tag in tags -%}
-          <li>
-          {%- set tagUrl %}/funktionen/{{ tag | slug }}/{% endset -%}
-            <a href="{{ tagUrl | url }}">{{ tag }}</a>
-          </li>
-        {%- endfor %}
-      </ul>
-    </div>
-  {% endif %}
+    {% if not rootTag %}
+      <div class="tags">
+        <ul>
+          {%- for tag in tags -%}
+            <li>
+            {%- set tagUrl %}/funktionen/{{ tag | slug }}/{% endset -%}
+              <a href="{{ tagUrl | url }}">{{ tag }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
-  {{ content | safe }}
+    {{ content | safe }}
 
+  </div>
 </div>
 
 {% if rootTag %}
   {% set postslist = collections[rootTag] %}
   {% if postslist %}
-    <div style="background-color: #f5f5f7; margin-top: 4rem; padding-top: 2rem; padding-bottom: 2rem;">
+    <div style="background-color: #f5f5f7; margin-top: 4rem; padding-top: 3rem; padding-bottom: 4rem;">
       <div class="container">
-        <h3 style="margin-bottom: 2rem;">Die wichtigsten {{rootTag}} Funktionen im Detail</h3>
+
+        {% if followUpTopics %}
+          <h2 style="margin-bottom: 2rem;">{{followUpTopics}}</h2>
+        {% else %}
+          <h2 style="margin-bottom: 2rem;">Die wichtigsten {{rootTag}} Funktionen im Detail</h2>
+        {% endif %}
 
         {# Hack, damit partials/feature-list.njk funktioniert. Keine Ahnung, wo das Problem liegt... #}
         <!-- {% jpgUrl "/img/og-image.png", 500 %} -->

@@ -1,5 +1,6 @@
 :root {
   --max-content-width: 1200px;
+  --default-max-text-width: 770px;
   --container-padding: 25px;
   --color-bubble-blue: #2f55eb;
   --color-bubble-red: #eb2f96;
