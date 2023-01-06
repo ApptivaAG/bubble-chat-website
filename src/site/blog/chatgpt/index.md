@@ -9,8 +9,6 @@ image: /blog/chatgpt/OpenAI.jpg
 
 ChatGPT ist ein Chatbot, der auf der Grundlage von [GPT&#8209;3](https://en.wikipedia.org/wiki/GPT-3){target="_blank"} (Generative Pre-trained Transformer), einem der leistungsfähigsten maschinellen Lernmodelle für natürliche Sprachverarbeitung, entwickelt wurde. ChatGPT wurde entwickelt, um menschenähnliche Konversationen zu führen und kann daher in vielen Bereichen eingesetzt werden, in denen eine menschenähnliche Kommunikation erforderlich ist.
 
-![OpenAI](/blog/chatgpt/OpenAI.jpg "OpenAI")
-
 ## Wie funktioniert ChatGPT?
 
 ChatGPT wurde entwickelt, um menschenähnliche Konversationen zu führen und kann daher in vielen Bereichen eingesetzt werden, in denen eine menschenähnliche Kommunikation erforderlich ist. ChatGPT verwendet maschinelles Lernen, um die Eingabe des Benutzers zu analysieren und darauf zu reagieren. Es ist in der Lage, auf verschiedene Fragen und Anfragen zu antworten und sich an vorherige Konversationen zu erinnern, um eine konsistente und glaubwürdige Konversation zu führen.

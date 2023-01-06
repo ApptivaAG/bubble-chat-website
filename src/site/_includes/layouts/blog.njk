@@ -1,38 +1,86 @@
 ---
 layout: default
 ---
+
+{% set previousPost1 = collections.blog | getPreviousCollectionItem(page) %}
+{% if previousPost1 %}
+  {% set previousPost2 = collections.blog | getPreviousCollectionItem(previousPost1) %}
+{% endif %}
+{% if previousPost2 %}
+  {% set previousPost3 = collections.blog | getPreviousCollectionItem(previousPost2) %}
+{% endif %}
+{% set nextPost1 = collections.blog | getNextCollectionItem(page) %}
+{% if nextPost1 %}
+  {% set nextPost2 = collections.blog | getNextCollectionItem(nextPost1) %}
+{% endif %}
+{% if nextPost2 %}
+  {% set nextPost3 = collections.blog | getNextCollectionItem(nextPost2) %}
+{% endif %}
+
 <div class="blog">
 
   <div class="container">
 
   <h1>{{ title | safe }}</h1>
-  {{ content | safe }}
 
+  {% if image %}
+    {% image "/site" + image, title, {"class":"feature-img"} %}
+  {% endif %}
 
-  <div class="share-icons">
-    <ul>
-      <li>
-        <a title="Auf LinkedIn teilen" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.bubble-chat.ch{{ page.url }}" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="64 64 896 896" focusable="false" data-icon="linkedin" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3.1-447.8.2-671.7.3-671.7 447.8.1 671.7.2 671.7.3-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 10-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98 60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z"></path></svg>
-        </a>
-      </li>
-      <li>
-        <a title="Auf Facebook teilen" href="https://www.facebook.com/sharer/sharer.php?u=https://www.bubble-chat.ch{{ page.url }}" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="64 64 896 896" focusable="false" data-icon="facebook" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-32 736H663.9V602.2h104l15.6-120.7H663.9v-77.1c0-35 9.7-58.8 59.8-58.8h63.9v-108c-11.1-1.5-49-4.8-93.2-4.8-92.2 0-155.3 56.3-155.3 159.6v89H434.9v120.7h104.3V848H176V176h672v672z"></path></svg>
-        </a>
-      </li>
-      <li>
-        <a title="Auf Twitter teilen" href="https://twitter.com/intent/tweet?text={{ title | encodeURIComponent }}%0A%0Ahttps://www.bubble-chat.ch{{ page.url }}" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="64 64 896 896" focusable="false" data-icon="twitter" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0075-94 336.64 336.64 0 01-108.2 41.2A170.1 170.1 0 00672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 00-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 01-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 01-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z"></path></svg>
-        </a>
-      </li>
-      <li>
-        <a title="Via E-Mail teilen" href="mailto:?subject={{ title | encodeURIComponent }}&amp;body=https://www.bubble-chat.ch{{ page.url }}&title=&summary=&source=" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="64 64 896 896" focusable="false" data-icon="mail" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5zM833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6a55.99 55.99 0 0068.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z"></path></svg>
-        </a>
-      </li>
-    </ul>
+  <div class="content-wrapper">
+    <div class="content">
+      {{ content | safe }}
+
+      <div class="share-icons">
+        <ul>
+          <li>
+            <a title="Auf LinkedIn teilen" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.bubble-chat.ch{{ page.url }}" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="linkedin" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3.1-447.8.2-671.7.3-671.7 447.8.1 671.7.2 671.7.3-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 10-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98 60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z"></path></svg>
+            </a>
+          </li>
+          <li>
+            <a title="Auf Facebook teilen" href="https://www.facebook.com/sharer/sharer.php?u=https://www.bubble-chat.ch{{ page.url }}" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="facebook" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-32 736H663.9V602.2h104l15.6-120.7H663.9v-77.1c0-35 9.7-58.8 59.8-58.8h63.9v-108c-11.1-1.5-49-4.8-93.2-4.8-92.2 0-155.3 56.3-155.3 159.6v89H434.9v120.7h104.3V848H176V176h672v672z"></path></svg>
+            </a>
+          </li>
+          <li>
+            <a title="Auf Twitter teilen" href="https://twitter.com/intent/tweet?text={{ title | encodeURIComponent }}%0A%0Ahttps://www.bubble-chat.ch{{ page.url }}" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="twitter" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0075-94 336.64 336.64 0 01-108.2 41.2A170.1 170.1 0 00672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 00-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 01-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 01-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z"></path></svg>
+            </a>
+          </li>
+          <li>
+            <a title="Via E-Mail teilen" href="mailto:?subject={{ title | encodeURIComponent }}&amp;body=https://www.bubble-chat.ch{{ page.url }}&title=&summary=&source=" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="mail" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5zM833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6a55.99 55.99 0 0068.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z"></path></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <aside>
+      <div class="navigation-title">Weitere Artikel</div>
+      <ul>
+        {% if nextPost1 %}
+          <li><a href="{{ nextPost1.url }}">{{ nextPost1.data.title | safe }}</a></li>
+        {% endif %}
+        {% if nextPost2 %}
+          <li><a href="{{ nextPost2.url }}">{{ nextPost2.data.title | safe }}</a></li>
+        {% endif %}
+        {% if nextPost3 %}
+          <li><a href="{{ nextPost3.url }}">{{ nextPost3.data.title | safe }}</a></li>
+        {% endif %}
+        {% if previousPost1 %}
+          <li><a href="{{ previousPost1.url }}">{{ previousPost1.data.title | safe }}</a></li>
+        {% endif %}
+        {% if previousPost2 %}
+          <li><a href="{{ previousPost2.url }}">{{ previousPost2.data.title | safe }}</a></li>
+        {% endif %}
+        {% if previousPost3 %}
+          <li><a href="{{ previousPost3.url }}">{{ previousPost3.data.title | safe }}</a></li>
+        {% endif %}
+      </ul>
+    </aside>
   </div>
+
 
   <div class="more-infos">
     <h2>Möchten Sie mehr über Chatbots erfahren?</h2>
