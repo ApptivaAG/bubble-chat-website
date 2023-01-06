@@ -20,13 +20,9 @@
   }
 }
 
-.blog-content {
-  @media (--media-desktop-size) {
-    margin: 0 15%;
-  }
-}
-
 .blog {
+  --max-text-width: var(--default-max-text-width);
+
   & h1 {
     @media (--media-desktop-size) {
       font-size: 4rem;
