@@ -11,10 +11,10 @@ tags:
 
 Analog zu Webseiten ist es sinnvoll, Chatbot-Inhalte in einem Content Management System (CMS) zu verwalten. Die Datenmenge kann schnell unübersichtlich werden, daher ist ein strukturiertes Vorgehen wichtig. Die Inhalte werden als **Absichten** (Intents) erfasst, welche grundsätzlich aus folgenden Teilen bestehen:
 
-- **Trainingssätze**<br>
+- **Trainingssätze**
   Dies sind Äusserungen für das, was Benutzer im Kontext einer bestimmten Absicht eingeben könnten. So passen die Trainingssätze «Was kostet ein Fahrrad?», «Wie teuer ist ein Fahrrad?» und «Preise für Fahrräder» beispielsweise zur Absicht «Fahrradpreise».
 
-- **Bot-Antworten**<br>
+- **Bot-Antworten**
   Wenn der Chatbot die richtige Absicht des Benutzers erkannt hat, kann er mit einer passenden Antwort darauf reagieren. In Bubble Chat kann man bei den Absichten beliebige Text-Antworten sowie formatierte Karten mit Bildern definieren.
 
 {% browserScreenshot "./img/cms/inhalte-verwalten.png", "Analytics", {"class":"image image--expandable"} %}

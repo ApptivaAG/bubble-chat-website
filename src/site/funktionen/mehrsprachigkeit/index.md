@@ -23,13 +23,13 @@ Das Ermitteln der zu verwendenden Chatbot-Sprache hängt vom eingesetzten Chat C
 
 Unser Webclient verwendet dazu folgende Priorität:
 
-1. **Sprache ist in der URL als Query-Parameter enthalten (z.B. `?lang=fr`)**<br>
+1. **Sprache ist in der URL als Query-Parameter enthalten (z.B. `?lang=fr`)**
    Wenn Sie den Chatbot auf Ihrer Website integrieren, können Sie den Parameter einfach abhängig von der Sprache der Website machen, um dem Benutzer beide Elemente in derselben Sprache zu präsentieren. Beim Wechseln der Sprache der Website wird so automatisch auch die Sprache des Chatbots geändert.
 
-2. **Browser Sprache**<br>
+2. **Browser Sprache**
    Jeder Browser hat eine Liste der vom Benutzer verstandenen Sprachen. Wir prüfen diese Liste und nehmen automatisch die am besten passende Sprache für den Chatbot.
 
-Bei anderen [Chat Clients](/funktionen/chat-client) wird in der Regel die Sprache des Benutzers bereits mitgegeben und kann eins zu eins so verwendet werden.
+Bei anderen [Chat Clients](/funktionen/channels) wird in der Regel die Sprache des Benutzers bereits mitgegeben und kann eins zu eins so verwendet werden.
 
 Bei Bedarf kann die Sprache mittels kundenspezifischer Logik ermittelt werden. So ist es z.B. möglich, die Sprache des Benutzers anhand seiner Login-Daten von einem CRM abzufragen und diese zu verwenden.
 
