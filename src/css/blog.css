@@ -55,6 +55,7 @@
     position: relative;
     right: 50%;
     width: 100vw;
+    margin-bottom: 0.3rem;
 
     @media (min-width: 1400px) {
       --horizontal-image-offset: 3rem;
@@ -67,7 +68,13 @@
       right: 50%;
       width: calc(var(--max-content-width) + calc(var(--horizontal-image-offset) * 2));
     }
+  }
 
+  & .feature-img-copy {
+    text-align: center;
+    max-width: none;
+    font-size: 0.8rem;
+    color: gray;
   }
 
   & .image--expandable {
@@ -114,7 +121,7 @@
   }
 
   & .content-wrapper {
-    margin-top: 0rem;
+    margin-top: 2rem;
     
     @media (--media-large-desktop-size) {
       display: flex;

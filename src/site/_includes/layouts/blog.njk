@@ -26,6 +26,10 @@ layout: default
   {% if image %}
     {% image "/site" + image, title, {"class":"feature-img"} %}
   {% endif %}
+  {% if imageCopy %}
+    <p class="feature-img-copy">{{imageCopy | safe}}</p>
+  {% endif %}
+  
 
   <div class="content-wrapper">
     <div class="content">
@@ -56,6 +60,7 @@ layout: default
         </ul>
       </div>
     </div>
+
     <aside>
       <div class="navigation-title">Weitere Artikel</div>
       <ul>
@@ -79,6 +84,7 @@ layout: default
         {% endif %}
       </ul>
     </aside>
+
   </div>
 
 
