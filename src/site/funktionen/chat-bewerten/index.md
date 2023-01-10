@@ -11,7 +11,9 @@ tags:
 
 Der Bubble Web Chat Client bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. Damit lässt sich besser beurteilen, wie zufrieden die Kunden mit der Konversation sind. Besucher können einen Chat während oder nach der Chatsitzung mit einem bis maximal fünf Sternen bewerten und optional einen Kommentar dazu abgeben.
 
+<div>
 {% image "/img/funktionen/chat-bewerten-webclient.png", "Chaterlebnis bewerten", {"class":"feature-img"} %}
+</div>
 
 ## Aktivierung und Konfiguration
 
@@ -21,7 +23,9 @@ Die Aktivierung der Chatbewertung wird in der Chatbot Engine vorgenommen. Sämtl
 
 Die Bewertungen und Kommentare können sofort im Chatverlauf in Bubble Chat eingesehen werden.
 
+<div>
 {% image "/img/funktionen/chat-bewerten-cms.png", "Chaterlebnis bewerten", {"class":"feature-img"} %}
+</div>
 
 ## Customer Satisfaction Score
 
