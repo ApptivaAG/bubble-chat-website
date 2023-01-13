@@ -57,6 +57,8 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
+  eleventyConfig.addPassthroughCopy("src/site/funktionen/**/*.png");
+  eleventyConfig.addPassthroughCopy("src/site/funktionen/**/*.jpg");
   eleventyConfig.addPassthroughCopy("src/site/blog/**/*.png");
   eleventyConfig.addPassthroughCopy("src/site/blog/**/*.jpg");
   eleventyConfig.addPassthroughCopy("src/site/blog/**/*.css");
