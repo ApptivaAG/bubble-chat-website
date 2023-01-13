@@ -46,7 +46,9 @@
   }
 
   @media (--media-tablet-size) {
-    max-width: calc(var(--max-text-width) / 12 * 9);
+    .max-width-9 {
+      max-width: calc(var(--max-text-width) / 12 * 9);
+    }
   }
 
   & img {
