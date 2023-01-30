@@ -10,7 +10,7 @@ tags:
 
 Mit Business Messages können Sie Chat-Schaltflächen in den Google-Suchergebnissen sowie auf Google Maps platzieren. Wenn ein Nutzer auf eine Chat-Schaltfläche klickt, beginnt er eine Konversation mit Ihrem Chatbot.
 
-## Einstiegspunkt
+## Einstiegspunkte
 
 Einstiegspunkte sind Oberflächen, über die Nutzer Unterhaltungen mit Google Business Messages starten können. Jeder Einstiegspunkt hat eine individuelle Darstellung und wird an einer anderen Stelle angezeigt.
 
