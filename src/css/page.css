@@ -211,6 +211,14 @@
         & .content.header.faq {
           background-color: var(--color-background-black);
           color: white;
+
+          & .label {
+            font-size: 0.9rem;
+            text-align: center;
+            background: var(--color-bubble-brand);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+          }
         }
 
         & .content.header.enterprise {
@@ -318,7 +326,7 @@
           }
 
           & .content.header {
-            height: 220px;
+            height: 240px;
           }
 
           & .content.features {
