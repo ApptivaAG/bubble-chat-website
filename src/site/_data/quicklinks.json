@@ -13,6 +13,10 @@
       "name": "Unternehmen"
     },
     {
+      "url": "/datenschutz/",
+      "name": "Datenschutz"
+    },
+    {
       "url": "/kontakt/",
       "name": "Kontakt"
     }
