@@ -10,6 +10,8 @@ tags:
 
 Dank Bubble Chat können Sie Ihren Chatbot sehr einfach in WhatsApp integrieren. Pro Sprache, die Ihr Chatbot unterstützt, stellen wir Ihnen eine Telefonnummer zur Verfügung. Ihre Kunden können Anfragen an diese Nummern schicken, so als ob sie mit Freunden chatten würden. Die Anfragen werden durch den Chatbot automatisiert beantwortet und bei Bedarf an den Kundendienst weitergeleitet für einen Live-Chat.
 
+{% image "/site/funktionen/whatsapp/whatsapp-chat.jpg", "WhatsApp Chat", {class:'max-width-6', "sizes":"(min-width: 30em) 50vw, 100vw", "widths": [300, 600]} %}
+
 ## Einstiegspunkte
 
 Bei WhatsApp gibt es grundsätzlich zwei Möglichkeiten, wie ein Chat gestartet werden kann.

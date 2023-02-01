@@ -41,12 +41,19 @@
   }
 
   
+  & .max-width-6 {
+    max-width: 100%;
+  }
+  
   & .max-width-9 {
     max-width: 100%;
   }
 
   @media (--media-tablet-size) {
-    .max-width-9 {
+    & .max-width-6 {
+      max-width: calc(var(--max-text-width) / 12 * 6);
+    }
+    & .max-width-9 {
       max-width: calc(var(--max-text-width) / 12 * 9);
     }
   }
