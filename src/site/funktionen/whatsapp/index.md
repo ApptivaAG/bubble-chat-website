@@ -24,9 +24,9 @@ Damit der Kunde Ihre Telefonnummer nicht eintippen muss, können Sie z.B. auf Ih
 
 Beispiel:
 
-[![WhatsApp](/img/WhatsAppButtonGreenSmall.png)](https://wa.me/41766011561?text=Ich%20möchte%20einen%20Demo-Account%20beantragen){target="_blank", style="height:30px"}
+[![WhatsApp](/img/WhatsAppButtonGreenSmall.png)](https://wa.me/41766011561?text=Was%20ist%20Bubble%20Chat%3F){target="_blank", style="height:30px"}
 
-[https://wa.me/41766011561?text=Ich%20möchte%20einen%20Demo-Account%20beantragen](https://wa.me/41766011561?text=Ich%20möchte%20einen%20Demo-Account%20beantragen){target="_blank"}
+[https://wa.me/41766011561?text=Was%20ist%20Bubble%20Chat%3F](https://wa.me/41766011561?text=Was%20ist%20Bubble%20Chat%3F){target="_blank"}
 
 
 ### Durch den Chatbot gestartet
