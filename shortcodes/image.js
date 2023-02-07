@@ -53,5 +53,8 @@ module.exports = async function imageShortcode(
 
   // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
   const html = Image.generateHTML(metadata, imageAttributes);
-  return html.replace("<picture>", `<picture data-full-size-image='${src}'>`);
+  return html.replace(
+    "<picture>",
+    `<picture data-full-size-image='${src.replace(/^\/site/, '')}'>`
+  );
 };
