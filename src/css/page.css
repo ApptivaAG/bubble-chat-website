@@ -390,3 +390,10 @@
     }
   }
 }
+
+.apptiva-page {
+  & img {
+    max-width: 300px;
+    margin: 2rem 0;
+  }
+}
