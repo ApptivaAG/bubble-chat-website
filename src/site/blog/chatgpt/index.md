@@ -47,7 +47,7 @@ Alles, was Sie bis jetzt in diesem Blogpost gelesen haben, wurde durch die küns
 
 Es ist schon sehr beeindruckend, wozu ChatGPT respektive GPT&#8209;3 in der Lage ist, und wie gut es funktioniert. Gleichzeitig stimmt es mich aber auch nachdenklich. Wie wird unsere Gesellschaft mit der rasanten Entwicklung der künstlichen Intelligenz umgehen? Wird diese Technologie allen zugänglich sein? Auf jeden Fall wird die Ethik ein wichtiger Bestandteil künftiger Diskussionen sein.
 
-GPT&#8209;3 wurde von der gemeinnützigen Organisation [Open AI](https://openai.com){target="_blank"} entwickelt. Im Gegensatz zu den Vorgängerversionen wurden nun jedoch die Details dieses Modells nicht der Öffentlichkeit zur Verfügung gestellt. Vielmehr entschied sich Open API den Zugriff auf GPT&#8209;3 kostenpflichtig zu machen.
+GPT&#8209;3 wurde von der gemeinnützigen Organisation [Open AI](https://openai.com){target="_blank"} entwickelt. Im Gegensatz zu den Vorgängerversionen wurden nun jedoch die Details dieses Modells nicht der Öffentlichkeit zur Verfügung gestellt. Vielmehr entschied sich Open AI den Zugriff auf GPT&#8209;3 kostenpflichtig zu machen.
 
 Da sich unsere Chatbot-Lösung Bubble Chat sehr flexible erweitern lässt, war es ein einfaches, GTP&#8209;3 zu integrieren. Hier können Sie das Resultat testen: <a class="button chat-with-chatbot" href="#">Chatten Sie mit Bubbly</a>
 
