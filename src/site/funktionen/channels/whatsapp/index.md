@@ -4,13 +4,16 @@ title: WhatsApp
 excerpt: WhatsApp ist in der Schweiz mit einer Verbreitung von 83 % die meistgenutzte Messaging-App. Dieser Kanal eignet sich bestens, um mit Ihren Kunden in Kontakt zu bleiben.
 order: 2
 image: /img/funktionen/whatsapp-card.png
+eleventyNavigation:
+  key: WhatsApp
+  parent: Chat Channels
 tags:
   - Channels
 ---
 
 Dank Bubble Chat können Sie Ihren Chatbot sehr einfach in WhatsApp integrieren. Pro Sprache, die Ihr Chatbot unterstützt, stellen wir Ihnen eine Telefonnummer zur Verfügung. Ihre Kunden können Anfragen an diese Nummern schicken, so als ob sie mit Freunden chatten würden. Die Anfragen werden durch den Chatbot automatisiert beantwortet und bei Bedarf an den Kundendienst weitergeleitet für einen Live-Chat.
 
-{% image "/site/funktionen/whatsapp/whatsapp-chat.jpg", "WhatsApp Chat", {class:'max-width-6', "sizes":"(min-width: 30em) 50vw, 100vw", "widths": [300, 600]} %}
+{% image "/site/funktionen/channels/whatsapp/whatsapp-chat.jpg", "WhatsApp Chat", {class:'max-width-6', "sizes":"(min-width: 30em) 50vw, 100vw", "widths": [300, 600]} %}
 
 ## Einstiegspunkte
 

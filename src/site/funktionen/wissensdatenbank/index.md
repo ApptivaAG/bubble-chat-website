@@ -1,12 +1,16 @@
 ---
 layout: feature
 title: Wissensdatenbanken
+displayTitle: Wissens&shy;datenbanken
 excerpt: Die Nutzung einer Wissensdatenbank in Bubble Chat ermöglicht den Einsatz eines Chatbots mit minimalem Aufwand. Der Chatbot weiss sofort Bescheid über eine Fülle von Informationen.
 image: /img/funktionen/wissensdatenbank-card.png
+eleventyNavigation:
+  key: Wissensdatenbanken
+  parent: Funktionen
 followUpTopicTitle: Konnektoren
-followUpTopicDescription: "Konnektoren ermöglichen die Integration und den Zugriff auf externe Wissensdatenbanken.\nBubble Chat stellt eine Reihe von Konnektoren zur Verfügung:"
+followUpTopicDescription: "Konnektoren ermöglichen die Integration und den Zugriff auf externe Wissensdatenbanken.<br/>Bubble Chat stellt eine Reihe von Konnektoren zur Verfügung:"
 order: 3
-rootTag: Wissensdatenbank
+rootTag: Wissensdatenbanken
 tags:
   - RootTag
 ---

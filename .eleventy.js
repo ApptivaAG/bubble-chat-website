@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const imageShortcode = require("./shortcodes/image");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
@@ -69,6 +70,9 @@ module.exports = function (eleventyConfig) {
 
   // Download and inline Google Font's CSS.
   eleventyConfig.addPlugin(eleventyGoogleFonts);
+
+  // Navigation plugin https://www.11ty.dev/docs/plugins/navigation/
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // SEO Plugin
   eleventyConfig.addPlugin(pluginSEO, {

@@ -4,6 +4,9 @@ title: Google Business Messages
 excerpt: Business Messages von Google ermöglicht es Android-Nutzern, Ihr Unternehmen über verschiedene Google-Produkte, wie zum Beispiel die Google-Suche und Google Maps, zu kontaktieren.
 order: 3
 image: /img/funktionen/google-card.png
+eleventyNavigation:
+  key: Google Business Messages
+  parent: Chat Channels
 tags:
   - Channels
 ---
@@ -18,7 +21,7 @@ Einstiegspunkte sind Oberflächen, über die Nutzer Unterhaltungen mit Google Bu
 
 Innerhalb der Google Suche gibt es verschiedene Einstiegspunkte, bei denen die Chat-Schaltfläche angezeigt werden kann. Die beiden wichtigsten Punkte sind Sitelinks und Google Ads. Sobald Sitelinks in der Suche angezeigt wird, erscheint automatisch eine Chat-Schaltfläche. Bei Ads können Sie die Chat-Schaltfläche über Google Ads verwalten.
 
-{% image "/site/funktionen/google-business-messages/google-search-sitelinks.jpg", "Integration in Google Suche", {class:'max-width-9'} %}
+{% image "/site/funktionen/channels/google-business-messages/google-search-sitelinks.jpg", "Integration in Google Suche", {class:'max-width-9'} %}
 
 Diese Funktion steht allen Android Nutzer zur Verfügung.
 
@@ -30,7 +33,7 @@ Wählt ein Nutzer in der Telefon-App von Google die Telefonnummer Ihres Unterneh
 
 Es gibt Einstiegspunkte, die auf Standorten basieren. So wird zum Beispiel die Chat-Schaltfläche zu Ihrem Chatbot angezeigt, wenn jemand in Google Maps Ihren Standort anschaut, oder wenn ein Nutzer den Standort in der Google Suche findet.
 
-{% image "/site/funktionen/google-business-messages/google-maps.jpg", "Integration in Google Maps", {class:'max-width-9'} %}
+{% image "/site/funktionen/channels/google-business-messages/google-maps.jpg", "Integration in Google Maps", {class:'max-width-9'} %}
 
 Sie können mehrere Standorte mit Ihrem Chatbot verbinden. Der Chatbot ist in der Lage, je nach Standort von welchem er aufgerufen wurde, unterschiedlich zu reagieren.
 
