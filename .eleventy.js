@@ -67,9 +67,6 @@ module.exports = function (eleventyConfig) {
   // Copy external dependencies to dist.
   eleventyConfig.addPassthroughCopy({ "src/vendor": "vendor" });
 
-  // Reload the page every time the JS/CSS are changed.
-  eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
-
   // Download and inline Google Font's CSS.
   eleventyConfig.addPlugin(eleventyGoogleFonts);
 
