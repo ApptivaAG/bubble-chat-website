@@ -30,10 +30,14 @@ layout: default
     <div style="background-color: #f5f5f7; margin-top: 4rem; padding-top: 3rem; padding-bottom: 4rem;">
       <div class="container">
 
-        {% if followUpTopics %}
-          <h2 style="margin-bottom: 2rem;">{{followUpTopics}}</h2>
+        {% if followUpTopicTitle %}
+          <h2 style="margin-bottom: 2rem;">{{followUpTopicTitle}}</h2>
         {% else %}
           <h2 style="margin-bottom: 2rem;">Die wichtigsten {{rootTag}} Funktionen im Detail</h2>
+        {% endif %}
+
+        {% if followUpTopicDescription %}
+          <p style="white-space: pre;">{{followUpTopicDescription}}</p>
         {% endif %}
 
         {# Hack, damit partials/feature-list.njk funktioniert. Keine Ahnung, wo das Problem liegt... #}

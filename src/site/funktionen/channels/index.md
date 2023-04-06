@@ -3,8 +3,8 @@ layout: feature
 title: Chat Channels
 excerpt: Ein Chat Channel, oder auch Chat Kanal, ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Dies ist die einzige grafische Oberfläche des Chatbots, welche die Anwender sehen.
 image: /img/funktionen/channels-card.png
-followUpTopics: Unterstützte Chat Channels
-order: 3
+followUpTopicTitle: Unterstützte Chat Channels
+order: 4
 rootTag: Channels
 tags:
   - RootTag
