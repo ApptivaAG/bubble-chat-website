@@ -8,7 +8,7 @@ eleventyNavigation:
   key: Chaterlebnis bewerten
   parent: Analytics
 tags:
-  - CMS
+  - Analytics
 ---
 
 Der Bubble Web Chat Client bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. Damit lässt sich besser beurteilen, wie zufrieden die Kunden mit der Konversation sind. Besucher können einen Chat während oder nach der Chatsitzung mit einem bis maximal fünf Sternen bewerten und optional einen Kommentar dazu abgeben.
