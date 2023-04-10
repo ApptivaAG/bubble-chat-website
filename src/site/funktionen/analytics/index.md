@@ -5,6 +5,9 @@ excerpt: Bubble Chat gibt einen sehr guten Einblick darüber, wie Chatbots von d
 order: 7
 rootTag: Analytics
 image: /img/funktionen/analytics-card.png
+eleventyNavigation:
+  key: Analytics
+  parent: Funktionen
 tags:
   - RootTag
 ---

@@ -4,6 +4,9 @@ title: Sprachverständnis
 excerpt: Bubble Chat nutzt Künstliche Intelligenz um die Benutzer zu verstehen. Diese können ihre Anliegen via Freitexteingabe oder auch via Sprache äussern und Sie erhalten einen besseren Einblick über das, was Ihre Kunden wirklich wollen.
 image: /img/funktionen/nlp-card.png
 order: 5
+eleventyNavigation:
+  key: NLP
+  parent: Funktionen
 rootTag: NLP
 tags:
   - RootTag

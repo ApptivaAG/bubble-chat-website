@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   key: Konnektoren
-  url: /funktionen/wissensdatenbank/#related
+  url: /funktionen/wissensdatenbanken/#related
   parent: Wissensdatenbanken
 permalink: false
 ---

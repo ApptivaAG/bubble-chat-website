@@ -4,6 +4,9 @@ title: Chatbot Engine
 excerpt: Die Chatbot Engine ist das Herzstück von Bubble Chat. Sie empfängt, verarbeitet und sendet Nachrichten an die jeweiligen Chat Clients.
 image: /img/funktionen/chatbot-engine-card.png
 order: 1
+eleventyNavigation:
+  key: Chatbot Engine
+  parent: Funktionen
 rootTag: Chatbot Engine
 tags:
   - RootTag

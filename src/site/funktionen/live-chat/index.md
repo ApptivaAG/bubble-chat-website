@@ -4,6 +4,9 @@ title: Live Chat
 excerpt: Durch die Integration eines Live-Chats verkürzt sich die Reaktionszeit und Anliegen können schneller, aber mit gleicher Qualität erledigt werden, da jederzeit auch Rückfragen möglich sind.
 image: /img/funktionen/live-chat.png
 order: 6
+eleventyNavigation:
+  key: Live Chat
+  parent: Funktionen
 rootTag: Live-Chat
 tags:
   - RootTag

@@ -4,6 +4,9 @@ title: Training
 excerpt: 'Kontinuierliches Training des Chatbots ist sehr wichtig. Denn auch hier gilt: Übung macht den Meister. Bubble Chat bietet dafür praktische Unterstützung an.'
 image: /img/funktionen/cms-training-card.png
 order: 1
+eleventyNavigation:
+  key: Training
+  parent: Content Management
 tags:
   - CMS
 ---
@@ -17,7 +20,7 @@ Kontinuierliches Training des Chatbots ist sehr wichtig. Denn auch hier gilt: Ü
 Im Untermenü “Keine Absicht” können Sie sehen, welche Benutzereingaben Ihr Chatbot nicht verstanden hat, sprich keine passende Absicht dahinter erkennen konnte. Wählen Sie nun eine oder mehrere Benutzeräusserungen aus, welche dieselbe Absicht beinhalten. Auf der rechten Seite sehen Sie eine Liste aller Absichten, die Ihr Chatbot behandeln kann. Weisen Sie den selektierten Benutzeräusserungen ganz einfach der korrekten Absicht zu.
 
 <br>
-{% browserScreenshot "/site/funktionen/cms-training/nicht-verstandene-benutzeraeusserungen.png", "Nicht verstandene Benutzeräusserungen", {"class":"image image--expandable"} %}
+{% browserScreenshot "/site/funktionen/cms/training/nicht-verstandene-benutzeraeusserungen.png", "Nicht verstandene Benutzeräusserungen", {"class":"image image--expandable"} %}
 <br>
 
 ### Äusserungen für später merken
@@ -35,7 +38,7 @@ Manchmal werden auch Eingaben durch die Benutzer gemacht, die nicht durch Ihren 
 Bubble Chat stellt Ihnen zusätzlich zum produktiven Chatbot einen Chatbot zum Testen zur Verfügung. Diesen können Sie im CMS jeweils unten rechts über das Chatbot-Symbol aufrufen. In diesem Chat-Fenster haben Sie die Möglichkeit, fehlerhafte Aussagen fürs weitere Training zu markieren. Die markierten Aussagen erscheinen danach im Training im Untermenü “Probleme”.
 
 <br>
-{% browserScreenshot "/site/funktionen/cms-training/gemeldete-probleme.png", "Gemeldete Probleme", {"class":"image image--expandable"} %}
+{% browserScreenshot "/site/funktionen/cms/training/gemeldete-probleme.png", "Gemeldete Probleme", {"class":"image image--expandable"} %}
 <br>
 
 Wählen Sie eine fehlerhafte Aussage aus und bestimmen Sie anschliessend, ob Sie diese anpassen wollen (z.B. bei für die Korrektur eines Schreibfehlers), oder ob der Chatbot eine andere Antwort hätte geben sollen.
@@ -47,7 +50,7 @@ Unter dem Menüpunkt “Testing” können Sie das Szenario-basierte Testing auf
 Der Bubble Chat Assistent kann anhand eines Szenarios unterschiedliche Benutzereingaben generieren. Sie können diese dann Ihrem Chatbot zur Simulation einspielen und beobachten, wie er darauf reagiert.
 
 <br>
-{% browserScreenshot "/site/funktionen/cms-training/szenario-basiertes-testing.png", "Szenario-basiertes Testing", {"class":"image image--expandable"} %}
+{% browserScreenshot "/site/funktionen/cms/training/szenario-basiertes-testing.png", "Szenario-basiertes Testing", {"class":"image image--expandable"} %}
 <br>
 
 Eingaben, die der Chatbot nicht versteht, werden gesammelt und stehen fürs weitere Training zur Verfügung. Falsche oder fehlerhafte Texte des Chatbots können so markiert werden, dass diese im Anschluss ans Testing angepasst werden können.
