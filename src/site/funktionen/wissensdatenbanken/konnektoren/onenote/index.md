@@ -43,7 +43,7 @@ Der Microsoft OneNote Konnektor in Bubble Chat kann in einer Vielzahl von Anwend
   Unternehmen können den OneNote Konnektor verwenden, um neuen Mitarbeitern eine leicht zugängliche Informationsquelle über Unternehmensrichtlinien, Prozesse und Schulungsmaterialien zu bieten.
 
 - **Bildung und Training**
-  Bildungseinrichtungen und Unternehmen können den OneNote Konnektor nutzen, um Studierenden und Mitarbeitern einen einfachen Zugang zu Lehrmaterialien, Kursinformationen und Prüfungsvorbereitungsressourcen zu bieten.
+  Bildungseinrichtungen und Unternehmen können den OneNote Konnektor nutzen, um Studierenden und Mitarbeitern einen einfachen Zugang zu Lernmaterialien, Kursinformationen und Prüfungsvorbereitungsressourcen zu bieten.
 
 - **Projektmanagement**
   Ein Chatbot kann auf Projektpläne, Aufgabenlisten und Fortschrittsberichte aus OneNote zugreifen, um Teammitgliedern bei der Koordination und Kommunikation zu helfen.

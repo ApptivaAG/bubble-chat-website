@@ -12,7 +12,7 @@ tags:
   - Wissensdatenbanken
 ---
 
-Der Microsoft Excel Konnektor in Bubble Chat ist eine leistungsstarke Funktion, die es ermöglicht, strukturierte Daten aus Excel-Dateien in den Chatbot zu integrieren. Dies erweitert die Fähigkeiten des Chatbots, indem es ihm ermöglicht, auf Informationen zuzugreifen, die in Tabellenkalkulationen organisiert sind, und diese Informationen in den Chat-Gesprächen mit den Benutzern zu verwenden.
+Der Microsoft Excel Konnektor in Bubble Chat ist eine leistungsstarke Funktion, die es ermöglicht, strukturierte Daten aus Excel-Dateien in den Chatbot zu integrieren. Dies erlaubt es dem Chatbot auf Tabellenkalkulationen zuzugreifen und diese Informationen in den Chat-Gesprächen mit den Benutzern zu verwenden.
 
 ## Funktionen
 
@@ -49,4 +49,3 @@ Der Microsoft Excel Konnektor kann in verschiedenen Anwendungsbereichen eingeset
 - **Bildung**
   Integrieren Sie Lehrpläne oder Kursinformationen aus Excel-Dateien, um den Bildungsprozess für Schüler und Lehrer zu verbessern.
 
-Der Microsoft Excel Konnektor in Bubble Chat bietet eine effiziente und benutzerfreundliche Möglichkeit, strukturierte Daten aus Excel-Dateien in den Chatbot zu integrieren. Dies erweitert die Fähigkeiten des Chatbots, indem es ihm ermöglicht, auf eine Vielzahl von Informationen zuzugreifen und den Benutzern präzise und relevante Antworten zu liefern.

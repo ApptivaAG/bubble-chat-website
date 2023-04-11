@@ -24,7 +24,7 @@ Der PDF Konnektor besteht im Wesentlichen aus folgenden Funktionen:
   Der PDF-Konnektor extrahiert den Text und andere wichtige Informationen aus den importierten PDF-Dokumenten und verwandelt sie in ein für den Chatbot leicht verständliches Format.
 
 - **Integration in die Wissensdatenbank**
-  Die extrahiert Informationen werden in die Wissensdatenbank von Bubble Chat integriert und ermöglichen es dem Chatbot, auf die in den PDF-Dokumenten enthaltenen Informationen zuzugreifen.
+  Die extrahiert Informationenen werden in die Wissensdatenbank von Bubble Chat integriert und ermöglichen es dem Chatbot, auf die in den PDF-Dokumenten enthaltenen Informationen zuzugreifen.
 
 - **Automatische Aktualisierung**
   Der PDF-Konnektor kann auf neue oder aktualisierte PDF-Dokumente zugreifen und die Wissensdatenbank entsprechend aktualisieren, um sicherzustellen, dass die bereitgestellten Informationen stets auf dem neuesten Stand sind.
