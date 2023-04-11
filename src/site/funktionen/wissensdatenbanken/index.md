@@ -13,6 +13,7 @@ order: 3
 rootTag: Wissensdatenbanken
 tags:
   - RootTag
+contactPerson: Linus Hüsler
 ---
 
 Eine Wissensdatenbank ist eine zentrale Sammlung von Informationen, die in einer strukturierten Art und Weise gespeichert werden. Diese Wissensdatenbanken können aus einer Vielzahl von Quellen stammen, wie z.B. Webseiten, Dokumente oder Notizbücher. Der Hauptzweck einer Wissensdatenbank besteht darin, das gesammelte Wissen so zu organisieren, dass es leicht zugänglich und verständlich ist.

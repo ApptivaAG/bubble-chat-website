@@ -8,6 +8,7 @@ const markdownItAttrs = require("markdown-it-attrs");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const imageShortcode = require("./shortcodes/image");
+const contactPerson = require("./shortcodes/contactPerson");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
 const browserScreenshot = require("./shortcodes/browserScreenshot");
 
@@ -35,6 +36,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("branche", "layouts/branche.njk");
   eleventyConfig.addLayoutAlias("anwendungsfall", "layouts/anwendungsfall.njk");
 
+  eleventyConfig.addShortcode("contactPersonCode", contactPerson);
   eleventyConfig.addNunjucksAsyncShortcode("jpgUrl", jpgImageUrl);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode(

@@ -9,6 +9,7 @@ eleventyNavigation:
   parent: Content Management
 tags:
   - CMS
+contactPerson: Markus Tanner
 ---
 
 Bubble Chat setzt Künstliche Intelligenz (KI) und maschinelles Lernen ein, damit Ihr Chatbot ständig besser wird. Im Bubble Chat CMS haben Sie die volle Kontrolle darüber, was Ihr Chatbot lernen soll. Dadurch können Sie sicherstellen, dass sich der Chatbot stets so wie von Ihnen erwartet verhält.

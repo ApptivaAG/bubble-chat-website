@@ -202,13 +202,18 @@
 }
 
 .feature-footer {
-  padding-top: 2rem;
+  padding-top: 3rem;
 
   & section {
     padding-top: 1rem;
 
-    &:not(:last-child) {
+    & .contact-person {
+      justify-content: center;
+      padding-top: 3rem;
+      padding-bottom: 6rem;
       margin-bottom: 3rem;
+      border-bottom: 2px solid;
+      border-image: linear-gradient(to right, #2f55eb 0%, #eb2f96 100%) 1;
     }
   }
 

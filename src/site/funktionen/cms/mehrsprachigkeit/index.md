@@ -8,6 +8,7 @@ eleventyNavigation:
   parent: Content Management
 tags:
   - CMS
+contactPerson: Markus Tanner
 ---
 
 Ein Chatbot, welcher unterschiedliche Sprachen beherrscht, kann für Unternehmen einen wichtigen Beitrag leisten, die Zielgruppe optimal anzusprechen. In der Schweiz mit ihren vier Landessprachen, für Unternehmen mit internationaler Ausrichtung oder auch im Tourismus kann dies ein wichtiger Wettbewerbsvorteil sein.

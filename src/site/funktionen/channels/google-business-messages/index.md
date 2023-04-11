@@ -9,6 +9,7 @@ eleventyNavigation:
   parent: Chat Channels
 tags:
   - Channels
+contactPerson: Linus Hüsler
 ---
 
 Mit Business Messages können Sie Chat-Schaltflächen in den Google-Suchergebnissen sowie auf Google Maps platzieren. Wenn ein Nutzer auf eine Chat-Schaltfläche klickt, beginnt er eine Konversation mit Ihrem Chatbot.

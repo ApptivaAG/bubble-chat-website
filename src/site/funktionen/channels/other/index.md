@@ -9,6 +9,7 @@ eleventyNavigation:
   parent: Chat Channels
 tags:
   - Channels
+contactPerson: Linus Hüsler
 ---
 
 Fehlt ein Kanal in der Auflistung, den Sie gerne nutzen möchten? Dank unserer flexiblen und äusserst leistungsfähigen Chatbot Engine können wir weitere Integrationen problemlos umsetzen.

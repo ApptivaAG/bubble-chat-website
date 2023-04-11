@@ -11,6 +11,7 @@ order: 4
 rootTag: Channels
 tags:
   - RootTag
+contactPerson: Linus Hüsler
 ---
 
 Ein Chat Channel, oder auch Chat Kanal, ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Dies ist die einzige grafische Oberfläche des Chatbots, welche die Anwender sehen.

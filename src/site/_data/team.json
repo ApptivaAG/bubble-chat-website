@@ -2,6 +2,7 @@
   "items": [
     {
       "name": "Linus Hüsler",
+      "firstname": "Linus",
       "role": "Product Owner",
       "phone": "+41 79 794 76 85",
       "mail": "linus.huesler@apptiva.ch",
@@ -9,6 +10,7 @@
     },
     {
       "name": "Markus Tanner",
+      "firstname": "Markus",
       "role": "Chatbot Architekt",
       "phone": "+41 78 909 82 44",
       "mail": "markus.tanner@apptiva.ch",
@@ -16,6 +18,7 @@
     },
     {
       "name": "Philip Schönholzer",
+      "firstname": "Philip",
       "role": "Chatbot Architekt",
       "phone": "+41 79 407 00 83",
       "mail": "philip.schoenholzer@apptiva.ch",
@@ -23,6 +26,7 @@
     },
     {
       "name": "Roman Schaller",
+      "firstname": "Roman",
       "role": "Softwareentwickler",
       "phone": "+41 79 607 51 40",
       "mail": "roman.schaller@apptiva.ch",
@@ -30,6 +34,7 @@
     },
     {
       "name": "Patrik Stutz",
+      "firstname": "Patrik",
       "role": "Softwareentwickler",
       "phone": "+41 78 623 55 33",
       "mail": "patrik.stutz@apptiva.ch",
@@ -37,6 +42,7 @@
     },
     {
       "name": "Robin Geissmann",
+      "firstname": "Robin",
       "role": "Softwareentwickler",
       "phone": "+41 77 422 56 28",
       "mail": "robin.geissmann@apptiva.ch",
@@ -44,6 +50,7 @@
     },
     {
       "name": "David Decker",
+      "firstname": "Dave",
       "role": "Softwareentwickler",
       "phone": "+41 79 489 41 19",
       "mail": "david.decker@apptiva.ch",
@@ -51,6 +58,7 @@
     },
     {
       "name": "Kevin Rickenbach",
+      "firstname": "Kevin",
       "role": "Softwareentwickler",
       "phone": "+41 79 489 41 19",
       "mail": "kevin.rickenbach@apptiva.ch",

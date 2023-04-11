@@ -10,6 +10,7 @@ eleventyNavigation:
   parent: Funktionen
 tags:
   - RootTag
+contactPerson: Linus Hüsler
 ---
 
 Chatbot Metriken erlauben es, die Leistung eines Chatbots über eine bestimmte Zeit zu überwachen. Damit kann zum Beispiel der Effekt einer Änderung am Chatbot (z.B. eine Einführung einer neuen Absicht) beobachtet werden, oder es kann Hinweise darüber geben, wie der Chatbot optimiert werden soll.

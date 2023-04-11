@@ -10,6 +10,7 @@ eleventyNavigation:
 rootTag: NLP
 tags:
   - RootTag
+contactPerson: Markus Tanner
 ---
 
 Natürliches Sprachverständnis (NLP) ermöglicht es, dass Chatbots die menschliche Sprache verstehen können. Konkret bedeutet das, dass Benutzer ihre Anliegen via Freitexteingabe oder auch via Sprache äussern können.

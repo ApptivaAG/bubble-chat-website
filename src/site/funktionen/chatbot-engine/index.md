@@ -10,6 +10,7 @@ eleventyNavigation:
 rootTag: Chatbot Engine
 tags:
   - RootTag
+contactPerson: Markus Tanner
 ---
 
 Die Chatbot Engine ist das Herzstück von Bubble Chat. Hier laufen sämtliche Nachrichten durch, welche der Chatbot erhält und versendet. Der Erweiterbarkeit zuliebe ist die Chatbot Engine modular aufgebaut. Das heisst, neue Funktionalitäten können laufend hinzugefügt werden, ohne bestehende zu beeinträchtigen.

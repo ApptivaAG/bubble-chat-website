@@ -4,6 +4,7 @@ layout : default
 eleventyNavigation:
   key: Funktionen
 excerpt: Jeder Chatbot ist so einzigartig wie das Unternehmen für welches er arbeitet. Entsprechend wichtig ist es, eine flexible Chatbot Lösung zu haben die den Anforderungen gerecht wird.
+contactPerson: Linus Hüsler
 ---
 
 <div class="container feature" style="padding-bottom: 2rem;">
@@ -27,8 +28,7 @@ excerpt: Jeder Chatbot ist so einzigartig wie das Unternehmen für welches er ar
 
 <div class="feature-footer container">
   <section>
-    <h3>«Kann man das?»</h3>
-    {% include "partials/feature-contact.njk" %}
+    {% contactPersonCode contactPerson, "Etwas unklar? Fragen Sie $name." %}
   </section>
   <section>
     <h3>Auswahl unserer Kunden</h3>

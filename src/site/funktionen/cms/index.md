@@ -10,6 +10,7 @@ eleventyNavigation:
 rootTag: CMS
 tags:
   - RootTag
+contactPerson: Markus Tanner
 ---
 
 Analog zu Webseiten ist es sinnvoll, Chatbot-Inhalte in einem Content Management System (CMS) zu verwalten. Die Datenmenge kann schnell unübersichtlich werden, daher ist ein strukturiertes Vorgehen wichtig. Die Inhalte werden als **Absichten** (Intents) erfasst, welche grundsätzlich aus folgenden Teilen bestehen:
