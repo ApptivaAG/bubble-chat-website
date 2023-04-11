@@ -10,7 +10,7 @@
 
     white-space: nowrap;
 
-    overflow-x: scroll; /* has to be scroll, not auto */
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 
     & li {
