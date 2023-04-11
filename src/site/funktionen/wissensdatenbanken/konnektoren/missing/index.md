@@ -9,6 +9,7 @@ eleventyNavigation:
 order: 5
 tags:
   - Wissensdatenbanken
+contactPerson: Linus Hüsler
 ---
 
 Wenn Sie feststellen, dass ein wichtiger Konnektor in der Liste fehlt, den Sie gerne für Ihren Chatbot nutzen möchten, zögern Sie bitte nicht, uns zu [kontaktieren](/kontakt). Unser modular aufgebautes System ermöglicht es uns, zusätzliche Integrationen ohne grossen Aufwand zu implementieren. 

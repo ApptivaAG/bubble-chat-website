@@ -9,6 +9,7 @@ eleventyNavigation:
 order: 2
 tags:
   - Wissensdatenbanken
+contactPerson: Linus Hüsler
 ---
 
 Der PDF-Konnektor in Bubble Chat ermöglicht es dem Chatbot, auf Informationen in PDF-Dokumenten zuzugreifen und diese in seine Wissensdatenbank zu integrieren. Dadurch kann der Chatbot Benutzern schnell und präzise Informationen aus diesen Dokumenten liefern und somit die Effizienz und Benutzerfreundlichkeit des Chatbots verbessern.

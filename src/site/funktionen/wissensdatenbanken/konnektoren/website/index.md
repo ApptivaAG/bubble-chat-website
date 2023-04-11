@@ -9,6 +9,7 @@ eleventyNavigation:
 order: 1
 tags:
   - Wissensdatenbanken
+contactPerson: Linus Hüsler
 ---
 
 Der Website Konnektor in Bubble Chat ist ein leistungsstarkes und benutzerfreundliches Tool, das entwickelt wurde, um automatisch Inhalte von Websites zu extrahieren und in die Wissensdatenbank des Chatbots zu integrieren. Dies ermöglicht eine nahtlose Integration von relevanten Informationen aus verschiedenen Online-Quellen und verbessert die Effizienz und Genauigkeit des Chatbots bei der Beantwortung von Benutzeranfragen.

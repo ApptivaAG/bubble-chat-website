@@ -9,6 +9,7 @@ eleventyNavigation:
 order: 4
 tags:
   - Wissensdatenbanken
+contactPerson: Linus Hüsler
 ---
 
 Der Microsoft OneNote Konnektor in Bubble Chat ist eine Funktion, die es dem Chatbot ermöglicht, auf die in Microsoft OneNote gespeicherten Informationen zuzugreifen und diese in der Chat-Konversation zu verwenden. Der Konnektor stellt eine Verbindung zwischen dem Chatbot und der OneNote-Datenbank her, um den Benutzern hilfreiche und relevante Informationen aus den OneNote-Notizbüchern bereitzustellen.
