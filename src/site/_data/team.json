@@ -16,7 +16,7 @@
     },
     {
       "name": "Philip Schönholzer",
-      "role": "Berater",
+      "role": "Chatbot Architekt",
       "phone": "+41 79 407 00 83",
       "mail": "philip.schoenholzer@apptiva.ch",
       "picture": "/img/team/philip-schoenholzer.jpg"
@@ -37,7 +37,7 @@
     },
     {
       "name": "Robin Geissmann",
-      "role": "Berater",
+      "role": "Softwareentwickler",
       "phone": "+41 77 422 56 28",
       "mail": "robin.geissmann@apptiva.ch",
       "picture": "/img/team/robin-geissmann.jpg"
@@ -48,6 +48,13 @@
       "phone": "+41 79 489 41 19",
       "mail": "david.decker@apptiva.ch",
       "picture": "/img/team/david-decker.jpg"
+    },
+    {
+      "name": "Kevin Rickenbach",
+      "role": "Softwareentwickler",
+      "phone": "+41 79 489 41 19",
+      "mail": "kevin.rickenbach@apptiva.ch",
+      "picture": "/img/team/kevin-rickenbach.jpg"
     }
   ]
 }
