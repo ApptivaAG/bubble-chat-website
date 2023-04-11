@@ -63,7 +63,7 @@
       }
 
       & a {
-        color: #0275d8;
+        color: var(--color-bubble-blue);
         text-decoration: none;
       }
 
