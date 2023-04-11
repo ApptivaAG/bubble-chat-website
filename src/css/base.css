@@ -56,7 +56,6 @@ p {
 }
 
 a {
-  display: inline-block;
   max-width: var(--max-text-width);
 
   color: var(--color-bubble-blue);

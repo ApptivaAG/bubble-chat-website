@@ -51,5 +51,3 @@ Es ist schon sehr beeindruckend, wozu ChatGPT respektive GPT&#8209;3 in der Lage
 GPT&#8209;3 wurde von der gemeinnützigen Organisation [Open AI](https://openai.com){target="_blank"} entwickelt. Im Gegensatz zu den Vorgängerversionen wurden nun jedoch die Details dieses Modells nicht der Öffentlichkeit zur Verfügung gestellt. Vielmehr entschied sich Open AI den Zugriff auf GPT&#8209;3 kostenpflichtig zu machen.
 
 Da sich unsere Chatbot-Lösung Bubble Chat sehr flexible erweitern lässt, war es ein einfaches, GTP&#8209;3 zu integrieren. Hier können Sie das Resultat testen: <a class="button chat-with-chatbot" href="#">Chatten Sie mit Bubbly</a>
-
-Für einen Firmen-Chatbot eignet sich GPT&#8209;3 (noch) nicht. Gründe nennt die KI ja gleich selbst. Zu gross ist das Potenzial für Falsch- oder diskriminierenden Aussagen. Daher sollten durch GPT&#8209;3 generierte Inhalte nicht ohne Faktencheck veröffentlicht werden.

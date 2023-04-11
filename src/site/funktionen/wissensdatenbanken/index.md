@@ -1,8 +1,8 @@
 ---
 layout: feature
 title: Wissensdatenbanken
-displayTitle: Wissens&shy;datenbanken
-excerpt: Die Nutzung einer Wissensdatenbank in Bubble Chat ermöglicht den Einsatz eines Chatbots mit minimalem Aufwand. Der Chatbot weiss sofort Bescheid über eine Fülle von Informationen.
+displayTitle: Wissens&shy;datenbanken mit GPT
+excerpt: Die Nutzung einer Wissensdatenbank ermöglicht den Einsatz eines Chatbots mit minimalem Aufwand. Der Chatbot weiss sofort Bescheid über eine Fülle von Informationen und generiert mit GPT automatisch Antworten.
 image: /img/funktionen/wissensdatenbank-card.png
 eleventyNavigation:
   key: Wissensdatenbanken
@@ -24,7 +24,7 @@ Um diese Funktion zu nutzen, verbindet sich Bubble Chat mit den gewünschten Wis
 
 Wenn ein Benutzer eine Frage oder ein Anliegen an den Chatbot richtet, wertet Bubble Chat die Anfrage aus und sucht in den verknüpften Wissensdatenbanken nach passenden Antworten oder Informationen. Der Chatbot verwendet dabei natürliche Sprachverarbeitung ([NLP](/funktionen/nlp/)), um den Bedarf des Benutzers genau zu verstehen und die besten Ergebnisse zu liefern. 
 
-Sobald eine passende Antwort oder Information gefunden wurde, präsentiert Bubble Chat diese dem Benutzer in einer leicht verständlichen und ansprechenden Weise.
+Passende Antworten generiert Bubble Chat mithilfe von [GPT (Generative Pre-trained Transformer)](/blog/chatgpt/) und präsentiert diese dem Benutzer auf eine leicht verständliche und ansprechende Weise.
 
 ## Datenquellen
 
