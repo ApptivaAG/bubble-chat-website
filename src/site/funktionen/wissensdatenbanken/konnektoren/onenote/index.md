@@ -47,5 +47,3 @@ Der Microsoft OneNote Konnektor in Bubble Chat kann in einer Vielzahl von Anwend
 
 - **Projektmanagement**
   Ein Chatbot kann auf Projektpläne, Aufgabenlisten und Fortschrittsberichte aus OneNote zugreifen, um Teammitgliedern bei der Koordination und Kommunikation zu helfen.
-
-Insgesamt verbessert der Microsoft OneNote Konnektor in Bubble Chat die Funktionalität des Chatbots, indem er den Benutzern ermöglicht, auf die in OneNote gespeicherten Informationen zuzugreifen und so eine bessere Benutzererfahrung zu bieten.
