@@ -8,6 +8,16 @@
   }
 }
 
+.page-with-breadcrumb {
+  & main {
+    padding-top: 100px;
+
+    @media (--media-desktop-size) {
+      padding-top: 120px;
+    }
+  }
+}
+
 .ueber-uns-page {
   & .buero-img {
     width: 100%;
