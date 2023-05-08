@@ -1,11 +1,12 @@
 const eleventyGoogleFonts = require("eleventy-google-fonts");
-const pluginSEO = require("eleventy-plugin-seo");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
+const addSeoTags = require("./plugins/addSeoTags");
 
 const imageShortcode = require("./shortcodes/image");
 const contactPerson = require("./shortcodes/contactPerson");
@@ -76,15 +77,7 @@ module.exports = function (eleventyConfig) {
   // Navigation plugin https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  // SEO Plugin
-  eleventyConfig.addPlugin(pluginSEO, {
-    ...require("./src/site/_data/site.json"),
-    options: {
-      twitterCardType: "summary_large_image",
-      imageWithBaseUrl: true,
-      showPageNumbers: false,
-    },
-  });
+  eleventyConfig.addPlugin(addSeoTags);
 
   // Sitemap Plugin
   eleventyConfig.addPlugin(sitemap, {

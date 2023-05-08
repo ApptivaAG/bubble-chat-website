@@ -27,7 +27,6 @@
     "css-loader": "^6.7.3",
     "cssnano": "^6.0.0",
     "eleventy-google-fonts": "^0.1.0",
-    "eleventy-plugin-seo": "^0.5.2",
     "markdown-it": "^13.0.1",
     "markdown-it-attrs": "^4.1.6",
     "mini-css-extract-plugin": "^2.7.5",
@@ -44,6 +43,7 @@
     "webpack-manifest-plugin": "^5.0.0"
   },
   "dependencies": {
-    "@quasibit/eleventy-plugin-sitemap": "^2.2.0"
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
+    "gray-matter": "^4.0.3"
   }
 }
