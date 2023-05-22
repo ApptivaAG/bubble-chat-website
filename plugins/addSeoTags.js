@@ -20,7 +20,6 @@ module.exports = function (eleventyConfig) {
       if (outputPath && outputPath.endsWith(".html")) {
         const str = fs.readFileSync(this.page.inputPath, "utf8");
         const data = matter(str).data;
-
         const url = getImageUrl(data.image);
         const stats = await Image(url, {
           widths: [1200],
@@ -40,7 +39,6 @@ module.exports = function (eleventyConfig) {
         const description = data.excerpt || DEFAULTS.description;
         const canonical = `${DEFAULTS.url}${this.page.url}`;
         const image = `${DEFAULTS.url}${stats["jpeg"][0].url}`;
-
         return content.replace(
           /<head>/,
           `<head>
@@ -72,11 +70,11 @@ module.exports = function (eleventyConfig) {
 };
 
 function getImageUrl(image) {
-  if (image?.lenght) {
+  if (!!image?.length) {
     if (image.startsWith("/img")) {
-      return `./src/${data.image}`;
+      return `./src/${image}`;
     } else {
-      return `./src/site${data.image}`;
+      return `./src/site${image}`;
     }
   } else {
     return "./src/img/og-image.png";
