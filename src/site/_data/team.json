@@ -25,6 +25,13 @@
       "picture": "/img/team/philip-schoenholzer.jpg"
     },
     {
+      "name": "Carla Iten",
+      "firstname": "Carla",
+      "role": "Softwareentwicklerin",
+      "mail": "carla.iten@apptiva.ch",
+      "picture": "/img/team/carla-iten.jpg"
+    },
+    {
       "name": "Roman Schaller",
       "firstname": "Roman",
       "role": "Softwareentwickler",
