@@ -25,19 +25,19 @@
       "picture": "/img/team/philip-schoenholzer.jpg"
     },
     {
+      "name": "Roman Schaller",
+      "firstname": "Roman",
+      "role": "Chatbot Architekt",
+      "phone": "+41 79 607 51 40",
+      "mail": "roman.schaller@apptiva.ch",
+      "picture": "/img/team/roman-schaller.jpg"
+    },
+    {
       "name": "Carla Iten",
       "firstname": "Carla",
       "role": "Softwareentwicklerin",
       "mail": "carla.iten@apptiva.ch",
       "picture": "/img/team/carla-iten.jpg"
-    },
-    {
-      "name": "Roman Schaller",
-      "firstname": "Roman",
-      "role": "Softwareentwickler",
-      "phone": "+41 79 607 51 40",
-      "mail": "roman.schaller@apptiva.ch",
-      "picture": "/img/team/roman-schaller.jpg"
     },
     {
       "name": "Patrik Stutz",
@@ -70,6 +70,12 @@
       "phone": "+41 79 489 41 19",
       "mail": "kevin.rickenbach@apptiva.ch",
       "picture": "/img/team/kevin-rickenbach.jpg"
+    },
+    {
+      "name": "Brigitte Wey",
+      "firstname": "Brigitte",
+      "role": "Buchhaltung",
+      "picture": "/img/team/brigitte-wey.jpg"
     }
   ]
 }
