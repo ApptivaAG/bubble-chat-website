@@ -432,14 +432,14 @@
 
 .jobs-page {
   & .container {
-    max-width: 800px;
-  }
+    --max-text-width: var(--default-max-text-width);
 
-  & .callToActionMail {
-    margin-top: 2em;
-  }
+    & .callToActionMail {
+      margin-top: 2em;
+    }
 
-  & .callToActionPhone {
-    margin-bottom: 3em;
+    & .callToActionPhone {
+      margin-bottom: 3em;
+    }
   }
 }
