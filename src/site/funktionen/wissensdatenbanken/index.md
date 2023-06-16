@@ -22,9 +22,9 @@ Bubble Chat kann Wissensdatenbanken nutzen, um den Benutzern schnelle und präzi
 
 Um diese Funktion zu nutzen, verbindet sich Bubble Chat mit den gewünschten Wissensdatenbanken und indexiert die verfügbaren Informationen. Bei der Indexierung werden relevante Keywords und Themen identifiziert, um auf Benutzeranfragen besser reagieren zu können. 
 
-Wenn ein Benutzer eine Frage oder ein Anliegen an den Chatbot richtet, wertet Bubble Chat die Anfrage aus und sucht in den verknüpften Wissensdatenbanken nach passenden Antworten oder Informationen. Der Chatbot verwendet dabei natürliche Sprachverarbeitung ([NLP](/funktionen/nlp/)), um den Bedarf des Benutzers genau zu verstehen und die besten Ergebnisse zu liefern. 
+Wenn ein Benutzer eine Frage oder ein Anliegen an den Chatbot richtet, wertet Bubble Chat die Anfrage aus und sucht in den verknüpften Wissensdatenbanken nach passenden Antworten oder Informationen. Der Chatbot verwendet dabei natürliche Sprachverarbeitung ([NLP](/funktionen/nlp)), um den Bedarf des Benutzers genau zu verstehen und die besten Ergebnisse zu liefern. 
 
-Passende Antworten generiert Bubble Chat mithilfe von [GPT (Generative Pre-trained Transformer)](/blog/chatgpt/) und präsentiert diese dem Benutzer auf eine leicht verständliche und ansprechende Weise.
+Passende Antworten generiert Bubble Chat mithilfe von [GPT (Generative Pre-trained Transformer)](/blog/chatgpt) und präsentiert diese dem Benutzer auf eine leicht verständliche und ansprechende Weise.
 
 ## Datenquellen
 

@@ -4,18 +4,16 @@ title: Kontakt
 ---
 
 <div class="contact-page">
-
     <script>
         gtag('event', 'contact_form_opened', {});
     </script>
-
     <div class="container common-form-layout">
         <div class="content">
-            <div class="subtitle">Kontakt</div>
-            <h1>Lernen Sie uns kennen</h1>
-            <p>Möchten Sie erfahren, wie Sie Kunden­anfragen mit Hilfe von Künstlicher Intelligenz automatisieren können? Haben Sie ein konkretes Anliegen oder eine technische Frage?</p>
+            <h1>Kontakt</h1>
+            <h3>Lernen Sie uns kennen</h3>
+            <p>Möchten Sie erfahren, wie Sie Kunden­anfragen mit Hilfe von Künstlicher Intelligenz automatisieren können? Haben Sie
+                ein konkretes Anliegen oder eine technische Frage?</p>
             <p>Zögern Sie nicht, mit uns in Kontakt zu treten.</p>
-
             <div class="contact-infos">
                 <p class="label">Telefon</p>
                 <a href="tel:+41413222626" class="button">041 322 26 26</a>
@@ -36,28 +34,38 @@ title: Kontakt
                 <input class="input" type="text" name="lastname" placeholder="Nachname*" class="text-input" required value=""/>
                 <input class="input" type="text" name="company" placeholder="Unternehmen*" class="text-input" required value=""/>
                 <input class="input" type="text" name="phonenumber" placeholder="Telefonnummer" class="text-input" value=""/>
-                <input class="input" type="email" name="email" placeholder="Geschäftliche E-Mail-Adresse*" required class="text-input" value=""/>
+                <input
+                    class="input"
+                    type="email"
+                    name="email"
+                    placeholder="Geschäftliche E-Mail-Adresse*"
+                    required
+                    class="text-input"
+                    value=""/>
                 <textarea class="input" name="message" rows="6" placeholder="Ihre Nachricht" class="text-input"></textarea>
                 <button type="submit" class="btn btn-primary">Absenden</button>
             </form>
         </div>
     </div>
-
     {% image "/img/gebaeude.jpg", "Unser Büro", {"class":"gebaeude-img"} %}
-
     <div class="contact-location">
         <div class="container">
-            <h1>Standort</h1>
+            <h3>Standort</h3>
             <p>Unser Büro befindet sich in Sempach an der Autobahn A2 und der Bahnlinie zwischen Luzern und Sursee.</p>
-
             <div class="address">
                 <p>Apptiva AG</p>
                 <p>Eichweid 1</p>
                 <p>6203 Sempach Station</p>
             </div>
-
-            <iframe title="Google Maps" frameborder="0" height="550px" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=Apptiva%20AG,%20Eichweid%201,%20Sempach%20Station&amp;hl=de&amp;geocode=+&amp;hnear=Apptiva%20AG+Eichweid%201,+Sempach%20Station&amp;t=m&amp;z=10&amp;iwloc=A&amp;output=embed" width="100%"></iframe>
+            <iframe
+                title="Google Maps"
+                frameborder="0"
+                height="550px"
+                marginheight="0"
+                marginwidth="0"
+                scrolling="no"
+                src="https://maps.google.com/maps?q=Apptiva%20AG,%20Eichweid%201,%20Sempach%20Station&amp;hl=de&amp;geocode=+&amp;hnear=Apptiva%20AG+Eichweid%201,+Sempach%20Station&amp;t=m&amp;z=10&amp;iwloc=A&amp;output=embed"
+                width="100%"></iframe>
         </div>
     </div>
-
 </div>

@@ -15,9 +15,9 @@ module.exports = async function contactPerson(name, cta = "xxx") {
             )}
         </div>
         <div>
-            <h1 class="cta">
+            <h2 class="cta">
                 ${cta.replace("$name", person.firstname)}
-            </h1>
+            </h2>
             <div class="contact">
                 <a href="mailto:${person.mail}">${person.mail}</a>
                 <a href="tel:+41413222626">041 322 26 26</a>

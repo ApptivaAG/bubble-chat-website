@@ -63,7 +63,7 @@ Nachrichten können unterschiedliche Inhaltstypen enthalten. Folgende werden von
 
 Bei Google Business Messages ist es vorgesehen, dass eine Konversation mit einem Chatbot an einen Kundendienstmitarbeiter übergeben werden kann. Sie können in Bubble Chat konfigurieren, wann Sie dem Nutzer diese Möglichkeit einer Übergabe zum Kundendienst anbieten wollen (z.B. wenn der Chatbot eine Anfrage nicht versteht). Darüber hinaus hat der Nutzer jedoch jederzeit auch die Möglichkeit, eine Übergabe vom Chatbot zum Kundendienstmitarbeiter zu forcieren. Dies kann er über einen Menüpunkt innerhalb des Google Business Messengers machen.
 
-Sobald eine Übergabe vom Chatbot an den Kundendienst erfolgt ist, erscheint die entsprechende Konversation in Bubble Chat im Bereich [Contact Center](/funktionen/live-chat/) und kann dort von Ihren Kundendienstmitarbeitern bearbeitet werden.
+Sobald eine Übergabe vom Chatbot an den Kundendienst erfolgt ist, erscheint die entsprechende Konversation in Bubble Chat im Bereich [Contact Center](/funktionen/live-chat) und kann dort von Ihren Kundendienstmitarbeitern bearbeitet werden.
 
 Damit ein Nutzer weiss, mit wem er nun genau am Chatten ist, werden ihm folgende Informationen in der Unterhaltung angezeigt:
 
@@ -80,4 +80,4 @@ Der Zeitpunkt für die von Google ausgelösten Umfragen hängt davon ab, ob der 
 - Nur Chatbot: 30 Minuten nach der letzten Nachricht
 - Chatbot mit Live-Chat: 12 Stunden nach der letzten Nachricht
 
-Die Resultate der Umfrage werden im Bubble Chat CMS sowohl auf der jeweiligen Konversation als auch im [Analytics-Bereich](/funktionen/analytics/) angezeigt.
+Die Resultate der Umfrage werden im Bubble Chat CMS sowohl auf der jeweiligen Konversation als auch im [Analytics-Bereich](/funktionen/analytics) angezeigt.
