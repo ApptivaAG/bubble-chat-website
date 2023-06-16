@@ -429,3 +429,17 @@
     }
   }
 }
+
+.jobs-page {
+  & .container {
+    max-width: 800px;
+  }
+
+  & .callToActionMail {
+    margin-top: 2em;
+  }
+
+  & .callToActionPhone {
+    margin-bottom: 3em;
+  }
+}

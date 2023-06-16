@@ -19,6 +19,10 @@
     {
       "url": "/blog/",
       "name": "Blog"
+    },
+    {
+      "url": "/jobs/",
+      "name": "Jobs"
     }
   ]
 }
