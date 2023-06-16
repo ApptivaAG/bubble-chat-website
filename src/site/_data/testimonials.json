@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "name": "Linus Klemenjak",
+      "position": "Project Manager Online Marketing",
+      "company": "Luzerner Kantonsspital",
+      "statement": "Mit Bubble Chat haben wir innert Kürze einen tollen Chatbot auf unserer Webseite integriert. Die Zusammenarbeit mit dem Bubble Chat Team war für uns sehr hilfreich und unkompliziert. Weitere Chatbots werden wir gerne wieder mit Bubble Chat bauen.",
+      "imageUrl": "/img/testimonials/linus-klemenjak.jpg"
+    },
+    {
+      "name": "Elias Estermann",
+      "position": "Geschäftsführer",
+      "company": "OekoWatt AG",
+      "statement": "Mit Hilfe von Bubble Chat können wir oft gestellte Energieberatungsfragen mehr und mehr automatisiert beantworten. Das gibt uns Zeit, uns vertieft mit komplexen Fragestellungen auseinander zu setzen. Das steigert die Qualität und die Zufriedenheit unserer Kundschaft.",
+      "imageUrl": "/img/testimonials/elias-estermann.jpg"
+    }
+  ]
+}

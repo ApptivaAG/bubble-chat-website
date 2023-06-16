@@ -1,0 +1,22 @@
+<section class="testimonials">
+    <div class="container">
+        <div class="header">
+            <h1>Kundenstimmen</h1>
+        </div>
+        <ul class="testimonialContainer">
+            {% for testimonial in testimonials.items %}
+                <li class="testimonial">
+                    <div class="person">
+                        {% image testimonial.imageUrl, testimonial.name,  {"class": "avatar"} %}
+                        <div>
+                            <p class="name">{{ testimonial.name }}</p>
+                            <p class="position">{{ testimonial.position }}</p>
+                            <p class="company">{{ testimonial.company }}</p>
+                        </div>
+                    </div>
+                    <p class="statement">«{{ testimonial.statement }}»</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
