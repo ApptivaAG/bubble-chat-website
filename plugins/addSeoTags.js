@@ -6,7 +6,7 @@ const DEFAULTS = {
   title: "Bubble Chat",
   url: "https://www.bubble-chat.ch",
   description:
-    "Bubble Chat beantwortet Kundenanfragen mit Hilfe von Künstlicher Intelligenz.",
+    "Bubble Chat beantwortet Kundenanfragen mit Hilfe von Künstlicher Intelligenz. Bubble Chat ermöglicht den Einsatz von Chatbots mit minimalem Aufwand.",
   ogtype: "website",
   author: "Apptiva AG",
   twitter: "apptivateam",
