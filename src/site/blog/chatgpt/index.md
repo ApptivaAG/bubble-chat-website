@@ -3,7 +3,7 @@ layout: blog
 tags: blog
 date: 2022-12-17
 title: Die wichtigsten Fragen und Antworten zu ChatGPT
-excerpt: ChatGPT ist ein Chatbot, der auf GPT-3 basiert und menschenähnliche Konversationen führen kann. Er kann in verschiedenen Bereichen eingesetzt werden, hat jedoch Schwächen wie fehlende Empathie und kulturelle Sensibilität.
+excerpt: ChatGPT ist ein Chatbot, der auf GPT-3 basiert und menschenähnliche Konversationen führen kann. Er kann in verschiedenen Bereichen eingesetzt werden.
 image: /blog/chatgpt/OpenAI.jpg
 autor: Linus Hüsler
 ---

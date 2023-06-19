@@ -3,7 +3,7 @@ layout: blog
 tags: blog
 date: 2023-03-20
 title: Chatbots bei Behörden
-excerpt: Chatbots sind in der Geschäftswelt mittlerweile allgegenwärtig. Behörden können von dieser Technologie ebenso profitieren. In diesem Beitrag erläutern wir die 4 wichtigsten Argumente für Chatbots im öffentlichen Sektor.
+excerpt: Chatbots sind in der Geschäftswelt allgegenwärtig. Behörden können von dieser Technologie auch profitieren. 4 Argumente für Chatbots im öffentlichen Sektor.
 image: /blog/chatbots-bei-behoerden/form.jpg
 imageCopy: Foto von <a href="https://unsplash.com/@elodiso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Leon Dewiwje</a> auf <a href="https://unsplash.com/de/fotos/ldDmTgf89gU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 autor: Markus Tanner

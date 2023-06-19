@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Microsoft Excel Konnektor
-excerpt: CSV und Excel-Dateien sind übliche Datenformate für Tabellen und Datensätze. Mit diesem Konnektor können Sie die strukturierten Daten Ihrem Chatbot zugänglich machen.
+excerpt: CSV und Excel-Dateien sind übliche Datenformate für Tabellen und Datensätze. Dieser Konnektor macht strukturierte Daten für Ihren Chatbot zugänglich.
 image: /img/funktionen/wissensdatenbank-excel-connector.png
 eleventyNavigation:
   key: Microsoft Excel Konnektor
