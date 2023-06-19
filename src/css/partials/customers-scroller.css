@@ -17,7 +17,7 @@
       align-items: center;
       justify-content: space-around;
       width: var(--scroller-size);
-      animation: customer-icon-scroller calc(var(--number-of-customers) * 10s)
+      animation: customer-icon-scroller calc(var(--number-of-customers) * 8s)
         linear 0s normal infinite;
       will-change: transform;
     }
