@@ -3,7 +3,8 @@ const fs = require("fs");
 const Image = require("@11ty/eleventy-img");
 
 const DEFAULTS = {
-  title: "Bubble Chat",
+  title:
+    "Bubble Chat - Kunden­anfragen mit Künstlicher Intelligenz beantworten",
   url: "https://www.bubble-chat.ch",
   description:
     "Bubble Chat beantwortet Kundenanfragen mit Hilfe von Künstlicher Intelligenz. Bubble Chat ermöglicht den Einsatz von Chatbots mit minimalem Aufwand.",
