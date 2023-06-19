@@ -60,4 +60,4 @@ Untenstehende Chatbot Metriken können im [Bubble Chat CMS](/funktionen/cms) unt
 
 ## Chatbot-spezifische Metriken
 
-Da jeder Chatbot einzigartig ist, braucht es oft Chatbot-spezifische Metriken. Diese können via [Chatbot Engine](/funktionen/chatbot-engine) gesammelt und mit dem Tool Ihrer Wahl geteilt werden. Dies können z.B. sein: Google Tag Manager, Tableu oder Qlik Sense.
+Da jeder Chatbot einzigartig ist, braucht es oft Chatbot-spezifische Metriken. Diese können via [Chatbot Engine](/funktionen/chatbot-engine/) gesammelt und mit dem Tool Ihrer Wahl geteilt werden. Dies können z.B. sein: Google Tag Manager, Tableu oder Qlik Sense.

@@ -68,4 +68,4 @@ Chatbots repräsentieren Ihr Unternehmen und das bedeutet, dass das Design, die 
 
 ## Zufriedenheit garantieren
 
-Wollen Sie die Zufriedenheit Ihrer Kunden mit Chatbots garantieren?<br/>Konzentrieren Sie sich auf die fachlichen Inhalte Ihres Chatbots, Bubble Chat übernimmt den Rest.<br/>Mit Bubble Chat können Sie Ihre Kommunikation mit Kunden jetzt auf das nächste Level heben. Nehmen Sie [Kontakt](/kontakt) mit uns auf!
+Wollen Sie die Zufriedenheit Ihrer Kunden mit Chatbots garantieren?<br/>Konzentrieren Sie sich auf die fachlichen Inhalte Ihres Chatbots, Bubble Chat übernimmt den Rest.<br/>Mit Bubble Chat können Sie Ihre Kommunikation mit Kunden jetzt auf das nächste Level heben. Nehmen Sie [Kontakt](/kontakt/) mit uns auf!

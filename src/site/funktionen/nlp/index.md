@@ -30,7 +30,7 @@ Der Chatbot erkennt die Absicht «Kaffeepreis» und antwortet mit der definierte
 
 </div>
 
-Damit dies Funktioniert, müssen Sie im [Bubble Chat CMS](/funktionen/cms) für jede Absicht, die Ihr Chatbot verstehen soll, einige Beispielformulierungen der Benutzer hinterlegen.
+Damit dies Funktioniert, müssen Sie im [Bubble Chat CMS](/funktionen/cms/) für jede Absicht, die Ihr Chatbot verstehen soll, einige Beispielformulierungen der Benutzer hinterlegen.
 Dank Künstlicher Intelligenz (KI) und maschinellen Lernens ist Bubble Chat in der Lage, auch Äusserungen einer Absicht zuzuordnen, die nicht 1:1 als Beispielformulierung erfasst sind.
 
 ## Training
@@ -40,7 +40,7 @@ Dank Künstlicher Intelligenz (KI) und maschinellen Lernens ist Bubble Chat in d
 ## Fallback Absicht
 
 Auch wenn Ihr Chatbot noch so gut trainiert ist, gibt es immer Situationen bei denen er nicht versteht, was der Benutzer genau meint. Für diese Fälle gibt es die sogenannte "Fallback Absicht". Bubble Chat verwendet diese, sobald die Absicht des Benuzters nicht verstanden wird. Hier können Sie dem Benutzer nochmals mitteilen, in welchen Bereichen der Chatbot Fragen
-beantworten kann und alternative Kontaktmöglichkeiten bieten (z.B. via [Live-Chat](/funktionen/live-chat)).
+beantworten kann und alternative Kontaktmöglichkeiten bieten (z.B. via [Live-Chat](/funktionen/live-chat/)).
 
 ## Schwellenwert für die Klassifizierung
 
@@ -58,4 +58,4 @@ von freitextbasierten und geführten Dialogen, um ein möglichst gutes Benutzere
 
 Bubble Chat nutzt standardmässig Dialogflow als NLP System. Damit kann mit einem überschaubaren Aufwand ein sehr gutes Ergebnis erzielt werden.
 
-Unsere [Chatbot Engine](/funktionen/chatbot-engine) erlaubt es grundsätzlich, ein beliebiges NLP System zu integrieren. So ist es z.B. möglich, bei schützenswerten Daten vollkommen auf OpenSource zu setzen und sämtliche Komponenten in Ihrem Rechenzentrum laufen zu lassen.
+Unsere [Chatbot Engine](/funktionen/chatbot-engine/) erlaubt es grundsätzlich, ein beliebiges NLP System zu integrieren. So ist es z.B. möglich, bei schützenswerten Daten vollkommen auf OpenSource zu setzen und sämtliche Komponenten in Ihrem Rechenzentrum laufen zu lassen.

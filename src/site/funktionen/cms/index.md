@@ -44,6 +44,6 @@ Es liegt in der Natur von Konversationen, dass nach einer Antwort eine Konversat
 
 ## Texteingabe und Buttons
 
-Bubble Chat setzt Technologien fürs Verstehen von natürlicher Sprache ein (siehe [NLP](/funktionen/nlp)). Nicht alle Leute tippen allerdings gerne Texte ein. Daher können in Bubble Chat auch Antworten in der Form von Buttons definiert werden. So können Besucher ggf. auch schneller an ihr Ziel geleitet werden.
+Bubble Chat setzt Technologien fürs Verstehen von natürlicher Sprache ein (siehe [NLP](/funktionen/nlp/)). Nicht alle Leute tippen allerdings gerne Texte ein. Daher können in Bubble Chat auch Antworten in der Form von Buttons definiert werden. So können Besucher ggf. auch schneller an ihr Ziel geleitet werden.
 
 In Bubble Chat können Buttons zusätzlich zur Texteingabe angezeigt werden. Es ist aber auch möglich, einen sogenannten Klickbot zu konfigurieren. Dabei kann der Besucher nur auf Buttons klicken und keine eigenen Texte eingeben. Dies ist oft zu Beginn von Chatbot-Projekten eine Vorgehensweise, um festzustellen, was die Kundschaft am meisten interessiert. Mit den Erkenntnissen kann man den Chatbot trainieren und anschliessend die Texteingabe aktivieren.
