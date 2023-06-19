@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Chat Channels
-excerpt: Ein Chat Channel, oder auch Chat Kanal, ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Dies ist die einzige grafische Oberfläche des Chatbots, welche die Anwender sehen.
+excerpt: Ein Chat Channel ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Es ist die grafische Oberfläche für den Anwender.
 image: /img/funktionen/channels-card.png
 eleventyNavigation:
   key: Chat Channels
@@ -26,7 +26,7 @@ In einer ständig wachsenden Welt der sozialen Medien und Messaging-Apps, ist es
     <div class="cta-body">
       <p>Die Wahl der richtigen Kanäle hängt von Ihrem Anwendungsfall ab. Wir arbeiten mit Ihnen zusammen, um den richtigen Kanal, bzw. die richtigen Kanäle auszuwählen, und helfen Ihnen, Ihren ROI zu maximieren.</p>
     </div>
-    <a class="button button-action" href="/kontakt">Nehmen Sie mit uns Kontakt auf</a>
+    <a class="button button-action" href="/kontakt/">Nehmen Sie mit uns Kontakt auf</a>
   </div>
   <img class="cta-image" src="/img/funktionen/channels-card.png" alt="Chat-Kanäle"/>
 </div>

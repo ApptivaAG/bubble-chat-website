@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Live Chat
-excerpt: Durch die Integration eines Live-Chats verkürzt sich die Reaktionszeit und Anliegen können schneller, aber mit gleicher Qualität erledigt werden, da jederzeit auch Rückfragen möglich sind.
+excerpt: Durch die Integration eines Live-Chats verkürzt sich die Reaktionszeit. Anliegen können schneller, aber mit gleicher Qualität erledigt werden.
 image: /img/funktionen/live-chat.png
 order: 6
 eleventyNavigation:

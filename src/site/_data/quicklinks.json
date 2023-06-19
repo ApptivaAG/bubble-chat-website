@@ -1,23 +1,23 @@
 {
   "items": [
     {
-      "url": "/demo-vereinbaren",
+      "url": "/demo-vereinbaren/",
       "name": "Demo vereinbaren"
     },
     {
-      "url": "/blog",
+      "url": "/blog/",
       "name": "Blog"
     },
     {
-      "url": "/ueber-uns",
+      "url": "/ueber-uns/",
       "name": "Unternehmen"
     },
     {
-      "url": "/datenschutz",
+      "url": "/datenschutz/",
       "name": "Datenschutz"
     },
     {
-      "url": "/kontakt",
+      "url": "/kontakt/",
       "name": "Kontakt"
     },
     {
@@ -27,11 +27,11 @@
   ],
   "secondaryItems": [
     {
-      "url": "/anwendungsfaelle",
+      "url": "/anwendungsfaelle/",
       "name": "Anwendungsfälle"
     },
     {
-      "url": "/branchen",
+      "url": "/branchen/",
       "name": "Branchen"
     }
   ]

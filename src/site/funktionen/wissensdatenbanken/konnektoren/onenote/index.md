@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Microsoft OneNote Konnektor
-excerpt: Microsoft OneNote ist eine digitale Notizbuchanwendung, die es Benutzern und Teams ermöglicht, Notizen in einer gut organisierten Form zu erstellen. Der Microsoft OneNote Konnektor erlaubt die Nutzung dieser Notizen zum Beantworten von Chat-Anfragen.
+excerpt: Der Microsoft OneNote Konnektor ermöglicht den Zugriff auf die Notizen, welche der Chatbot zum Beantworten von Chat-Anfragen lernen kann.
 image: /img/funktionen/wissensdatenbank-onenote-connector.png
 eleventyNavigation:
   key: Microsoft OneNote Konnektor

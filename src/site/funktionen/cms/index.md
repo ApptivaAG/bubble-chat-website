@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Content Management
-excerpt: Ähnlich wie bei Webseiten, ist es sinnvoll die Chatbot-Inhalte in einem CMS zu verwalten. Das CMS enthält dabei alle Absichten, Trainingssätze, Antworten und teilweise auch die Aktionen des Chatbots.
+excerpt: Ähnlich wie bei Webseiten ist es sinnvoll, die Chatbot-Inhalte in einem CMS zu verwalten. Das CMS enthält dabei alle Absichten und Antworten.
 image: /img/funktionen/cms-card.png
 order: 2
 eleventyNavigation:

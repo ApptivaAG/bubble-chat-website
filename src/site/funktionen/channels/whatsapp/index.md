@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: WhatsApp
-excerpt: WhatsApp ist in der Schweiz mit einer Verbreitung von 83 % die meistgenutzte Messaging-App. Dieser Kanal eignet sich bestens, um mit Ihren Kunden in Kontakt zu bleiben.
+excerpt: WhatsApp ist in der Schweiz die meistgenutzte Messaging-App. Dieser Kanal eignet sich daher bestens, um mit Ihren Kunden in Kontakt zu bleiben.
 order: 2
 image: /img/funktionen/whatsapp-card.png
 eleventyNavigation:
