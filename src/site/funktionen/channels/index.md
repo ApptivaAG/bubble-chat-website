@@ -26,7 +26,7 @@ In einer ständig wachsenden Welt der sozialen Medien und Messaging-Apps, ist es
     <div class="cta-body">
       <p>Die Wahl der richtigen Kanäle hängt von Ihrem Anwendungsfall ab. Wir arbeiten mit Ihnen zusammen, um den richtigen Kanal, bzw. die richtigen Kanäle auszuwählen, und helfen Ihnen, Ihren ROI zu maximieren.</p>
     </div>
-    <a class="button button-action" href="/kontakt">Nehmen Sie mit uns Kontakt auf</a>
+    <a class="button button-action" href="/kontakt/">Nehmen Sie mit uns Kontakt auf</a>
   </div>
   <img class="cta-image" src="/img/funktionen/channels-card.png" alt="Chat-Kanäle"/>
 </div>

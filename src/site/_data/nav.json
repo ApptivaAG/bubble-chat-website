@@ -1,23 +1,23 @@
 {
   "items": [
     {
-      "url": "/funktionen",
+      "url": "/funktionen/",
       "name": "Funktionen"
     },
     {
-      "url": "/preise",
+      "url": "/preise/",
       "name": "Preise"
     },
     {
-      "url": "/ueber-uns",
+      "url": "/ueber-uns/",
       "name": "Über uns"
     },
     {
-      "url": "/kontakt",
+      "url": "/kontakt/",
       "name": "Kontakt"
     },
     {
-      "url": "/blog",
+      "url": "/blog/",
       "name": "Blog"
     },
     {
