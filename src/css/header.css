@@ -197,6 +197,55 @@
 
         & ul {
           flex-direction: row;
+
+          & li .subnav-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            z-index: 1;
+            padding: 1.8rem;
+            font-size: 16px;
+            color: grey;
+            box-shadow: 0 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+
+            & .section-name {
+              margin-bottom: 0.5em;
+            }
+
+            & .section {
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-gap: 10px;
+
+              & .section-item {
+                width: 300px;
+              }
+
+              & .section-item:hover {
+                background-color: var(--color-background-gray);
+              }
+            }
+
+            & a {
+              color: black;
+              font-weight: 100;
+              padding: 0.5em;
+              display: inline-block;
+            }
+
+            & a:hover {
+              text-decoration: none;
+            }
+          }
+
+          & li:hover .subnav-content {
+            display: block;
+
+            & ul {
+              flex-direction: column;
+            }
+          }
         }
 
         & .menu-button {

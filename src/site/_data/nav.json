@@ -1,8 +1,65 @@
 {
   "items": [
     {
-      "url": "/funktionen/",
-      "name": "Funktionen"
+      "name": "Produkt",
+      "sections": [
+        {
+          "name": "Funktionen",
+          "url": "/funktionen/",
+          "subitems": [
+            {
+              "url": "/cms/",
+              "name": "Content Management"
+            },
+            {
+              "url": "/wissensdatenbanken/",
+              "name": "Wissensdatenbanken"
+            },
+            {
+              "url": "/nlp/",
+              "name": "Sprachverständnis"
+            },
+            {
+              "url": "/live-chat/",
+              "name": "Live Chat"
+            },
+            {
+              "url": "/analytics/",
+              "name": "Analytics"
+            }
+          ]
+        },
+        {
+          "name": "Kanäle",
+          "url": "/funktionen/channels/",
+          "subitems": [
+            {
+              "url": "/website-messenger/",
+              "name": "Website Messenger"
+            },
+            {
+              "url": "/whatsapp/",
+              "name": "WhatsApp"
+            },
+            {
+              "url": "/google-business-messages/",
+              "name": "Google Business Messages"
+            },
+            {
+              "url": "/slack/",
+              "name": "Slack"
+            },
+            {
+              "url": "/ms-teams/",
+              "name": "Microsoft Teams"
+            },
+            {
+              "url": "/apple/",
+              "name": "Apple Business Chat"
+            }
+          ]
+        }
+      ]
     },
     {
       "url": "/preise/",
