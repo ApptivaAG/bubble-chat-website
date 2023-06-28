@@ -49,7 +49,8 @@
                                             <ul class="section">
                                                 {% for subitem in section.subitems %}
                                                     <li class="section-item">
-                                                        <a href="{{ section.url }}{{ subitem.url }}">{{ subitem.name }}</a>
+                                                        <a href="{{ section.url }}{{ subitem.url }}">
+                                                            {{subitem.icon | safe}}{{ subitem.name }}</a>
                                                     </li>
                                                 {% endfor %}
                                             </ul>
