@@ -275,8 +275,9 @@
   }
 
   .menu .container .menu-container {
-    & .logo-color {
+    & .logo-drawer {
       margin: 0;
+      width: 150px;
     }
 
     & .logo-white {
@@ -294,12 +295,7 @@
       right: -100vw;
       margin: 0;
       color: white;
-      background: linear-gradient(
-        216deg,
-        var(--color-bubble-red) 0%,
-        var(--color-bubble-red) 20%,
-        var(--color-bubble-blue) 100%
-      );
+      background: var(--color-background-black);
       transition: all 500ms ease-in-out 200ms;
 
       & .menu-close {
@@ -310,7 +306,7 @@
         font-size: 1.5rem;
         padding: 2rem 2rem;
         border-bottom: 1px solid white;
-        background-color: var(--color-bubble-blue);
+        background-color: var(--color-background-black);
       }
 
       & .menu-item-home {
@@ -320,6 +316,8 @@
       & ul {
         padding: 1rem 2rem;
         font-weight: 300;
+        overflow: scroll !important;
+        max-height: 80vh;
 
         & li {
           width: 100%;
@@ -327,6 +325,38 @@
           padding: 1.1rem 0;
           margin: 0;
           color: white;
+        }
+
+        & li:last-child {
+          border-bottom: none;
+        }
+
+        & .subnav-content {
+          margin-left: 0.5em;
+
+          & .section-name {
+            margin-top: 1em;
+            font-size: 0.7em;
+            color: grey;
+          }
+
+          & .section {
+            padding-left: 0;
+            padding-right: 0;
+            font-size: 0.8em;
+
+            & .section-item {
+              & svg {
+                vertical-align: bottom;
+                margin-right: 0.5em;
+                height: 1.5em;
+              }
+            }
+
+            & .section-item:hover {
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+          }
         }
       }
     }
