@@ -59,14 +59,6 @@
         font-weight: 700;
         font-size: 1.5rem;
         cursor: pointer;
-
-        &:focus ~ .menu-items {
-          transform: translate3d(-100vw, 0px, 0px);
-        }
-
-        &:active ~ .menu-items {
-          transform: translate3d(-100vw, 0px, 0px);
-        }
       }
     }
 
@@ -117,6 +109,16 @@
             text-underline-offset: 5px;
           }
         }
+
+        & .menu-item {
+          color: white;
+          margin-right: 50px;
+          width: 100%;
+          &:hover {
+            text-decoration: underline;
+            text-underline-offset: 5px;
+          }
+        }
       }
     }
   }
@@ -159,6 +161,10 @@
       }
 
       & ul li a {
+        color: black;
+      }
+
+      & ul li .menu-item {
         color: black;
       }
     }
@@ -248,6 +254,10 @@
             }
           }
 
+          & input[type="checkbox"] {
+            display: none;
+          }
+
           & li:hover .subnav-content {
             display: block;
 
@@ -296,7 +306,7 @@
       margin: 0;
       color: white;
       background: var(--color-background-black);
-      transition: all 500ms ease-in-out 200ms;
+      transition: transform 0.2s ease-in;
 
       & .menu-close {
         display: flex;
@@ -307,6 +317,7 @@
         padding: 2rem 2rem;
         border-bottom: 1px solid white;
         background-color: var(--color-background-black);
+        cursor: pointer;
       }
 
       & .menu-item-home {
@@ -325,6 +336,10 @@
           padding: 1.1rem 0;
           margin: 0;
           color: white;
+
+          & .menu-item {
+            color: white;
+          }
         }
 
         & li:last-child {
@@ -346,6 +361,10 @@
             font-size: 0.8em;
 
             & .section-item {
+              & .section-item-link {
+                margin: 0;
+              }
+
               & .section-item-link:after {
                 content: "";
                 height: 100%;
@@ -366,6 +385,29 @@
               background-color: rgba(0, 0, 0, 0.5);
             }
           }
+        }
+
+        & input[type="checkbox"] {
+          position: absolute;
+          appearance: none;
+        }
+
+        & input[type="checkbox"] ~ .subnav-content {
+          height: 0;
+          transform: scaleY(0);
+          overflow: hidden;
+        }
+
+        & input[type="checkbox"]:checked ~ .subnav-content {
+          height: 100%;
+          transform-origin: top;
+          transition: transform 0.2s ease-out;
+          transform: scaleY(1);
+        }
+
+        & input[type="checkbox"]:checked + label {
+          background-color: #26c281;
+          border-bottom: 1px solid #fff;
         }
       }
     }

@@ -5,7 +5,7 @@
                 <a href="/"><img class="logo logo-color" src="/img/logo.svg" alt="Bubble Chat"/><img class="logo logo-white" src="/img/logo-weiss.svg" alt="Bubble Chat"/>
                 </a>
                 <div id="menu-button" class="menu-button" tabIndex="0">
-                    <svg
+                    <svg                        
                         viewBox="64 64 896 896"
                         focusable="false"
                         data-icon="menu"
@@ -18,10 +18,10 @@
                             8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path>
                     </svg>
                 </div>
-                <div class="menu-items">
+                <div id="menu-items" class="menu-items">
                     <div class="menu-close" id="menu-close">
                         <img class="logo logo-drawer" src="/img/logo.svg" alt="Bubble Chat"/>
-                        <svg
+                        <svg                           
                             viewBox="64 64 896 896"
                             focusable="false"
                             data-icon="close"
@@ -40,9 +40,9 @@
                         </li>
                         {% for item in nav.items %}
                             <li>
-                                <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page" data-state="active" {% endif %}>{{ item.name }}
-                                </a>
                                 {% if item.sections %}
+                                    <label for="list-item-{{item.id}}" class="menu-item" {% if item.url === page.url %} aria-current="page" data-state="active" {% endif %}>{{ item.name }}</label>
+                                    <input type="checkbox" id="list-item-{{item.id}}">
                                     <div class="subnav-content">
                                         {% for section in item.sections %}
                                             <div class="section-name">{{section.name}}</div>
@@ -56,6 +56,8 @@
                                             </ul>
                                         {% endfor %}
                                     </div>
+                                {% else %}
+                                    <a href="{{ item.url }}" {% if item.url === page.url %} aria-current="page" data-state="active" {% endif %}>{{ item.name }}</a>
                                 {% endif %}
                             </li>
                         {% endfor %}

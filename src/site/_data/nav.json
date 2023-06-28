@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "id": 1,
       "name": "Produkt",
       "sections": [
         {
@@ -73,22 +74,27 @@
       ]
     },
     {
+      "id": 2,
       "url": "/preise/",
       "name": "Preise"
     },
     {
+      "id": 3,
       "url": "/ueber-uns/",
       "name": "Über uns"
     },
     {
+      "id": 4,
       "url": "/kontakt/",
       "name": "Kontakt"
     },
     {
+      "id": 5,
       "url": "/blog/",
       "name": "Blog"
     },
     {
+      "id": 6,
       "url": "/jobs/",
       "name": "Jobs"
     }
