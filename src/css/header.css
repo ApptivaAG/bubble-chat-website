@@ -346,6 +346,15 @@
             font-size: 0.8em;
 
             & .section-item {
+              & .section-item-link:after {
+                content: "";
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+              }
+
               & svg {
                 vertical-align: bottom;
                 margin-right: 0.5em;
