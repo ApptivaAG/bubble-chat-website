@@ -245,6 +245,10 @@
                   height: 1.5em;
                 }
               }
+
+              & .section-item:hover {
+                background: var(--color-background-gray);
+              }
             }
 
             & a {
