@@ -39,15 +39,18 @@ document.getElementById("menu-close").ontouchstart = function (eve) {
   document.activeElement.blur();
   document.getElementById("menu-items").style.transform =
     "translate3d(100vw, 0px, 0px)";
+  eve.stopImmediatePropagation();
 };
 
 document.getElementById("menu-close").onclick = function (eve) {
   document.activeElement.blur();
   document.getElementById("menu-items").style.transform =
     "translate3d(100vw, 0px, 0px)";
+  eve.stopImmediatePropagation();
 };
 
 document.getElementById("menu-button").onclick = function (eve) {
   document.getElementById("menu-items").style.transform =
     "translate3d(-100vw, 0px, 0px)";
+  eve.stopImmediatePropagation();
 };
