@@ -16,11 +16,11 @@ Dank Bubble Chat können Sie Ihren Chatbot sehr einfach in WhatsApp integrieren.
 
 {% image "/site/funktionen/channels/whatsapp/whatsapp-chat.jpg", "WhatsApp Chat", {class:'max-width-6', "sizes":"(min-width: 30em) 50vw, 100vw", "widths": [300, 600]} %}
 
-## Einstiegspunkte
+### Einstiegspunkte
 
 Bei WhatsApp gibt es grundsätzlich zwei Möglichkeiten, wie ein Chat gestartet werden kann.
 
-### Durch den Kunden gestartet
+#### Durch den Kunden gestartet
 
 Ein Kunde kann einen WhatsApp Chat mit Ihnen starten, indem er Ihre Telefonnummer bei seinem WhatsApp Client eingibt. Dies ist identisch, wie wenn er einen Chat mit einer anderen Person starten würde.
 
@@ -33,13 +33,13 @@ Beispiel:
 [https://wa.me/41766011561?text=Was%20ist%20Bubble%20Chat%3F](https://wa.me/41766011561?text=Was%20ist%20Bubble%20Chat%3F){target="_blank"}
 
 
-### Durch den Chatbot gestartet
+#### Durch den Chatbot gestartet
 
 Wenn Sie im Besitz der Handy-Nummer Ihres Kunden sind, können Sie eine Konversation starten. In diesem Fall können Sie aber nicht irgendeine beliebige Nachricht senden, sondern müssen dazu eine für Sie von Meta freigegebene Vorlage nutzen (siehe unten). 
 
 Bubble Chat bietet die Möglichkeit, dass Sie über eine geschützte Schnittstelle (REST-API) einen WhatsApp Chat starten können. Antworten des Kunden werden danach automatisch durch den Chatbot verarbeitet und nötigenfalls an den Kundendienst weitergeleitet.
 
-## Arten von Nachrichten
+### Arten von Nachrichten
 
 Folgende Arten von Nachrichten werden von Bubble Chat im Zusammenspiel mit WhatsApp unterstützt:
 
@@ -48,7 +48,7 @@ Folgende Arten von Nachrichten werden von Bubble Chat im Zusammenspiel mit Whats
 - Dokumente
 - Templates
 
-### Nachrichtenvorlage (Templates)
+#### Nachrichtenvorlage (Templates)
 
 Bei WhatsApp können Sie nur innerhalb von 24 Stunden auf eine erhaltene Anfrage antworten. Falls Nachrichten nach diesem 24-Stunden-Fenster verschickt werden sollen - z.B. für ein Status-Update - muss die Konversation mit einer Nachrichtenvorlage (Template) begonnen werden.
 
@@ -66,7 +66,7 @@ Beispiele von Nachrichtenvorlagen:
   _"Herzlich willkommen beim Chat der Muster AG. Es freut uns, dass Sie via WhatsApp mit uns kommunizieren wollen. Bitte stellen Sie uns Ihr Anliegen."_
   Da die Konversation von Ihnen gestartet wird, müssen Sie dazu eine Nachrichtenvorlage nutzen. Erst wenn der Kunde antwortet, können Sie innerhalb von 24 Stunden mit Freitext antworten.
 
-## Übergabe vom Chatbot an den Kundendienstmitarbeiter
+### Übergabe vom Chatbot an den Kundendienstmitarbeiter
 
 Sie können in Bubble Chat konfigurieren, wann Sie dem Nutzer die Möglichkeit einer Übergabe zum Kundendienst anbieten wollen (z.B. wenn der Chatbot eine Anfrage nicht versteht). Sobald diese erfolgt ist, erscheint die entsprechende Konversation in Bubble Chat im Bereich Contact Center (LINK) und kann dort von Ihren Kundendienstmitarbeitern bearbeitet werden.
 
@@ -82,7 +82,7 @@ Sie können in Bubble Chat konfigurieren, wann Sie dem Nutzer die Möglichkeit e
   <img class="cta-image" src="/img/funktionen/channels-card.png" alt="Chat-Kanäle"/>
 </div>
 
-## Darum ist WhatsApp so beliebt
+### Darum ist WhatsApp so beliebt
 
 WhatsApp ist in der Schweiz mit einer Verbreitung von 83 % die meistgenutzte Messaging-App und profitiert stark vom sogenannten Netzwerkeffekt. Potenzielle Neunutzer werden animiert WhatsApp zu nutzen, weil sie darüber die meisten ihrer Kontakte erreichen können. 
 
@@ -91,6 +91,6 @@ Eine [Studie der Bundesnetzagentur](https://www.messengerpeople.com/de/studie-me
 - Ich kann via WhatsApp einen Grossteil meiner Kommunikationspartner erreichen.
 - WhatsApp ist für mich besonders einfach und intuitiv zu bedienen.
 
-## Partnerschaft mit F24 Schweiz AG
+### Partnerschaft mit F24 Schweiz AG
 
 Eine persönliche Kundenbetreuung und ein hohes Mass an Sensibilität im Umgang mit schützenswerten Daten sind für uns wichtige Bestandteile unserer täglichen Arbeit. Wir sind froh, dass wir mit [F24 Schweiz AG](https://f24.com/de/f24-schweiz-ag/){target="_blank"} einen Partner gefunden haben, der unsere Werte teilt und uns im Bereich WhatsApp Integration unterstützt. F24 ist Europas führender Software-as-a-Service (SaaS)-Anbieter für Ereignis- und Krisenmanagement, Notfallbenachrichtigung sowie für Business Messaging. 

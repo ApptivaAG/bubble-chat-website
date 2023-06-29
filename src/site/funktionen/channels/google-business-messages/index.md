@@ -14,11 +14,11 @@ contactPerson: Linus Hüsler
 
 Mit Business Messages können Sie Chat-Schaltflächen in den Google-Suchergebnissen sowie auf Google Maps platzieren. Wenn ein Nutzer auf eine Chat-Schaltfläche klickt, beginnt er eine Konversation mit Ihrem Chatbot.
 
-## Einstiegspunkte
+### Einstiegspunkte
 
 Einstiegspunkte sind Oberflächen, über die Nutzer Unterhaltungen mit Google Business Messages starten können. Jeder Einstiegspunkt hat eine individuelle Darstellung und wird an einer anderen Stelle angezeigt.
 
-### Google Suche
+#### Google Suche
 
 Innerhalb der Google Suche gibt es verschiedene Einstiegspunkte, bei denen die Chat-Schaltfläche angezeigt werden kann. Die beiden wichtigsten Punkte sind Sitelinks und Google Ads. Sobald Sitelinks in der Suche angezeigt wird, erscheint automatisch eine Chat-Schaltfläche. Bei Ads können Sie die Chat-Schaltfläche über Google Ads verwalten.
 
@@ -26,11 +26,11 @@ Innerhalb der Google Suche gibt es verschiedene Einstiegspunkte, bei denen die C
 
 Diese Funktion steht allen Android Nutzer zur Verfügung.
 
-### Telefon-App von Google
+#### Telefon-App von Google
 
 Wählt ein Nutzer in der Telefon-App von Google die Telefonnummer Ihres Unternehmens, so können Sie ihm als Alternative zum Telefonanruf einen Chat anbieten. So können Sie Ihren Kunden auch ausserhalb der Öffnungszeiten helfen und gleichzeitig Ihren Kundendienst entlasten.
 
-### Standortbasierte Einstiegspunkte
+#### Standortbasierte Einstiegspunkte
 
 Es gibt Einstiegspunkte, die auf Standorten basieren. So wird zum Beispiel die Chat-Schaltfläche zu Ihrem Chatbot angezeigt, wenn jemand in Google Maps Ihren Standort anschaut, oder wenn ein Nutzer den Standort in der Google Suche findet.
 
@@ -38,7 +38,7 @@ Es gibt Einstiegspunkte, die auf Standorten basieren. So wird zum Beispiel die C
 
 Sie können mehrere Standorte mit Ihrem Chatbot verbinden. Der Chatbot ist in der Lage, je nach Standort von welchem er aufgerufen wurde, unterschiedlich zu reagieren.
 
-## Arten von Nachrichten
+### Arten von Nachrichten
 
 Nachrichten können unterschiedliche Inhaltstypen enthalten. Folgende werden von Bubble Chat im Zusammenspiel mit Google Business Messages unterstützt:
 
@@ -59,7 +59,7 @@ Nachrichten können unterschiedliche Inhaltstypen enthalten. Folgende werden von
   <img class="cta-image" src="/img/funktionen/channels-card.png" alt="Chat-Kanäle"/>
 </div>
 
-## Übergabe vom Chatbot an den Kundendienstmitarbeiter
+### Übergabe vom Chatbot an den Kundendienstmitarbeiter
 
 Bei Google Business Messages ist es vorgesehen, dass eine Konversation mit einem Chatbot an einen Kundendienstmitarbeiter übergeben werden kann. Sie können in Bubble Chat konfigurieren, wann Sie dem Nutzer diese Möglichkeit einer Übergabe zum Kundendienst anbieten wollen (z.B. wenn der Chatbot eine Anfrage nicht versteht). Darüber hinaus hat der Nutzer jedoch jederzeit auch die Möglichkeit, eine Übergabe vom Chatbot zum Kundendienstmitarbeiter zu forcieren. Dies kann er über einen Menüpunkt innerhalb des Google Business Messengers machen.
 
@@ -71,7 +71,7 @@ Damit ein Nutzer weiss, mit wem er nun genau am Chatten ist, werden ihm folgende
 - Information, dass ein Kundendienstmitarbeiter der Unterhaltung beigetreten ist
 - Information, dass der Kundendienstmitarbeiter die Unterhaltung verlassen hat und der Chatbot jetzt wieder antworten wird
 
-## Umfragen zur Nutzerzufriedenheit
+### Umfragen zur Nutzerzufriedenheit
 
 Um zu überprüfen, ob das Chat-Erlebnis für die Nutzer zufriedenstellend war, versendet Google nach dem Ende des Chats eine Umfrage.
 

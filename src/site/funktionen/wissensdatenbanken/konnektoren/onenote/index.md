@@ -30,7 +30,7 @@ Der Microsoft OneNote Konnektor bietet im Wesentlichen folgende Funktionen:
 - **Aktualisierung von Informationen**
   Der OneNote Konnektor ermöglicht es, die in OneNote gespeicherten Informationen regelmässig zu aktualisieren, um sicherzustellen, dass der Chatbot immer auf dem neuesten Stand ist und die Benutzer mit aktuellen Informationen versorgt werden.
 
-## Anwendungsbereiche
+## Anwendungs&shy;bereiche
 
 Der Microsoft OneNote Konnektor in Bubble Chat kann in einer Vielzahl von Anwendungsbereichen eingesetzt werden, um den Benutzern schnellen und bequemen Zugriff auf wertvolle Informationen zu bieten. Hier sind einige Beispiele:
 

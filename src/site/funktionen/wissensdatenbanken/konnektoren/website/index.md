@@ -33,7 +33,7 @@ Der Website Konnektor besteht im Wesentlichen aus folgenden Funktionen:
 - **Benutzerdefinierte Einstellungen**
   Mit den benutzerdefinierten Einstellungen des Website Konnektors können Sie die Tiefe des Crawlings, die Anzahl der verfolgten Links und die Auswahl der abgerufenen Inhalte steuern, um eine optimale Leistung und Relevanz für Ihren spezifischen Anwendungsfall zu gewährleisten.
 
-## Anwendungsbereiche
+## Anwendungs&shy;bereiche
 
 Der Website Konnektor in Bubble Chat kann in einer Vielzahl von Anwendungsbereichen eingesetzt werden, um die Leistung und Benutzererfahrung von Chatbots zu verbessern. Einige Beispiele für Anwendungsbereiche sind:
 

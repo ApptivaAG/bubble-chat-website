@@ -31,7 +31,7 @@ Der Microsoft Excel Konnektor besteht im Wesentlichen aus folgenden Funktionen:
 - **Aktualisierung und Synchronisation**
   Der Microsoft Excel Konnektor ermöglicht eine einfache Aktualisierung und Synchronisation der Daten in der Excel-Datei. Bei Änderungen in der Datei werden die Daten automatisch im Chatbot aktualisiert, um sicherzustellen, dass die Benutzer stets die aktuellsten Informationen erhalten.
 
-## Anwendungsbereiche
+## Anwendungs&shy;bereiche
 
 Der Microsoft Excel Konnektor kann in verschiedenen Anwendungsbereichen eingesetzt werden, um die Funktionalität von Bubble Chat zu erweitern. Hier sind einige Beispiele:
 
