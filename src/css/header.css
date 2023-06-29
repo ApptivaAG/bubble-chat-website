@@ -341,6 +341,10 @@
         border-bottom: 1px solid #ffffff47;
         background-color: var(--color-background-black);
         cursor: pointer;
+
+        & svg {
+          margin-bottom: 0.2em;
+        }
       }
 
       & .menu-item {
