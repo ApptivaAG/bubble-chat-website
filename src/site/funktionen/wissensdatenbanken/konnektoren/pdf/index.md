@@ -30,7 +30,7 @@ Der PDF Konnektor besteht im Wesentlichen aus folgenden Funktionen:
 - **Automatische Aktualisierung**
   Der PDF-Konnektor kann auf neue oder aktualisierte PDF-Dokumente zugreifen und die Wissensdatenbank entsprechend aktualisieren, um sicherzustellen, dass die bereitgestellten Informationen stets auf dem neuesten Stand sind.
 
-## Anwendungsbereiche
+## Anwendungs&shy;bereiche
 
 Der PDF-Konnektor in Bubble Chat kann in einer Vielzahl von Anwendungsbereichen eingesetzt werden, wie zum Beispiel:
 
