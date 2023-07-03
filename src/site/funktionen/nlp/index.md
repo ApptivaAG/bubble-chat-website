@@ -58,4 +58,4 @@ von freitextbasierten und geführten Dialogen, um ein möglichst gutes Benutzere
 
 Bubble Chat nutzt standardmässig Dialogflow als NLP System. Damit kann mit einem überschaubaren Aufwand ein sehr gutes Ergebnis erzielt werden.
 
-Unsere [Chatbot Engine](/funktionen/chatbot-engine/) erlaubt es grundsätzlich, ein beliebiges NLP System zu integrieren. So ist es z.B. möglich, bei schützenswerten Daten vollkommen auf OpenSource zu setzen und sämtliche Komponenten in Ihrem Rechenzentrum laufen zu lassen.
+Unsere [Chatbot Engine](/funktionen/chatbot-tasks/) erlaubt es grundsätzlich, ein beliebiges NLP System zu integrieren. So ist es z.B. möglich, bei schützenswerten Daten vollkommen auf OpenSource zu setzen und sämtliche Komponenten in Ihrem Rechenzentrum laufen zu lassen.
