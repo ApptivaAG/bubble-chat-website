@@ -209,7 +209,8 @@
 
       & .plan {
         background-color: var(--color-background-gray);
-        box-shadow: 0 0 50px #ccc;
+        box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+        transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
@@ -231,12 +232,6 @@
             background: var(--color-bubble-brand);
             padding: 0.5rem 1rem;
             border-radius: 20px;
-          }
-
-          & a {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            color: white;
           }
         }
 
@@ -301,6 +296,7 @@
             padding-bottom: 1rem;
             font-weight: 300;
             color: white;
+            height: 4em;
           }
 
           & .price {
@@ -313,26 +309,39 @@
             -webkit-box-pack: center;
             justify-content: center;
 
+            & .from {
+              font-size: 0.8rem;
+              margin-right: 0;
+              letter-spacing: normal;
+              font-weight: 300;
+            }
+
             & .currency {
-              margin-right: 0.5rem;
-              font-weight: 500;
+              font-size: 1rem;
+              margin-right: 0.4rem;
+              font-weight: 300;
             }
 
             & .amount {
-              font-size: 3rem;
-              font-weight: 700;
+              font-size: 2.8rem;
+              font-weight: 600;
               line-height: 1;
               margin-bottom: 0;
             }
 
             & .period {
-              font-size: 0.8rem;
+              font-size: 1rem;
               margin-left: 0.5rem;
-              letter-spacing: normal;
-              font-weight: 500;
+              font-weight: 300;
             }
           }
         }
+      }
+
+      & .plan:hover {
+        box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
+        transform: scale3d(1.01, 1.01, 1.01);
+        text-decoration: none;
       }
     }
   }
