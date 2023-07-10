@@ -18,11 +18,11 @@ Der Bubble Web Chat Client bietet Besuchern die Möglichkeit, ihr Chaterlebnis z
 {% image "/img/funktionen/chat-bewerten-webclient.png", "Chaterlebnis bewerten", {"class":"feature-img"} %}
 </div>
 
-## Aktivierung und Konfiguration
+### Aktivierung und Konfiguration
 
 Die Aktivierung der Chatbewertung wird in der Chatbot Engine vorgenommen. Sämtliche Texte und Farben können wie im Web Chat Client üblich, angepasst werden. So ist sichergestellt, dass diese Bewertung nicht als Fremdkörper im Chatfenster wahrgenommen wird.
 
-## Bewertungen anzeigen
+### Bewertungen anzeigen
 
 Die Bewertungen und Kommentare können sofort im Chatverlauf in Bubble Chat eingesehen werden.
 
@@ -30,8 +30,12 @@ Die Bewertungen und Kommentare können sofort im Chatverlauf in Bubble Chat eing
 {% image "/img/funktionen/chat-bewerten-cms.png", "Chaterlebnis bewerten", {"class":"feature-img"} %}
 </div>
 
-## Customer Satisfaction Score
+### Customer Satisfaction Score
 
 Der Customer Satisfaction Score (CSAT) ist ein Key Performance Indikator, der den Grad der Zufriedenheit von Kunden eines Unternehmens angibt. Indem Sie Ihre Kunden mit einer einfachen Frage wie z.B. "Wie zufrieden sind Sie mit diesem Chat?" konfrontieren, erhalten Sie ein ungefiltertes und ehrliches Feedback. Dieses Feedback können Sie nutzen, um den Chatbot stetig zu verbessern. Ob und inwiefern sich die Zufriedenheit über die Zeit verbessert, sehen Sie im Analytics Bereich in Bubble Chat.
 
 {% image "/img/funktionen/chat-bewerten-chart.png", "Chaterlebnis bewerten", {"class":"feature-img"} %}
+
+### Fazit
+Die Bewertung des Chats von Kunden ist ein wichtiges Instrument, wenn man herausfinden will, wie der Chatbot wahrgenommen wird. Bewertungen und weitere [Analytics](/funktionen/analytics/) sind für Chatbots ein unverzichtbarer Bestandteil. Nur mit diesen Informationen kann man herausfinden, wie gut der Chatbot unterwegs ist und wo es noch Verbesserungspotenzial gibt.
+

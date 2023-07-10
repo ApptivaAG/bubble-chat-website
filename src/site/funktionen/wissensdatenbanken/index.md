@@ -26,7 +26,7 @@ Wenn ein Benutzer eine Frage oder ein Anliegen an den Chatbot richtet, wertet Bu
 
 Passende Antworten generiert Bubble Chat mithilfe von [GPT (Generative Pre-trained Transformer)](/blog/chatgpt/) und präsentiert diese dem Benutzer auf eine leicht verständliche und ansprechende Weise.
 
-## Datenquellen
+### Datenquellen
 
 Bubble Chat kann verschiedene Arten von Quellen als Wissensdatenbank nutzen, um den Benutzern umfassende Informationen und Unterstützung zu bieten. Einige gängige Quellen, die als Wissensdatenbank dienen können, sind:
 

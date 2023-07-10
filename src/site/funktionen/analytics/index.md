@@ -21,7 +21,7 @@ Metriken werden in der Regel über einen bestimmten Zeitraum betrachtet (z.B. di
 {% browserScreenshot "./img/cms/analytics.png", "Analytics", {"class":"image image--expandable"} %}
 <br>
 
-## Allgemeine Metriken
+### Allgemeine Metriken
 
 Untenstehende Chatbot Metriken können im [Bubble Chat CMS](/funktionen/cms) unter "Analytics" gefunden werden:
 
@@ -58,6 +58,6 @@ Untenstehende Chatbot Metriken können im [Bubble Chat CMS](/funktionen/cms) unt
 - **Top Absprungabsichten**
   Ein Absprung eines Benutzers hat in der Regel zwei mögliche Ursachen: Entweder der Benutzer hat sein Ziel erreicht (positiv, Chatbot konnte helfen) oder nicht (negativ, Chatbot konnte nicht helfen). In beiden Fällen kann Handlungsbedarf bestehen. Im positiven Fall könnte man zusätzliche Leistungen anbieten (Up-selling) und im negativen Fall lohnt es sich, die Konversationen zu analysieren und den Chatbot besser zu trainieren.
 
-## Chatbot-spezifische Metriken
+### Chatbot-spezifische Metriken
 
 Da jeder Chatbot einzigartig ist, braucht es oft Chatbot-spezifische Metriken. Diese können via [Chatbot Engine](/funktionen/chatbot-tasks/) gesammelt und mit dem Tool Ihrer Wahl geteilt werden. Dies können z.B. sein: Google Tag Manager, Tableu oder Qlik Sense.

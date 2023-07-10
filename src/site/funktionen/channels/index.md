@@ -16,7 +16,7 @@ contactPerson: Linus Hüsler
 
 Ein Chat Channel, oder auch Chat Kanal, ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Dies ist die einzige grafische Oberfläche des Chatbots, welche die Anwender sehen.
 
-## Omni-Channel
+### Omni-Channel
 
 In einer ständig wachsenden Welt der sozialen Medien und Messaging-Apps, ist es unerlässlich, Kundenservice und Support plattformübergreifend anzubieten und dort zu sein, wo Ihre Kunden mit Ihrer Marke interagieren. Bubble Chat verarbeitet kanalspezifische Formate und passt sich jedem Kanal automatisch an. So bleibt der Aufwand für Sie klein und der Nutzen für Ihre Kunden gross.
 
