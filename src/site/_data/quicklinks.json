@@ -17,6 +17,10 @@
       "name": "Datenschutz"
     },
     {
+      "url": "/impressum/",
+      "name": "Impressum"
+    },
+    {
       "url": "/kontakt/",
       "name": "Kontakt"
     },
