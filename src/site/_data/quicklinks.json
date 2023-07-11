@@ -9,6 +9,10 @@
       "name": "Blog"
     },
     {
+      "url": "/preise/",
+      "name": "Preise"
+    },
+    {
       "url": "/ueber-uns/",
       "name": "Unternehmen"
     },
