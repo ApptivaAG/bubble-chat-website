@@ -247,7 +247,7 @@
   border-bottom: 1px solid hsl(240, 5%, 91%);
 
   & h4 {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   & input.tgg-title {
