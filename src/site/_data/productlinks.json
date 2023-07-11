@@ -1,0 +1,69 @@
+{
+  "service": {
+    "url": "/funktionen/",
+    "name": "Funktionen"
+  },
+  "knowledgebase": {
+    "url": "/funktionen/wissensdatenbanken/",
+    "name": "Wissensdatenbanken"
+  },
+  "channel": {
+    "url": "/funktionen/channels/",
+    "name": "Chat Channels"
+  },
+  "services": [
+    { "url": "/funktionen/chatbot-tasks/", "name": "Chatbot Tasks" },
+    { "url": "/funktionen/cms/", "name": "Content Management " },
+    { "url": "/funktionen/nlp/", "name": "Sprachverständnis" },
+    { "url": "/funktionen/live-chat/", "name": " Live Chat " },
+    { "url": "/funktionen/analytics/", "name": "Analytics" }
+  ],
+  "knowledgebases": [
+    {
+      "url": "/funktionen/wissensdatenbanken/konnektoren/website/",
+      "name": "Website Konnektor"
+    },
+    {
+      "url": "/funktionen/wissensdatenbanken/konnektoren/pdf/",
+      "name": "PDF Konnektor"
+    },
+    {
+      "url": "/funktionen/wissensdatenbanken/konnektoren/word/",
+      "name": "Word Konnektor"
+    },
+    {
+      "url": "/funktionen/wissensdatenbanken/konnektoren/excel/",
+      "name": "Excel Konnektor"
+    },
+    {
+      "url": "/funktionen/wissensdatenbanken/konnektoren/onenote/",
+      "name": "OneNote Konnektor"
+    }
+  ],
+  "channels": [
+    {
+      "url": "/funktionen/channels/website-messenger/",
+      "name": "Website Messenger"
+    },
+    {
+      "url": "/funktionen/channels/whatsapp/",
+      "name": "Whatsapp"
+    },
+    {
+      "url": "/funktionen/channels/google-business-messages/",
+      "name": " Google Business Messages"
+    },
+    {
+      "url": "/funktionen/channels/slack/",
+      "name": "Slack"
+    },
+    {
+      "url": "/funktionen/channels/ms-teams/",
+      "name": "Microsoft Teams"
+    },
+    {
+      "url": "/funktionen/channels/apple/",
+      "name": "Apple Business Chat"
+    }
+  ]
+}

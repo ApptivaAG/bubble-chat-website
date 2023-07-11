@@ -48,13 +48,34 @@
                         </div>
                     </div>
                     <div class="services">
-                        <h2>Funktionen</h2>
+                        <a href="{{ productlinks.service.url}}">
+                            <h2>Funktionen</h2>
+                        </a>
                         <ul>
-                            {% for item in servicelinks.items %}
+                            {% for item in productlinks.services %}
                                 <li>
                                     <a href="{{ item.url }}">{{ item.name }}</a>
                                 </li>
-
+                            {% endfor %}
+                        </ul>
+                        <a href="{{ productlinks.knowledgebase.url}}">
+                            <h2>Wissensdatenbanken</h2>
+                        </a>
+                        <ul>
+                            {% for item in productlinks.knowledgebases %}
+                                <li>
+                                    <a href="{{ item.url }}">{{ item.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                        <a href="{{ productlinks.channel.url}}">
+                            <h2>Chat Channels</h2>
+                        </a>
+                        <ul>
+                            {% for item in productlinks.channels %}
+                                <li>
+                                    <a href="{{ item.url }}">{{ item.name }}</a>
+                                </li>
                             {% endfor %}
                         </ul>
 
