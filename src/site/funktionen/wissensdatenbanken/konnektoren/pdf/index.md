@@ -10,6 +10,11 @@ order: 2
 tags:
   - Wissensdatenbanken
 contactPerson: Linus Hüsler
+faq: 
+  - question: Was wird vom PDF verarbeitet?
+    answer:  Es werden alle Kapitel, Texte sowie Tabellen verarbeitet. Da GPT nur Text verarbeiten kann werden alle Bilder und Diagramm werden entfernt.
+  - question: Wie gross dürfen PDFs sein?
+    answer: Die PDF dürfen 50MB gross sein.
 ---
 
 Der PDF-Konnektor in Bubble Chat ermöglicht es dem Chatbot, auf Informationen in PDF-Dokumenten zuzugreifen und diese in seine Wissensdatenbank zu integrieren. Dadurch kann der Chatbot Benutzern schnell und präzise Informationen aus diesen Dokumenten liefern und somit die Effizienz und Benutzerfreundlichkeit des Chatbots verbessern.
