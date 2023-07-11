@@ -274,7 +274,6 @@ input.tgg-title {
 /*================================================*/
 
 .faq-accordion-content {
-  color: var(--neutral-soft-color);
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.4s ease-in-out;
@@ -307,5 +306,5 @@ input.tgg-title {
 
 .faq-accordion .tgg-title:checked ~ .faq-accordion-content {
   will-change: max-height;
-  max-height: 80px;
+  max-height: 1000px;
 }
