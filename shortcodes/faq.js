@@ -39,7 +39,7 @@ module.exports = async function getFAQ() {
 
   let html = `<div class="faq-page">
       <div class="container">
-      <h1>FAQ</h1>
+      <h2>Fragen zu den Produkten</h2>
       <div class="faq-container">`;
   let faqScript = `<script type="application/ld+json">
   {

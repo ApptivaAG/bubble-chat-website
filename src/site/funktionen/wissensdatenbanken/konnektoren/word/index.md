@@ -11,6 +11,9 @@ relatedTag: Wissenskonnektoren
 tags:
   - Wissensdatenbanken
 contactPerson: Linus Hüsler
+faq:
+  - question: Werden alle Word Dateien unterstützt?
+    answer: Nein, es werden nur Dateien im DOCX Format unterstützt.
 ---
 
 Der Microsoft Word Konnektor in Bubble Chat ermöglicht die Extraktion einzelner Kapitel aus Word-Dokumenten und stellt diese dem Chatbot zur Verfügung. Dadurch kann der Chatbot schnell und präzise auf jede Frage antworten, indem er auf das relevante Wissen zugreift.

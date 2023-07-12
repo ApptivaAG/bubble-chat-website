@@ -1,3 +1,9 @@
+.faq-page {
+  & h2 {
+    margin-top: 3rem;
+  }
+}
+
 .faq-container {
   display: flex;
   flex-wrap: wrap;
