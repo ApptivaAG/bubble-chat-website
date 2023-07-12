@@ -133,6 +133,11 @@
       "id": 5,
       "url": "/blog/",
       "name": "Blog"
+    },
+    {
+      "id": 6,
+      "url": "/jobs/",
+      "name": "Jobs"
     }
   ]
 }
