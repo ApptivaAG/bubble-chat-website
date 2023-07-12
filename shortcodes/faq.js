@@ -1,8 +1,6 @@
 const fs = require("fs");
 const glob = require("glob");
-const path = require("path");
 const yaml = require("js-yaml");
-const sourceFiles = "./src/site/funktionen/";
 
 module.exports = async function getFAQ() {
   // Get a list of all Markdown files in the current directory
@@ -37,23 +35,63 @@ module.exports = async function getFAQ() {
     }
   });
 
-  let html = `<div class="faq-container">
-                      `;
+  let html = `<div class="faq-page">
+      <div class="container">
+      <h1>FAQ</h1>
+      <div class="faq-container">`;
+  let faqScript = `<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [`;
   if (faq.length) {
     faq.forEach((f) => {
-      html += `<div class="faq-component"><h3>${f.product}</h3><ul>`;
+      html += `<div class="faq-component"><h3>${f.product}</h3>`;
+      console.log("Was ist jetzt?", f.questionsAnswers.length);
       if (f.questionsAnswers.length) {
-        console.log("f", f);
         f.questionsAnswers.forEach((qa) => {
-          html += `<li>${qa.question}</li>`;
+          html += `<div class="faq-content">
+                    <div class="faq-articles">
+                        <article class="faq-accordion">
+                          <input type="checkbox" class="tgg-title" id="${qa.question}">
+                          <div class="faq-accordion-title">
+                              <label for="${qa.question}">
+                                <h4>${qa.question}</h4>   
+                                <span class="arrow-icon">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="rgb(114, 46, 209)" viewBox="0 0 256 256">
+                                  <path d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"></path>
+                                  </svg>
+                                </span>
+                              </label>
+                          </div>
+                          <div class="faq-accordion-content">
+                              <p>${qa.answer}</p>
+                          </div>
+                        </article>
+                      </div>
+                    </div>`;
+          faqScript += `{
+              "@type": "Question",
+              "name": "${qa.question}",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "${qa.answer}"
+              }
+            },
+          `;
         });
+        html += `</div>`;
       }
-      html += `</ul></div>`;
     });
+    html += `</div></div></div>`;
+    faqScript = faqScript.slice(0, -1);
+    faqScript += `]
+                  }
+                  </script>
+`;
   }
-  html += "</div></div>";
-
   return `
   ${html}
+  ${faqScript}
   `;
 };
