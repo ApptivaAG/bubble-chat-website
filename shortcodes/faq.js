@@ -8,8 +8,6 @@ module.exports = async function getFAQ() {
   // Get a list of all Markdown files in the current directory
 
   const markdownFiles = glob.sync("./src/site/funktionen/**/*.md");
-  const pattern =
-    /faq:\s*\n((\s*-\s*question:\s*(.*)\n\s*answer:\s*(.*)\n)+)/gms;
   const faq = [];
   markdownFiles.forEach((file) => {
     const questionsAnswers = [];
@@ -36,32 +34,6 @@ module.exports = async function getFAQ() {
       } else {
         console.log("YAML front matter not found in the file.");
       }
-
-      const matches = [...content.matchAll(pattern)];
-      // Extract and print the FAQ questions and answers
-      // matches.forEach((match) => {
-      //   const url = path.dirname(file).split(path.sep).pop();
-      //   const faqSection = match[1];
-      //   const questions = [...faqSection.matchAll(/-\s*question:\s*(.*)\n/g)];
-      //   const answers = [...faqSection.matchAll(/\s*answer:\s*(.*)\n/g)];
-      //   const titleMatch = faqSection.match(/\s*title:\s*(.*?)\n/g);
-      //   const title = titleMatch ? titleMatch[1] : null;
-      //   // console.log("title:", titleMatch);
-      //   for (let i = 0; i < questions.length; i++) {
-      //     const questionAnswer = {
-      //       question: questions[i][1],
-      //       answer: answers[i][1],
-      //     };
-      //     questionAnswers.push(questionAnswer);
-      //   }
-      // const productFAQ = {
-      //   product: title,
-      //   questionAnswers,
-      // };
-
-      // faq.push(productFAQ);
-      // // console.log(faq);
-      // });
     }
   });
 
