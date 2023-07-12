@@ -1,13 +1,14 @@
 const fs = require("fs");
 const glob = require("glob");
 const yaml = require("js-yaml");
+const path = require("path");
 
 module.exports = async function getFAQ() {
-  // Get a list of all Markdown files in the current directory
-
   const markdownFiles = glob.sync("./src/site/funktionen/**/*.md");
   const faq = [];
+
   markdownFiles.forEach((file) => {
+    const extractedPath = path.dirname(file).replace("/src/site", "");
     const questionsAnswers = [];
     if (file) {
       const content = fs.readFileSync(file, "utf8");
@@ -24,6 +25,7 @@ module.exports = async function getFAQ() {
             questionsAnswers.push(questionAnswer);
           });
           const productFAQ = {
+            url: extractedPath,
             product: doc.title,
             questionsAnswers: questionsAnswers,
           };
@@ -46,8 +48,7 @@ module.exports = async function getFAQ() {
     "mainEntity": [`;
   if (faq.length) {
     faq.forEach((f) => {
-      html += `<div class="faq-component"><h3>${f.product}</h3>`;
-      console.log("Was ist jetzt?", f.questionsAnswers.length);
+      html += `<div class="faq-component"><a href=".${f.url}"><h3>${f.product}</h3></a>`;
       if (f.questionsAnswers.length) {
         f.questionsAnswers.forEach((qa) => {
           html += `<div class="faq-content">
@@ -77,8 +78,7 @@ module.exports = async function getFAQ() {
                 "@type": "Answer",
                 "text": "${qa.answer}"
               }
-            },
-          `;
+            },`;
         });
         html += `</div>`;
       }
