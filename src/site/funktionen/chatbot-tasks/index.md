@@ -39,7 +39,7 @@ Die **Chatbot Engine** ist das Herzstück von Bubble Chat. Sämtliche Chatbot Ta
 Die folgende Auflistung gibt einen Einblick über die Aufgaben der Chatbot Engine:
 
 - **Nachrichten senden und empfangen**
-  Die Engine empfängt und schickt Nachrichten an die [Chat Clients](/funktionen/channels). Unser Chatbot Engine ist dabei in der Lage, mit unterschiedlichen Clients (gleichzeitig) zu kommunizieren.
+  Die Engine empfängt und schickt Nachrichten an die [Chat Clients](/funktionen/channels/). Unser Chatbot Engine ist dabei in der Lage, mit unterschiedlichen Clients (gleichzeitig) zu kommunizieren.
 
 - **Nachrichten verarbeiten**
   In der Engine wird entschieden, was mit einer Nachricht geschehen soll und wie auf die Nachricht geantwortet werden soll. Dafür werden in der Regel auch andere Bubble Chat Komponenten angefragt (wie z.B. die [Sprachverarbeitung](/funktionen/nlp/)). Via Schnittstellen können auch Systeme der Kunden aufgerufen (z.B. CRM) werden. Dank dem Zugriff auf solche Systeme ist der Chatbot in der Lage, noch bessere Antworten zu liefern.

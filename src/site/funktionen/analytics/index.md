@@ -23,7 +23,7 @@ Metriken werden in der Regel über einen bestimmten Zeitraum betrachtet (z.B. di
 
 ### Allgemeine Metriken
 
-Untenstehende Chatbot Metriken können im [Bubble Chat CMS](/funktionen/cms) unter "Analytics" gefunden werden:
+Untenstehende Chatbot Metriken können im [Bubble Chat CMS](/funktionen/cms/) unter "Analytics" gefunden werden:
 
 - **Anzahl aktive Benutzer**
   Als Benutzer zählt, wer dem Chatbot mindestens eine Nachricht sendet und ihn somit aktiv nutzt. Eine Vielzahl aktiver Benutzer hilft, diese besser zu verstehen und das Angebot passender zu gestalten.

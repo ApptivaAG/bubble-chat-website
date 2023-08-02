@@ -33,7 +33,7 @@ Unser Webclient verwendet dazu folgende Priorität:
 2. **Browser Sprache**
    Jeder Browser hat eine Liste der vom Benutzer verstandenen Sprachen. Wir prüfen diese Liste und nehmen automatisch die am besten passende Sprache für den Chatbot.
 
-Bei anderen [Chat Clients](/funktionen/channels) wird in der Regel die Sprache des Benutzers bereits mitgegeben und kann eins zu eins so verwendet werden.
+Bei anderen [Chat Clients](/funktionen/channels/) wird in der Regel die Sprache des Benutzers bereits mitgegeben und kann eins zu eins so verwendet werden.
 
 Bei Bedarf kann die Sprache mittels kundenspezifischer Logik ermittelt werden. So ist es z.B. möglich, die Sprache des Benutzers anhand seiner Login-Daten von einem CRM abzufragen und diese zu verwenden.
 
