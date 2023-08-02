@@ -26,7 +26,7 @@ Im Untermenü “Keine Absicht” können Sie sehen, welche Benutzereingaben Ihr
 
 #### Äusserungen für später merken
 
-Wenn es Benutzeräusserungen gibt, zu denen es noch keine passenden Absichten existieren, können Sie diese sammeln und zu einem späteren Zeitpunkt verarbeiten. Dazu weisen Sie einfach der Benutzeräusserung einen thematisch passenden Bereich zu. Dies können Sie entweder über das Symbol <img src="appstore.svg" style="height:1rem; vertical-align: baseline;"/> oder über das Menü neben dem Suchfeld machen.
+Wenn es Benutzeräusserungen gibt, zu denen es noch keine passenden Absichten existieren, können Sie diese sammeln und zu einem späteren Zeitpunkt verarbeiten. Dazu weisen Sie einfach der Benutzeräusserung einen thematisch passenden Bereich zu. Dies können Sie entweder über das Symbol <img src="appstore.svg" alt="Symbol fürs Zuweisen von Äusserungen zu Bereichen" style="height:1rem; vertical-align: baseline;"/> oder über das Menü neben dem Suchfeld machen.
 
 In der Liste der nicht verstandenen Benutzeräusserungen werden standardmässig nur jene Äusserungen angezeigt, die keinem Bereich zugewiesen sind. Nutzen Sie den Filter, um auch die anderen Äusserungen anzuzeigen.
 
