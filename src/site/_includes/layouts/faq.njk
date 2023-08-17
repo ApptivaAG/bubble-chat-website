@@ -1,38 +1,6 @@
 ---
 layout: default
 ---
-<div class="faq-page">
-    <div class="container">
-        {%if faq%}
-        <h1>{{title}}</h1>
-        <h3>{{subtitle}}</h3>
-        <div class="faq-component">
-            {%for f in faq%}
-            <div class="faq-content">
-                <div class="faq-articles">
-                    <article class="faq-accordion">
-                        <input type="checkbox" class="tgg-title" id="{{f.question}}">
-                        <div class="faq-accordion-title">
-                            <label for="{{f.question}}">
-                            <h4>{{f.question}}</h4>   
-                            <span class="arrow-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="rgb(114, 46, 209)" viewBox="0 0 256 256">
-                                <path d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"></path>
-                                </svg>
-                            </span>
-                            </label>
-                        </div>
-                        <div class="faq-accordion-content">
-                            <p>{{f.answer | safe}}</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            {%endfor%}
-        </div>
-        {%endif%}
-    </div>
-</div>
 {% getFAQCode %}
 
    

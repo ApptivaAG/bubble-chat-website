@@ -5,8 +5,14 @@
     margin-top: 4rem;
   }
 }
-
 .faq-container {
+  & a {
+    & h4 {
+      color: var(--color-bubble-brand);
+    }
+  }
+}
+.faq-functions {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
@@ -24,12 +30,6 @@
 
     &:nth-child(2n) {
       margin-left: auto;
-    }
-    & a {
-      color: rgb(46, 46, 46);
-      & h4 {
-        color: var(--color-bubble-brand);
-      }
     }
     & ul {
       padding-left: 20px;
