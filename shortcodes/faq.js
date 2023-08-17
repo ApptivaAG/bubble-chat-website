@@ -3,7 +3,7 @@ const glob = require("glob");
 const yaml = require("js-yaml");
 const path = require("path");
 
-async function getFAQCode(title, className, markdownFiles) {
+async function getFAQCode(title, className, subtitlesEnabled, markdownFiles) {
   const faq = [];
   if (markdownFiles) {
     markdownFiles.forEach((file) => {
@@ -37,14 +37,16 @@ async function getFAQCode(title, className, markdownFiles) {
     });
   }
 
-  let html = `<div class="faq-page">
-      <div class="container">
+  let html = `
       <h3>${title}</h3>
       <div class="faq-container ${className}">`;
   let faqScript = "";
   if (faq.length) {
     faq.forEach((f) => {
-      html += `<div class="faq-component"><a href=".${f.url}"><h4>${f.product}</h4></a>`;
+      subtitles = subtitlesEnabled
+        ? `<a href=".${f.url}"><h4>${f.product}</h4></a>`
+        : "";
+      html += `<div class="faq-component">${subtitles}`;
       if (f.questionsAnswers.length) {
         f.questionsAnswers.forEach((qa) => {
           html += `<div class="faq-content">
@@ -79,7 +81,7 @@ async function getFAQCode(title, className, markdownFiles) {
         html += `</div>`;
       }
     });
-    html += `</div></div></div>`;
+    html += `</div>`;
   }
 
   return { html, faqScript };
@@ -88,10 +90,16 @@ async function getFAQCode(title, className, markdownFiles) {
 module.exports = async function getFAQ() {
   const markdownFiles = glob.sync("./src/site/funktionen/**/*.md");
   const defaultFAQ = glob.sync("./src/site/faq/*.md");
-  htmlCommon = await getFAQCode("Allgemeine Fragen", "faq-common", defaultFAQ);
+  htmlCommon = await getFAQCode(
+    "Allgemeine Fragen",
+    "faq-common",
+    false,
+    defaultFAQ
+  );
   htmlFunctions = await getFAQCode(
     "Fragen zu den Funktionen",
     "faq-functions",
+    true,
     markdownFiles
   );
 

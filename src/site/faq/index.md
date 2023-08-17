@@ -1,7 +1,6 @@
 ---
 layout: faq
 title: FAQ
-subtitle: Allgemeine Fragen
 faq: 
   - question: Was ist ein Chatbot?
     answer: |
