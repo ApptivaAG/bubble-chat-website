@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("blog", "layouts/blog.njk");
   eleventyConfig.addLayoutAlias("branche", "layouts/branche.njk");
   eleventyConfig.addLayoutAlias("anwendungsfall", "layouts/anwendungsfall.njk");
+  eleventyConfig.addLayoutAlias("faq", "layouts/faq.njk");
 
   eleventyConfig.addShortcode("contactPersonCode", contactPerson);
   eleventyConfig.addShortcode("getFAQCode", getFAQ);

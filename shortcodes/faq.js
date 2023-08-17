@@ -39,7 +39,7 @@ module.exports = async function getFAQ() {
 
   let html = `<div class="faq-page">
       <div class="container">
-      <h2>Fragen zu den Produkten</h2>
+      <h3>Fragen zu den Produkten</h3>
       <div class="faq-container">`;
   let faqScript = `<script type="application/ld+json">
   {
@@ -48,7 +48,7 @@ module.exports = async function getFAQ() {
     "mainEntity": [`;
   if (faq.length) {
     faq.forEach((f) => {
-      html += `<div class="faq-component"><a href=".${f.url}"><h3>${f.product}</h3></a>`;
+      html += `<div class="faq-component"><a href=".${f.url}"><h4>${f.product}</h4></a>`;
       if (f.questionsAnswers.length) {
         f.questionsAnswers.forEach((qa) => {
           html += `<div class="faq-content">

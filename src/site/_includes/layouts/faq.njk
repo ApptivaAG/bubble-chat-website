@@ -1,19 +1,20 @@
 ---
 layout: default
-title: FAQ
 ---
 <div class="faq-page">
     <div class="container">
+        {%if faq%}
         <h1>FAQ</h1>
-        <h2>Allgemeine Fragen</h2>
+        <h3>Allgemeine Fragen</h3>
         <div class="faq-component">
+            {%for f in faq%}
             <div class="faq-content">
                 <div class="faq-articles">
                     <article class="faq-accordion">
-                        <input type="checkbox" class="tgg-title" id="1">
+                        <input type="checkbox" class="tgg-title" id="{{f.question}}">
                         <div class="faq-accordion-title">
-                            <label for="1">
-                            <h4>Welche Inhalte können verarbeitet werden.</h4>   
+                            <label for="{{f.question}}">
+                            <h4>{{f.question}}</h4>   
                             <span class="arrow-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="rgb(114, 46, 209)" viewBox="0 0 256 256">
                                 <path d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"></path>
@@ -22,12 +23,14 @@ title: FAQ
                             </label>
                         </div>
                         <div class="faq-accordion-content">
-                            <p>Bubble Chat ist spezialisiert auf die intepretation von Texten, wir können Inhalte, Kaptiel wie auch Tabellen aus extrahieren, verarbeiten und Bubble Chat mit diesen Informationen verbessern.</p>
+                            <p>{{f.answer}}</p>
                         </div>
                     </article>
                 </div>
             </div>
+            {%endfor%}
         </div>
+        {%endif%}
     </div>
 </div>
 {% getFAQCode %}
