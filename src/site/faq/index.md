@@ -1,6 +1,7 @@
 ---
 layout: faq
 title: FAQ
+subtitle: Allgemeine Fragen
 faq: 
   - question: Was ist ein Chatbot?
     answer: |
@@ -17,10 +18,10 @@ faq:
                 <li>Sie erhalten Einblick in die Anliegen ihrer Kunden.</li>
                 <li>Ihr Kundendienst wird entlastet.</li>
                 </ul>
-  - question: Wie kann ich Inhalte verwalten und verarbeiten?
+  - question: Wie kann man Inhalte verwalten und verarbeiten?
     answer: |
             Mit Bubble Chat ist es sehr einfach, dem Chatbot die richtigen Antworten auf häufig gestellte Fragen beizubringen. Mit Hilfe von <a href="/funktionen/cms/">vordefinierten Vorlagen</a> können strukturierte Gespräche im Handumdrehen konfiguriert werden.
-  - question: Kann ich einen Chatbot mit mehrsprachiger Unterstützung erstellen?
+  - question: Kann man einen Chatbot mit mehrsprachiger Unterstützung erstellen?
     answer: |
             Mit Bubble Chat können Chatbots erstellt werden, die <a href="/funktionen/cms/mehrsprachigkeit/">mehrere Sprachen gleichzeitig</a> beherrschen. Um den Trainingsaufwand gering zu halten, können mögliche Benutzerfragen automatisiert in die anderen Sprachen übersetzt werden.
   - question: Wie kann man mit Bubble Chat Chatbots trainieren?
@@ -38,14 +39,13 @@ faq:
   - question: Wo sind die Server von Bubble Chat?
     answer: |
             Bubble Chat wird auf Servern in Westeuropa betrieben. Es besteht aber auch die Möglichkeit, Bubble Chat im eigenen Rechenzentrum laufen zu lassen.
-  - question: Was sind die Kosten für einen Bot?
+  - question: Was sind die Kosten für einen Chatbot?
     answer: |
             Bubble Chat ist modular aufgebaut. Unser Starterkit Paket kostet CHF 490.- pro Monat. Damit können oft gestellte Fragen automatisiert beantwortet werden. <br/><br/>
             Das Professional-Paket ist unsere bevorzugte Empfehlung. Durch die Integration von Wissensdatenbanken ist der Chatbot in der Lage, eigenständig aus vordefinierten Quellen zu lernen. Das ermöglicht ihm, eine Vielzahl von Fragen zu beantworten.
             <br/><br/>
             Weiter Informationen finden sie unter <a href="/preise/">Preise</a>.
-
-  - question: Wer sind unsere Referenzen?
+  - question: Welche Firmen verwenden Bubble Chat?
     answer: |
             Bubble Chat wird von namhaften Unternehmen eingesetzt. <br/>
             Dazu gehören:
