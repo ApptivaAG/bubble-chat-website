@@ -9,7 +9,7 @@ faq:
   - question: Welche Vorteile bietet ein Chatbot?
     answer: |
             Es gibt viele Anwendungsgebiete für Chatbots. Wie zum Beispiel im Kundendienst, im Gesundheitswesen, in der IT, im Bildungswesen oder im HR. <br/>
-            Ob als interne <a href="/funktionen/wissensdatenbanken/">Wissensdatenbank</a> für Dokumentationen und Reglemente oder als Kundensupport direkt auf der Webseite oder einem anderen <a href="/funktionen/channel">Kommunikationskanal</a> um den Kunden 24/7 zu unterstützen.
+            Ob als interne <a href="/funktionen/wissensdatenbanken/">Wissensdatenbank</a> für Dokumentationen und Reglemente oder als Kundensupport direkt auf der Webseite oder einem anderen <a href="/funktionen/channels">Kommunikationskanal</a> um den Kunden 24/7 zu unterstützen.
             <br/><br/>
             Weitere Vorteile sind:
                 <ul>
