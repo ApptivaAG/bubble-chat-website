@@ -1,5 +1,5 @@
 .faq-page {
-  /* --max-text-width: var(--default-max-text-width); */
+  --max-text-width: var(--default-max-text-width);
 
   & h3 {
     margin-top: 5rem;
