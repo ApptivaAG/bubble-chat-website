@@ -94,7 +94,6 @@ module.exports = async function getFAQ() {
     "faq-functions",
     markdownFiles
   );
-  console.log(htmlCommon);
 
   let faqScript = `<script type="application/ld+json">
   {
