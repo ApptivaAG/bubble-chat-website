@@ -12,7 +12,7 @@ tags:
 contactPerson: Linus Hüsler
 faq:
   - question: Werden alle Seiten meiner Webseite in die Wissensdatenbank integriert?
-    answer: Ja, Bubble Chat durchsucht automatisch alle Unterseiten Ihrer Webseite. Sie haben jedoch die Möglichkeit, bestimmte Bereiche oder einzelne Seiten von der Suche auszuschließen, wenn gewünscht.
+    answer: Ja, Bubble Chat durchsucht automatisch alle Unterseiten Ihrer Webseite. Sie haben jedoch die Möglichkeit, bestimmte Bereiche oder einzelne Seiten von der Suche auszuschliessen, wenn gewünscht.
   - question:  Wie reagiert die Wissensdatenbank auf Änderungen meiner Webseite?
     answer: Um sicherzustellen, dass Ihre Wissensdatenbank immer auf dem neuesten Stand ist, haben Sie die Möglichkeit, Ihre Webseite täglich, wöchentlich oder monatlich neu zu indexieren. Dadurch werden alle Aktualisierungen und Veränderungen Ihrer Webseite in die Datenbank übernommen, um eine aktuelle und umfassende Suche zu gewährleisten.
 ---
