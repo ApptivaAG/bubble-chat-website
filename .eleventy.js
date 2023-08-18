@@ -10,6 +10,7 @@ const addSeoTags = require("./plugins/addSeoTags");
 
 const imageShortcode = require("./shortcodes/image");
 const contactPerson = require("./shortcodes/contactPerson");
+const getFAQ = require("./shortcodes/faq");
 const jpgImageUrl = require("./shortcodes/jpgImageUrl");
 const browserScreenshot = require("./shortcodes/browserScreenshot");
 
@@ -36,8 +37,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("blog", "layouts/blog.njk");
   eleventyConfig.addLayoutAlias("branche", "layouts/branche.njk");
   eleventyConfig.addLayoutAlias("anwendungsfall", "layouts/anwendungsfall.njk");
-
+  eleventyConfig.addLayoutAlias("faq", "layouts/faq.njk");
   eleventyConfig.addShortcode("contactPersonCode", contactPerson);
+  eleventyConfig.addShortcode("getFAQCode", getFAQ);
   eleventyConfig.addNunjucksAsyncShortcode("jpgUrl", jpgImageUrl);
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode(

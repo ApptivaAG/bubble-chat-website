@@ -10,6 +10,11 @@ order: 1
 tags:
   - Wissensdatenbanken
 contactPerson: Linus Hüsler
+faq:
+  - question: Werden alle Seiten meiner Webseite in die Wissensdatenbank integriert?
+    answer: Ja, Bubble Chat durchsucht automatisch alle Unterseiten Ihrer Webseite. Sie haben jedoch die Möglichkeit, bestimmte Bereiche oder einzelne Seiten von der Suche auszuschliessen, wenn gewünscht.
+  - question:  Wie reagiert die Wissensdatenbank auf Änderungen meiner Webseite?
+    answer: Um sicherzustellen, dass Ihre Wissensdatenbank immer auf dem neuesten Stand ist, haben Sie die Möglichkeit, Ihre Webseite täglich, wöchentlich oder monatlich neu zu indexieren. Dadurch werden alle Aktualisierungen und Veränderungen Ihrer Webseite in die Datenbank übernommen, um eine aktuelle und umfassende Suche zu gewährleisten.
 ---
 
 Der Website Konnektor in Bubble Chat ist ein leistungsstarkes und benutzerfreundliches Tool, das entwickelt wurde, um automatisch Inhalte von Websites zu extrahieren und in die Wissensdatenbank des Chatbots zu integrieren. Dies ermöglicht eine nahtlose Integration von relevanten Informationen aus verschiedenen Online-Quellen und verbessert die Effizienz und Genauigkeit des Chatbots bei der Beantwortung von Benutzeranfragen.

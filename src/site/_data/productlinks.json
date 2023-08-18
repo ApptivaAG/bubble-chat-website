@@ -1,0 +1,15 @@
+{
+  "service": {
+    "url": "/funktionen/",
+    "name": "Funktionen"
+  },
+  "services": [
+    { "url": "/funktionen/chatbot-tasks/", "name": "Chatbot Tasks" },
+    { "url": "/funktionen/cms/", "name": "Content Management " },
+    { "url": "/funktionen/nlp/", "name": "Sprachverständnis" },
+    { "url": "/funktionen/live-chat/", "name": " Live Chat " },
+    { "url": "/funktionen/analytics/", "name": "Analytics" },
+    { "url": "/funktionen/wissensdatenbanken/", "name": "Wissensdatenbanken" },
+    { "url": "/funktionen/channels/", "name": "Chat Channels" }
+  ]
+}

@@ -24,38 +24,85 @@ layout: default
       </div>
     {% endif %}
     {{ content | safe }}
-  </div>
-</div>
-{% if rootTag %}
-  {% set postslist = collections[rootTag] %}
-  {% if postslist %}
-    <a id="related" style="display:block; position:relative; top:-50px; visibility: hidden;"></a>
-    <div style="background-color: #f5f5f7; margin-top: 4rem; padding-top: 3rem; padding-bottom: 4rem;">
-      <div class="container">
-        {% if followUpTopicTitle %}
-          <h3 style="margin-bottom: 2rem;">{{ followUpTopicTitle }}</h3>
-        {% else %}
-          <h3 style="margin-bottom: 2rem;">Die wichtigsten {{ rootTag }} Funktionen im Detail</h3>
-        {% endif %}
-        {% if followUpTopicDescription %}
-          <p>{{ followUpTopicDescription | safe }}</p>
-        {% endif %}
-        {# Hack, damit partials/feature-list.njk funktioniert. Keine Ahnung, wo das Problem liegt... #}
-        <!-- {% jpgUrl "/img/og-image.png", 500 %} -->
-        {% include 'partials/feature-list.njk' %}
+    {%if faq%}
+      <h2>FAQ</h2>
+      {%for f in faq%}
+        <div class="faq-content">
+          <div class="faq-articles">
+            <article class="faq-accordion">
+              <input type="checkbox" class="tgg-title" id="{{f.question}}">
+              <div class="faq-accordion-title">
+                <label for="{{f.question}}">
+                  <h4>{{f.question}}</h4>
+                  <span class="arrow-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="rgb(114, 46, 209)" viewBox="0 0 256 256">
+                      <path d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"></path>
+                    </svg>
+                  </span>
+                </label>
+              </div>
+              <div class="faq-accordion-content">
+                <p>{{f.answer}}</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        {%endfor%}
+        {%endif%}
       </div>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {% for f in faq %}
+              {
+                "@type": "Question",
+                "name": "{{ f.question }}",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "{{ f.answer }}"
+                }
+              }{% if not loop.last %},{% endif %}
+            {% endfor %}
+          ]
+        }
+      </script>
+
     </div>
-  {% else %}
-    <br/> <br/>
-  {% endif %}
-{% endif %}
-{% include 'sections/cta-request-demo-dark.njk' %}
-<div class="feature-footer container">
-  <section>
-    {% contactPersonCode contactPerson, "Etwas unklar?<br/>Fragen Sie $name." %}
-  </section>
-  <section>
-    <h3>Auswahl unserer Kunden</h3>
-    {% include 'partials/customers.njk' %}
-  </section>
-</div>
+
+    {% if rootTag %}
+      {% set postslist = collections[rootTag] %}
+      {% if postslist %}
+        <a id="related" style="display:block; position:relative; top:-50px; visibility: hidden;"></a>
+        <div style="background-color: #f5f5f7; margin-top: 4rem; padding-top: 3rem; padding-bottom: 4rem;">
+          <div class="container">
+            {% if followUpTopicTitle %}
+              <h3 style="margin-bottom: 2rem;">{{ followUpTopicTitle }}</h3>
+            {% else %}
+              <h3 style="margin-bottom: 2rem;">Die wichtigsten {{ rootTag }} Funktionen im Detail</h3>
+            {% endif %}
+            {% if followUpTopicDescription %}
+              <p>{{ followUpTopicDescription | safe }}</p>
+            {% endif %}
+            {# Hack, damit partials/feature-list.njk funktioniert. Keine Ahnung, wo das Problem liegt... #}
+            <!-- {% jpgUrl "/img/og-image.png", 500 %} -->
+            {% include 'partials/feature-list.njk' %}
+          </div>
+        </div>
+      {% else %}
+        <br/>
+        <br/>
+      {% endif %}
+    {% endif %}
+    {% include 'sections/cta-request-demo-dark.njk' %}
+    <div class="feature-footer container">
+      <section>
+        {% contactPersonCode contactPerson,
+        "Etwas unklar?<br/>Fragen Sie $name." %}
+      </section>
+      <section>
+        <h3>Auswahl unserer Kunden</h3>
+        {% include 'partials/customers.njk' %}
+      </section>
+    </div>
