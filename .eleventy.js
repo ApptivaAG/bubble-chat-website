@@ -38,6 +38,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("branche", "layouts/branche.njk");
   eleventyConfig.addLayoutAlias("anwendungsfall", "layouts/anwendungsfall.njk");
   eleventyConfig.addLayoutAlias("faq", "layouts/faq.njk");
+  eleventyConfig.addLayoutAlias("glossary", "layouts/glossary.njk");
   eleventyConfig.addShortcode("contactPersonCode", contactPerson);
   eleventyConfig.addShortcode("getFAQCode", getFAQ);
   eleventyConfig.addNunjucksAsyncShortcode("jpgUrl", jpgImageUrl);
@@ -111,6 +112,14 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("encodeURIComponent", function (value) {
     return encodeURIComponent(value);
+  });
+
+  eleventyConfig.addCollection("glossary", function (collectionApi) {
+    return collectionApi.getFilteredByTag("glossary").sort(function (a, b) {
+      return a.data.title
+        .toLowerCase()
+        .localeCompare(b.data.title.toLowerCase());
+    });
   });
 
   // Sort by order

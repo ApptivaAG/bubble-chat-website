@@ -1,0 +1,52 @@
+.accordion {
+  padding: 8px 0;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+
+  & h4 {
+    font-weight: 400;
+  }
+
+  & input.tgg-title {
+    appearance: unset;
+    all: unset;
+  }
+
+  & .accordion-title label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  & .accordion-title span {
+    margin-left: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  & .accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.15s ease-in-out;
+  }
+
+  & .arrow-icon {
+    color: rgb(114, 46, 209);
+  }
+
+  & .accordion-title:hover h2 {
+    color: var(--primary-soft-color);
+  }
+
+  & .tgg-title:checked + div > label > h2 {
+    font-weight: 700;
+  }
+
+  & .tgg-title:checked + div > label > span {
+    will-change: transform;
+    transform: rotate(180deg);
+  }
+
+  & .tgg-title:checked ~ .accordion-content {
+    will-change: max-height;
+    max-height: 1000px;
+  }
+}

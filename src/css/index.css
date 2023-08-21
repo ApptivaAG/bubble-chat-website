@@ -7,6 +7,7 @@
 @import "./footer.css";
 @import "./feature.css";
 @import "./branche.css";
+@import "./glossary.css";
 @import "./anwendungsfall.css";
 @import "./breadcrumb.css";
 @import "./faq.css";
@@ -28,3 +29,4 @@
 @import "./partials/intro.css";
 @import "./partials/team.css";
 @import "./partials/contact-person.css";
+@import "./partials/accordion.css";

@@ -1,0 +1,7 @@
+.glossary {
+  --max-text-width: var(--default-max-text-width);
+
+  & .glossary__intro {
+    --max-text-width: 100%;
+  }
+}

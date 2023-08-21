@@ -29,9 +29,9 @@ layout: default
       {%for f in faq%}
         <div class="faq-content">
           <div class="faq-articles">
-            <article class="faq-accordion">
+            <article class="accordion">
               <input type="checkbox" class="tgg-title" id="{{f.question}}">
-              <div class="faq-accordion-title">
+              <div class="accordion-title">
                 <label for="{{f.question}}">
                   <h4>{{f.question}}</h4>
                   <span class="arrow-icon">
@@ -41,7 +41,7 @@ layout: default
                   </span>
                 </label>
               </div>
-              <div class="faq-accordion-content">
+              <div class="accordion-content">
                 <p>{{f.answer}}</p>
               </div>
             </article>

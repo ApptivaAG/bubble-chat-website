@@ -13,32 +13,7 @@
   }
 }
 .faq-functions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
-
   & .faq-component {
-    margin-bottom: 5rem;
-    width: 100%;
-    @media (--media-desktop-size) {
-      width: 450px;
-    }
-
-    @media (--media-large-desktop-size) {
-      width: 530px;
-    }
-
-    &:nth-child(2n) {
-      margin-left: auto;
-    }
-    & ul {
-      padding-left: 20px;
-      & li {
-        padding-bottom: 1rem;
-      }
-      & li::marker {
-        color: rgb(114, 46, 209);
-      }
-    }
+    margin-top: 4rem;
   }
 }

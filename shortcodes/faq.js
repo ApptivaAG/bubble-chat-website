@@ -51,9 +51,9 @@ async function getFAQCode(title, className, subtitlesEnabled, markdownFiles) {
         f.questionsAnswers.forEach((qa) => {
           html += `<div class="faq-content">
                     <div class="faq-articles">
-                        <article class="faq-accordion">
+                        <article class="accordion">
                           <input type="checkbox" class="tgg-title" id="${qa.question}">
-                          <div class="faq-accordion-title">
+                          <div class="accordion-title">
                               <label for="${qa.question}">
                                 <h4>${qa.question}</h4>   
                                 <span class="arrow-icon">
@@ -63,7 +63,7 @@ async function getFAQCode(title, className, subtitlesEnabled, markdownFiles) {
                                 </span>
                               </label>
                           </div>
-                          <div class="faq-accordion-content">
+                          <div class="accordion-content">
                               <p>${qa.answer}</p>
                           </div>
                         </article>
