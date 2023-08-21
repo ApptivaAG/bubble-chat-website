@@ -35,6 +35,10 @@
     {
       "url": "/faq/",
       "name": "FAQ"
+    },
+    {
+      "url": "/glossar/",
+      "name": "Glossar"
     }
   ],
   "secondaryItems": [
