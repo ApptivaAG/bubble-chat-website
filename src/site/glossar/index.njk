@@ -15,8 +15,31 @@ eleventyImport:
     Sie können auch einfach unseren Chatbot <a class="button chat-with-chatbot" href="#"><strong>Bubbly</strong></a> um Antworten bitten, anstatt sich durch die lange Liste zu kämpfen.
     </p>
 
+    {% set letterArray = [] %}
+    {% for entry in collections.glossary %}
+      {% if entry.data.title %}
+        {% set firstLetter = entry.data.title.charAt(0).toUpperCase() %}
+        {% if not letterArray.includes(firstLetter) %}
+          {% set letterArray = (letterArray.push(firstLetter), letterArray) %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 
+    <ul class="glossary__index-letters">
+      {% for letter in letterArray %}
+       <a href="#{{ letter }}"> <li>{{ letter }}</li></a>
+      {% endfor %}
+    </ul>
+
+    {% set currentLetter = '' %}
     {%- for item in collections.glossary -%}
+      {%- set firstLetter = item.data.title.charAt(0).toUpperCase() -%}
+      {%- if firstLetter !== currentLetter -%}
+        <a class="anchor" id="{{ firstLetter }}"></a>
+        <div class="glossary__index-letter">{{ firstLetter }}</div>
+        {%- set currentLetter = firstLetter -%}
+      {%- endif -%}
+
       <article class="accordion">
         <input type="checkbox" class="tgg-title" id="{{ item.data.title }}">
         <div class="accordion-title">
@@ -31,8 +54,8 @@ eleventyImport:
         </div>
         <div class="accordion-content">
             <p>{{ item.data.excerpt }}</p>
-            {%- if item.content -%}
-            <a href="{{item.url}}" class="button button-action">Mehr erfahren</a>
+            {%- if item.data.redirectTo or item.content -%}
+              <a href="{{item.url}}" class="button button-action">Mehr erfahren</a>
             {%- endif -%}
         </div>
       </article>
