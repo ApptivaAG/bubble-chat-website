@@ -13,13 +13,13 @@ Viele unter uns haben bestimmt schon mal mit [ChatGPT](https://chat.openai.com/)
 
 Zum Beispiel antwortet ChatGPT bei “Was weisst du über Linus Hüsler?” (Quasi der Klassiker unter den Fragen): “Linus Hüsler ist ein Schweizer Tennisspieler, der am 16. November 1996 in Zürich geboren wurde. Er begann im Alter von fünf Jahren mit dem Tennisspiel und hat sich in den letzten Jahren in der nationalen und internationalen Tenniswelt einen Namen gemacht.”
 
-Jene, die mich kennen wissen, dass dies so nicht stimmt. Ich spiele weder erfolgreich Tennis, noch bin ich 1996 geboren. Ich vermute mal, dass ChatGPT hier von Marc-Andrea Hüsler spricht, mit dem ich nicht verwandt bin.
+Jene, die mich kennen, wissen, dass dies so nicht stimmt. Ich spiele weder erfolgreich Tennis, noch bin ich 1996 geboren. Ich vermute mal, dass ChatGPT hier von Marc-Andrea Hüsler spricht, mit dem ich nicht verwandt bin.
 
 ## Warum sagt ChatGPT oft, aber nicht immer die Wahrheit?
 
 ChatGPT und Bard wurden programmiert, um mit Menschen zu chatten. Sie wurden nicht explizit darauf trainiert, korrekte Antworten zu liefern. Die Künstliche Intelligenz hinter diesen Chatbots, die sogenannten grossen Sprachmodellen (Large Language Models oder kurz LLM), haben keine Idee von wahr oder falsch und haben auch keinen gesunden Menschenverstand. Dies hat zur Folge, dass inhaltliche Fehler vorprogrammiert sind.
 
-Grosse Sprachmodelle werden mit Milliarden von Textdokumenten gefüttert (quasi alles, was man im Internet findet). Dabei lernen die Systeme, Beziehungen von Wörtern herzustellen. Das heisst, sie lernen, welches Wort mit hoher Wahrscheinlichkeit in einem Text auf ein anderes Wort folgt. Zum Beispiel:
+Large Language Models werden mit Milliarden von Textdokumenten gefüttert (quasi alles, was man im Internet findet). Dabei lernen die Systeme, Beziehungen von Wörtern herzustellen. Das heisst, sie lernen, welches Wort mit hoher Wahrscheinlichkeit in einem Text auf ein anderes Wort folgt. Zum Beispiel:
 
 Im Sommer trinke ich am liebsten …
 
@@ -35,7 +35,7 @@ Im Zusammenspiel mit einem Chatbot können diese Sprachmodelle plausibel tönend
 
 Grundsätzlich kann man sagen, dass diese Datenmodelle ständig verbessert werden. Daher ist es ratsam, jeweils die neusten Datenmodelle zu nutzen. Verwende ich zum Beispiel anstelle des Modells gpt-3.5-turbo das neuste Modell von OpenAI gpt-4 und frage erneut nach “Was weisst du über Linus Hüsler?”, dann erhalte ich: “Es tut mir leid, aber ich kann keine Informationen über eine Person namens Linus Hüsler finden. Es ist möglich, dass Sie sich auf eine weniger bekannte oder private Person beziehen.”
 
-Wie im vorherigen Kapitel beschrieben, kann ein Sprachmodell nicht zwischen Wahrheit und Lüge unterscheiden. Dennoch haben wir oft das Gefühl, dass sie allwissend sind oder gar menschliche Züge haben. Und darin liegt oft die Gefahr, dass wir uns zu sehr darauf verlassen, was die Systeme sagen und ihnen Fähigkeiten unterstellen, die sie gar nicht haben. Wenn wir uns dessen aber bewusst sind und uns nicht zu 100 % darauf verlassen, was diese Systeme sagen, dann können sie sehr wohl zu einem guten Alltagshelfer werden.
+Wie im vorherigen Kapitel beschrieben, kann ein Sprachmodell nicht zwischen Wahrheit und Lüge unterscheiden. Dennoch haben wir oft das Gefühl, dass es allwissend ist oder gar menschliche Züge hat. Und darin liegt oft die Gefahr, dass wir uns zu sehr darauf verlassen, was die Systeme sagen und ihnen Fähigkeiten unterstellen, die sie gar nicht haben. Wenn wir uns dessen aber bewusst sind und uns nicht zu 100 % darauf verlassen, was diese Systeme sagen, dann können sie sehr wohl zu einem guten Alltagshelfer werden.
 
 Auf folgende Punkte sollte man bei der Nutzung von ChatGPT achten:
 
@@ -43,9 +43,9 @@ Auf folgende Punkte sollte man bei der Nutzung von ChatGPT achten:
 
 - **Fakten überprüfen**<br> Während ChatGPT in der Regel qualitativ hochwertige menschenähnliche Texte erstellt, kann es manchmal Fehlinformationen oder ungenaue Informationen liefern. Benutzer sollten daher die von ChatGPT bereitgestellten Informationen überprüfen. Eine kurze Google Suche kann hier aber schon Klarheit schaffen.
 
-- **Keine sensiblen Informationen teilen**<br> Obwohl OpenAI angibt, dass sie nur 30 Tage lang Interaktionen mit dem Modell speichert und diese nicht zur Verbesserung ihrer Modelle verwendet, sollte man immer vorsichtig sein, keine sensiblen Informationen zu teilen, wie Kreditkarteninformationen, Adressen usw. 
+- **Keine sensiblen Informationen teilen**<br> Obwohl OpenAI angibt, dass sie nur 30 Tage lang Interaktionen mit dem Modell speichern und diese nicht zur Verbesserung ihrer Modelle verwenden, sollte man immer vorsichtig sein, keine sensiblen Informationen zu teilen, wie Kreditkarteninformationen, Adressen usw. 
 
-- **Nicht blind vertrauen**<br> Wie jede andere KI ist ChatGPT nur ein Werkzeug und keine menschliche Interaktion. Daher sollte man die generierten Antworten immer auch mit einem gewissen Mass an gesundem Menschenverstand betrachten.
+- **Nicht blind vertrauen**<br> Wie jede andere KI ist ChatGPT nur ein Werkzeug und keine menschliche Interaktion. Daher sollte man die generierten Antworten immer auch mit einem gewissen Mass an gesundem Menschenverstand betrachten. 
 
 ## Wie gehen wir bei Bubble Chat mit diesen Herausforderungen um?
 
@@ -53,10 +53,10 @@ Auch Bubble Chat nutzt grosse Datenmodelle, wie dies ChatGPT oder Bard tun. Unse
 
 Die Moderation von Inhalten ist ein entscheidender Schritt. Bei Bubble Chat haben wir Mechanismen implementiert, die problematische Inhalte erkennen und blockieren können, bevor sie überhaupt generiert werden. Dieses Filtersystem lernt mit der Zeit immer mehr, um immer besser und effektiver zu werden.
    
-Ein weiterer Ansatz besteht darin, den Benutzer:innen die Möglichkeit zu geben, uns beim Training unserer Modelle zu helfen. Durch Feedback können wir das Verhalten der KI besser verstehen und sie effektiver trainieren. Es bietet die Möglichkeit, Fehler direkte zu korrigieren und uns dabei zu helfen, das Modell in eine sicherere Richtung zu lenken.
+Ein weiterer Ansatz besteht darin, den Benutzer:innen die Möglichkeit zu geben, uns beim Training unserer Modelle zu helfen. Durch Feedback können wir das Verhalten der KI besser verstehen und sie effektiver trainieren. Es bietet die Möglichkeit, Fehler direkt zu korrigieren und uns dabei zu helfen, das Modell in eine sicherere Richtung zu lenken.
 
 Das Kernstück ist jedoch eine spezialisierte [Wissensdatenbank](/funktionen/wissensdatenbanken/), die ausschliesslich die für den jeweiligen Anwendungszweck des Chatbots relevanten Informationen beinhaltet. Diese Datenbank wird sorgfältig erstellt und gepflegt, um sicherzustellen, dass die bereitgestellten Informationen genauestens auf den Zweck und den Anspruch des betreffenden Chatbots abgestimmt sind.
 
 Gibt es eine Frage oder Anforderung, die nicht direkt mit der in der Wissensdatenbank enthaltenen Information abgedeckt werden kann, so generiert der Chatbot keine eigenständige Antwort, sondern leitet an [menschliche Experten](/funktionen/live-chat/) weiter oder zeigt an, dass er die Anforderung nicht verarbeiten kann.
 
-Dies gewährleistet einerseits, dass die Benutzer nur validierte und sichere Informationen erhalten. Andererseits wird dadurch die Möglichkeit, dass der Chatbot unangemessene oder potenziell gefährliche Informationen generiert, weiter reduziert. Dies ist ein Eckpfeiler unserer Verpflichtung, die von den grossen Sprachmodellen ausgehenden Risiken zu minimieren und gleichzeitig einen effizienten und hilfreichen Service zu bieten.
+Dies gewährleistet einerseits, dass die Benutzer nur validierte und sichere Informationen erhalten. Andererseits wird dadurch die Möglichkeit, dass der Chatbot unangemessene oder potenziell gefährliche Informationen generiert, weiter reduziert. Dies ist ein Eckpfeiler unserer Verpflichtung, die von den Large Language Models ausgehenden Risiken zu minimieren und gleichzeitig einen effizienten und hilfreichen Service zu bieten.
