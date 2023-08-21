@@ -27,7 +27,6 @@ Im Sommer trinke ich am liebsten …
 - ein kühles Bier beim Grillen mit Freunden. 
 - fruchtige Smoothies, um mich zu erfrischen.
 - selbstgemachte Limonade mit frischen Früchten.
-- Wasser mit einem Schuss frisch gepresster Zitrone, um mich zu hydratisieren.
 
 Im Zusammenspiel mit einem Chatbot können diese Sprachmodelle plausibel tönende Antworten geben. Statistisch gesehen sind diese Antworten absolut sinnvoll. Inhaltlich aber können sie auch total falsch sein.
 
