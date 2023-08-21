@@ -122,6 +122,10 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter("is_string", function (obj) {
+    return typeof obj == "string";
+  });
+
   // Sort by order
   function sortByOrder(values = []) {
     const vals = [...values];
