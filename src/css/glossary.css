@@ -1,0 +1,54 @@
+.glossary {
+  --max-text-width: var(--default-max-text-width);
+
+  & h2 {
+    font-size: 22px;
+    margin-top: 3rem;
+  }
+
+  & h3 {
+    font-size: 18px;
+  }
+
+  & .glossary__intro {
+    --max-text-width: 100%;
+  }
+
+  & .glossary__index-letter {
+    font-size: 3rem;
+    color: #8748d7;
+
+    &:not(:first-child) {
+      margin-top: 3rem;
+    }
+  }
+
+  & ul.glossary__index-letters {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    & a {
+      border: 1px solid gray;
+      border-radius: 3px;
+      font-size: 0.8rem;
+      color: inherit;
+      font-family: "Courier New", Courier, monospace;
+
+      &:hover {
+        background-color: #8748fe;
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    & li {
+      padding: 0.25rem 0.5rem;
+      display: flex;
+    }
+  }
+}

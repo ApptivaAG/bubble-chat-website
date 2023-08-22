@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="glossary container">
+
+    {% if content %}
+        {{ content | safe }}
+    {% else %}
+        <h1>{{title}}</h1>
+        {% if summary %}
+            <p>{{summary | markdown | safe }}</p>
+        {% else %}
+            <p>{{excerpt | safe}}</p>
+        {% endif %}
+
+        {%- if readMoreUrl -%}
+            <a href="{{readMoreUrl}}" class="button button-action">Mehr erfahren</a>
+        {%- endif -%}
+    {% endif %}
+
+</div>
