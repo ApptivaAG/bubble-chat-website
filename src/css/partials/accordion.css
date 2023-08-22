@@ -4,6 +4,7 @@
 
   & h4 {
     font-weight: 400;
+    margin: 0;
   }
 
   & input.tgg-title {
@@ -18,6 +19,7 @@
   }
 
   & .accordion-title span {
+    padding-block: 1rem;
     margin-left: auto;
     transition: transform 0.3s ease-in-out;
   }
@@ -29,6 +31,7 @@
   }
 
   & .arrow-icon {
+    display: flex;
     color: rgb(114, 46, 209);
   }
 
@@ -48,5 +51,6 @@
   & .tgg-title:checked ~ .accordion-content {
     will-change: max-height;
     max-height: 1000px;
+    padding-bottom: 1rem;
   }
 }
