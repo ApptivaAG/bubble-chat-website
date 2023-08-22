@@ -26,3 +26,7 @@ Bilder für die Blogpost können von https://unsplash.com/ bezogen werden.
 Die Bilder sollen eine Grösse von 1600 x 900 Pixel haben.
 
 Mittels https://compressor.io/ können die Bilder optimiert werden.
+
+## Icons
+
+Die Icons bei der Navigation wurden auf https://phosphoricons.com/ erstellt.

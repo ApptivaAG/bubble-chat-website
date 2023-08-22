@@ -55,7 +55,11 @@
                                     <div class="subnav-content">
                                         {% for section in item.sections %}
                                             <div class="section-name">{{section.name}}</div>
-                                            <ul class="section">
+                                            {% if section.singleColumn === true %}
+                                                <ul class="section single-column">
+                                            {% else %}
+                                                <ul class="section">
+                                            {% endif %}
                                                 {% for subitem in section.subitems %}
                                                     <li class="section-item">
                                                         <a class="section-item-link" href="{{ section.url }}{{ subitem.url }}">

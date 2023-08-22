@@ -261,6 +261,14 @@
               }
             }
 
+            & .single-column {
+              grid-template-columns: repeat(1, 1fr);
+
+              & .section-item {
+                width: 200px;
+              }
+            }
+
             & .section:last-child {
               margin-bottom: 0;
             }
