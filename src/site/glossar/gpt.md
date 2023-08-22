@@ -2,6 +2,7 @@
 layout: glossary
 tags: glossary
 title: GPT
+excerpt: Erleben Sie die faszinierende Welt der Generative Pre-trained Transformer (GPT) - die bahnbrechenden Sprachmodelle im Bereich Künstliche Intelligenz. Lassen Sie sich von den kreativen Möglichkeiten dieser neuronalen Netzwerke verzaubern, die menschenähnliche Inhalte generieren können. Erfahren Sie mehr über GPTs und ihre Entwicklung seit der Einführung durch OpenAI im Jahr 2018.
 summary: Generative Pre-trained Transformer (GPT) sind eine Variante [grosser Sprachmodelle (LLM)](/glossar/grosse-sprachmodelle/) und spielen eine fundamentale Rolle im Bereich der generativen Künstlichen Intelligenz. Das erste GPT-Modell wurde 2018 von [OpenAI](https://openai.com/){target="_blank"} vorgestellt. Diese Modelle basieren auf neuronalen Netzwerken, die mit umfangreichen Mengen an Texten trainiert worden sind und fähig sind, neue menschenähnliche Inhalte zu kreieren. Seit 2023 verfügen die meisten LLMs über diese Eigenschaften und werden manchmal allgemein als GPTs bezeichnet.
 eleventyNavigation:
   key: GPT
