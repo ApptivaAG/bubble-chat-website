@@ -102,19 +102,21 @@ module.exports = async function getFAQ() {
     true,
     markdownFiles
   );
-
-  let faqScript = `<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [`;
-  faqScript += htmlCommon.faqScript;
-  faqScript += htmlFunctions.faqScript;
-  faqScript = faqScript.slice(0, -1);
-  faqScript += `]
-                }
-                </script>
-  `;
+  let faqScript = "";
+  if (htmlCommon.faqScript) {
+    faqScript = `<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [`;
+    faqScript += htmlCommon.faqScript;
+    faqScript += htmlFunctions.faqScript;
+    faqScript = faqScript.slice(0, -1);
+    faqScript += `]
+                  }
+                  </script>
+    `;
+  }
   html = htmlCommon.html + htmlFunctions.html;
   return html + faqScript;
 };
