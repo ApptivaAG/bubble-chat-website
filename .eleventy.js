@@ -66,8 +66,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/chatbot-images": "img/chatbot-images",
   });
-
-  eleventyConfig.addPassthroughCopy('src/site/_redirects');
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
   eleventyConfig.addPassthroughCopy("src/site/funktionen/**/*.png");
   eleventyConfig.addPassthroughCopy("src/site/funktionen/**/*.jpg");

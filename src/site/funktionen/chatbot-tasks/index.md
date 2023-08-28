@@ -4,6 +4,7 @@ title: Chatbot Tasks
 excerpt: Zu den wichtigsten Tasks eines Chatbots gehört das Verstehen von Benutzereingaben, die Erkennung von Absichten und die Generierung von Antworten.
 image: /img/funktionen/chatbot-tasks-card.png
 order: 1
+redirectFrom: /funktionen/chatbot-engine/
 eleventyNavigation:
   key: Chatbot Tasks
   parent: Funktionen
