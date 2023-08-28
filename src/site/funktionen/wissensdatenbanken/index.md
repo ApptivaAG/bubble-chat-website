@@ -4,6 +4,7 @@ title: Wissensdatenbanken
 displayTitle: Wissens&shy;datenbanken mit GPT
 excerpt: Die Nutzung einer Wissensdatenbank ermöglicht den Einsatz von Chatbots mit minimalem Aufwand. Der Chatbot kennt sofort eine Fülle von Informationen.
 image: /img/funktionen/wissensdatenbank-card.png
+redirectFrom: /funktionen/wissensdatenbank/
 eleventyNavigation:
   key: Wissensdatenbanken
   parent: Funktionen

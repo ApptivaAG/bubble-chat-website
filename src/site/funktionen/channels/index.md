@@ -3,6 +3,7 @@ layout: feature
 title: Chat Channels
 excerpt: Ein Chat Channel ist für das Verschicken und Empfangen von Nachrichten aus der Sicht des Anwenders zuständig. Es ist die grafische Oberfläche für den Anwender.
 image: /img/funktionen/channels-card.png
+redirectFrom: /funktionen/chat-client/
 eleventyNavigation:
   key: Chat Channels
   parent: Funktionen

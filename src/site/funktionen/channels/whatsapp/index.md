@@ -4,6 +4,7 @@ title: WhatsApp
 excerpt: WhatsApp ist in der Schweiz die meistgenutzte Messaging-App. Dieser Kanal eignet sich daher bestens, um mit Ihren Kunden in Kontakt zu bleiben.
 order: 2
 image: /img/funktionen/whatsapp-card.png
+redirectFrom: /funktionen/whatsapp/
 eleventyNavigation:
   key: WhatsApp
   parent: Chat Channels

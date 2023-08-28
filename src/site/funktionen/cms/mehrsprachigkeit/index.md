@@ -3,6 +3,7 @@ layout: feature
 title: Mehrsprachige Chatbots
 excerpt: Mit Bubble Chat können Chatbots erstellt werden, die mehrere Sprachen gleichzeitig beherrschen. Übersetzungen können automatisch erstellt werden.
 order: 2
+redirectFrom: /funktionen/mehrsprachigkeit/
 eleventyNavigation:
   key: Mehrsprachige Chatbots
   parent: Content Management

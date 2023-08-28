@@ -4,6 +4,7 @@ title: Website Messenger
 excerpt: Unser Website Messenger ist die einfachste Variante, Ihren Kunden zu helfen und mit Ihnen zu chatten - passend zu Ihrem Unternehmen in Ihre Webseite integriert.
 order: 1
 image: /img/funktionen/website-messenger-card.png
+redirectFrom: /funktionen/website-messenger/
 eleventyNavigation:
   key: Website Messenger
   parent: Chat Channels

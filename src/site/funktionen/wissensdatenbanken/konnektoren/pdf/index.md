@@ -3,6 +3,7 @@ layout: feature
 title: PDF Konnektor
 excerpt: Viele Dokumente von Unternehmen sind als PDF verfügbar. Lassen Sie Ihren Chatbot diese Dokumente auswendig lernen, damit er Fragen dazu beantworten kann.
 image: /img/funktionen/wissensdatenbank-pdf-connector.png
+redirectFrom: /funktionen/wissensdatenbank/konnektoren/pdf/
 eleventyNavigation:
   key: PDF Konnektor
   parent: Konnektoren

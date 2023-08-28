@@ -4,6 +4,7 @@ title: Chaterlebnis bewerten
 excerpt: Der Bubble Chat WebClient bietet Besuchern die Möglichkeit, ihr Chaterlebnis zu bewerten. So lässt sich beurteilen, ob Kunden mit der Konversation happy sind.
 image: /img/funktionen/chat-bewerten-card.png
 order: 10
+redirectFrom: /funktionen/chat-bewerten/
 eleventyNavigation:
   key: Chaterlebnis bewerten
   parent: Analytics

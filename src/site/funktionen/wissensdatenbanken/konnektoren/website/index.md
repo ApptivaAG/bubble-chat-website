@@ -3,6 +3,7 @@ layout: feature
 title: Website Konnektor
 excerpt: Der Website Konnektor ist ein Web-Crawler, der Inhalte von Websites abruft. Er durchsucht eigenständig Links und liest den Inhalt der einzelnen Artikel aus.
 image: /img/funktionen/wissensdatenbank-website-connector.png
+redirectFrom: /funktionen/wissensdatenbank/konnektoren/website/
 eleventyNavigation:
   key: Website Konnektor
   parent: Konnektoren

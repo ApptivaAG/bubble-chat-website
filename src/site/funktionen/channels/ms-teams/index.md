@@ -4,6 +4,7 @@ title: Microsoft Teams
 excerpt: Bieten Sie Ihren Mitarbeitern die Möglichkeit, den Chatbot mit Microsoft Teams zu nutzen - so als ob der Chatbot ein zusätzlicher Mitarbeiter von Ihnen wäre.
 order: 5
 image: /img/funktionen/msteams-card.png
+redirectFrom: /funktionen/ms-teams/
 eleventyNavigation:
   key: Microsoft Teams
   parent: Chat Channels

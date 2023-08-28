@@ -3,6 +3,7 @@ layout: feature
 title: Microsoft OneNote Konnektor
 excerpt: Der Microsoft OneNote Konnektor ermöglicht den Zugriff auf die Notizen, welche der Chatbot zum Beantworten von Chat-Anfragen lernen kann.
 image: /img/funktionen/wissensdatenbank-onenote-connector.png
+redirectFrom: /funktionen/wissensdatenbank/konnektoren/onenote/
 eleventyNavigation:
   key: Microsoft OneNote Konnektor
   parent: Konnektoren

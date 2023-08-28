@@ -4,6 +4,7 @@ title: Training
 excerpt: 'Kontinuierliches Training des Chatbots ist sehr wichtig. Denn auch hier gilt: Übung macht den Meister. Bubble Chat bietet dafür praktische Unterstützung an.'
 image: /img/funktionen/cms-training-card.png
 order: 1
+redirectFrom: /funktionen/cms-training/
 eleventyNavigation:
   key: Training
   parent: Content Management
