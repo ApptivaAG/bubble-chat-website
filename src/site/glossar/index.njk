@@ -58,7 +58,7 @@ eleventyImport:
             {% else %}
                 <p>{{item.data.excerpt}}</p>
             {% endif %}
-            {%- if item.data.redirectTo or item.content or item.data.readMoreUrl -%}
+            {%- if item.content or item.data.readMoreUrl -%}
               <a href="{{item.data.readMoreUrl or item.url}}" class="button button-action">Mehr erfahren</a>
             {%- endif -%}
         </div>

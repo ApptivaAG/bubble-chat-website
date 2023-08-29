@@ -3,15 +3,6 @@ permalink: /_redirects
 eleventyExcludeFromCollections: true
 ---
 {%- for page in collections.all -%}
-  {%- if page.url and page.data.redirectTo -%}
-    {%- if page.data.redirectTo | is_string -%}
-      {{ page.url }}  {{ page.data.redirectTo }}  {{ page.data.redirectCode or '302'}}
-    {%- endif -%}
-    {{ '\n' }}
-  {%- endif -%}
-{%- endfor -%}
-
-{%- for page in collections.all -%}
   {%- if page.url and page.data.redirectFrom -%}
     {%- if page.data.redirectFrom | is_string -%}
       {{ page.data.redirectFrom }}  {{ page.url }}  {{ page.data.redirectCode or '301'}}
