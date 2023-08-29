@@ -20,3 +20,12 @@ Generative Pre-trained Transformer (GPT) sind eine Variante [grosser Sprachmodel
 - **Vortrainiert**<br>Sie durchlaufen zunächst eine unbeaufsichtigte Vortrainingsphase unter Verwendung eines sehr grossen Datensatzes. Dann durchlaufen sie eine überwachte Feinabstimmungsphase, um das Modell zu steuern. Modelle können auf bestimmte Aufgaben, wie zum Beispiel das Komponieren von Musik, fein abgestimmt werden.
 
 - **Transformatoren**<br>Sie verwenden ein Modell das lernt, Beziehungen von Wörtern herzustellen. Das heisst, es lernt, welches Wort mit hoher Wahrscheinlichkeit in einem Text auf ein anderes Wort folgt.
+
+## Wie profitiert Bubble Chat von GPT?
+Bubble Chat setzt Large Language Models auf unterschiedliche Arten ein.
+
+- **Trainingssätze generieren**: Bubble Chat kann Trainingssätze automatisch generieren. In der Regel ist dieser Vorgang ziemlich aufwändig. So kann viel Zeit eingespart werden. Weitere Infos: [Bubble Chat Assistent](/blog/bubble-chat-assistent/)
+- **Szenario-basiertes Testen**: Anhand eines vordefinierten Szenarios kann Bubble Chat Benutzeräusserungen vorschlagen, welche in diesem Kontext von Kunden gefragt werden können. Dies spart ebenfalls enorm viel Zeit. Weitere Infos: [Bubble Chat Assistent](/blog/bubble-chat-assistent/)
+- **Wissensdatenbanken**: Ob PDFs, Word-Dokumente oder Webseiten - Bubble Chat kann den Inhalt erlernen und erstaunlich gute Antworten liefern. Weitere Infos: [Wissensdatenbank](/funktionen/wissensdatenbanken/)
+- **Fallback**: Wenn bei den vordefinierten Quellen keine Antworten gefunden werden, kann Bubble Chat auch auf [ChatGPT](/glossar/chatgpt/) anfragen.
+
