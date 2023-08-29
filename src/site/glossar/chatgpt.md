@@ -9,8 +9,8 @@ eleventyNavigation:
   parent: Glossar
 ---
 
- # Was ist ChatGPT?
- ChatGPT ist ein Chatbot der Firma [OpenAI](https://openai.com/){target="_blank"}, der auf das [GPT-Sprachmodell](/glossar/gpt/) setzt. Er ist speziell dafür konzipiert, mit menschlichen Nutzern zu kommunizieren. Die Gratis-Version nutzt 20 Milliarden Parameter von [GPT-3](/glossar/gpt-3/), um überzeugende textbasierte Antworten zu generieren. OpenAI hat zudem Content-Filter integriert, um zu gewährleisten, dass das Programm nicht ausser Kontrolle gerät.
+# Was ist ChatGPT?
+ChatGPT ist ein Chatbot der Firma [OpenAI](https://openai.com/){target="_blank"}, der auf das [GPT-Sprachmodell](/glossar/gpt/) setzt. Er ist speziell dafür konzipiert, mit menschlichen Nutzern zu kommunizieren. Die Gratis-Version nutzt 20 Milliarden Parameter von [GPT-3](/glossar/gpt-3/), um überzeugende textbasierte Antworten zu generieren. OpenAI hat zudem Content-Filter integriert, um zu gewährleisten, dass das Programm nicht ausser Kontrolle gerät.
 
 ## Wie funktioniert ChatGPT?
 ChatGPT basiert auf einem Modell namens Transformer, das für natürliche Sprachverarbeitung entwickelt wurde. Es wird durch Training mit grossen Textmengen geschult und lernt, Muster und Zusammenhänge in der Sprache zu verstehen. Wenn Sie eine Anfrage stellen, analysiert das Modell den Text, nutzt gelerntes Wissen und den Kontext, um eine passende Antwort zu generieren. Dies geschieht mithilfe von Attention-Mechanismen, die Beziehungen zwischen Wörtern berücksichtigen. Das Modell wählt schrittweise Wörter aus, um einen sinnvollen Text zu erzeugen. Es kann auch an spezifische Aufgaben angepasst werden, bevor es eingesetzt wird.
