@@ -24,8 +24,11 @@ Generative Pre-trained Transformer (GPT) sind eine Variante [grosser Sprachmodel
 ## Wie profitiert Bubble Chat von GPT?
 Bubble Chat setzt Large Language Models auf unterschiedliche Arten ein.
 
-- **Trainingssätze generieren**: Bubble Chat kann Trainingssätze automatisch generieren. In der Regel ist dieser Vorgang ziemlich aufwändig. So kann viel Zeit eingespart werden. Weitere Infos: [Bubble Chat Assistent](/blog/bubble-chat-assistent/)
-- **Szenario-basiertes Testen**: Anhand eines vordefinierten Szenarios kann Bubble Chat Benutzeräusserungen vorschlagen, welche in diesem Kontext von Kunden gefragt werden können. Dies spart ebenfalls enorm viel Zeit. Weitere Infos: [Bubble Chat Assistent](/blog/bubble-chat-assistent/)
-- **Wissensdatenbanken**: Ob PDFs, Word-Dokumente oder Webseiten - Bubble Chat kann den Inhalt erlernen und erstaunlich gute Antworten liefern. Weitere Infos: [Wissensdatenbank](/funktionen/wissensdatenbanken/)
-- **Fallback**: Wenn bei den vordefinierten Quellen keine Antworten gefunden werden, kann Bubble Chat auch auf [ChatGPT](/glossar/chatgpt/) anfragen.
+- **Trainingssätze generieren**<br> Bubble Chat kann Trainingssätze automatisch generieren. In der Regel ist dieser Vorgang ziemlich aufwändig. So kann viel Zeit eingespart werden. Weitere Infos: [Bubble Chat Assistent](/blog/bubble-chat-assistent/)
+
+- **Szenario-basiertes Testen**<br> Anhand eines vordefinierten Szenarios kann Bubble Chat Benutzeräusserungen vorschlagen, welche in diesem Kontext von Kunden gefragt werden können. Dies spart ebenfalls enorm viel Zeit. Weitere Infos: [Bubble Chat Assistent](/blog/bubble-chat-assistent/)
+
+- **Wissensdatenbanken**<br> Ob PDFs, Word-Dokumente oder Webseiten - Bubble Chat kann den Inhalt erlernen und erstaunlich gute Antworten liefern. Weitere Infos: [Wissensdatenbank](/funktionen/wissensdatenbanken/)
+
+- **Fallback**<br> Wenn bei den vordefinierten Quellen keine Antworten gefunden werden, kann Bubble Chat GPT nutzen, um passende Antworten zu generieren.
 
