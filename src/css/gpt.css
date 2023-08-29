@@ -1,0 +1,5 @@
+.gpt-teaser {
+  & a {
+    color: #85a5ff;
+  }
+}

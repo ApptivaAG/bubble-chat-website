@@ -36,6 +36,10 @@ section.intro {
     padding-top: 6rem;
     padding-bottom: 3rem;
 
+    & .button {
+      font-size: 1.2rem;
+    }
+
     & .container {
       & .content {
         & .text {
