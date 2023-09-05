@@ -22,11 +22,14 @@ Eine der besten ChatGPT-Alternativen ist derzeit Microsoft Bing AI. Die überarb
 
 Das neue Bing verfügt auch über einen Chat-Modus, der Webanfragen einbezieht und es den Nutzern ermöglicht, kontextbezogene Informationen zu erfragen, die auf diesen Anfragen basieren. Die KI-Bot-Suchmaschine hat kürzlich sogar eine Reihe neuer Funktionen erhalten, darunter visuelle Antworten, erhöhte Genauigkeit und den Bing Image Creator. Bing ermöglicht es Nutzern sogar, Reisen zu planen, Rezepte abzurufen, Ratschläge einzuholen und vieles mehr. Während es früher nur über eine Warteliste verfügbar war, ist diese erstaunliche ChatGPT-Alternative jetzt für alle verfügbar.
 
-#### Pro
+#### Eckdaten
 
 - Verschiedene Gesprächsmodi
 - Quellenangaben
-
+- eher langsam
+- Modell: GPT-4
+- mit Internetzugriff
+- kostenlos
 
 ## Google Bard AI
 
@@ -36,11 +39,14 @@ Eine weitere würdige Alternative zu ChatGPT ist Googles Bard AI. Bard ist wahrs
 
 Bard ist ein faktisches Sprachmodell, während ChatGPT ein generatives Modell ist. Dies bedeutet, dass Bard besser darin ist, Fragen auf eine informative Weise zu beantworten, auch wenn sie offen, herausfordernd oder seltsam sind. ChatGPT ist hingegen besser darin, kreative Textformate zu generieren, wie Gedichte, Codes, Skripte, Musikstücke, E-Mails, Briefe usw.
 
-#### Pro
+
+#### Eckdaten
 
 - Schnelle Reaktionszeit
-- Bild- und Videoanalyse
-
+- begrenzte Fähigkeiten in kreativer Textgenerierung
+- Modell: PaLM 2 
+- mit Internetzugriff
+- kostenlos
 
 ## Perplexity AI
 
@@ -48,13 +54,16 @@ Bard ist ein faktisches Sprachmodell, während ChatGPT ein generatives Modell is
 
 Perplexity AI ist eine ChatGPT-Alternative, die ebenfalls auf der API von OpenAI trainiert wurde und als solche gute Antworten liefert. Das Tool bietet eine ChatGPT-ähnliche Funktionalität, einschliesslich der Möglichkeit, Unterhaltungen zu führen und einfache bis differenzierte Antworten zu geben. Im Gegensatz zu ChatGPT gibt Perplexity jedoch sogar die Quellen an, die es zur Beantwortung der Fragen verwendet.
 
-Bei jeder Frage gibt die KI am Ende jedes Satzes die Quelle an, wie z. B. Wikipedia, und leitet daraus auch tatsächlich etwas ab. Es ist also gut zu sehen, dass Perplexity seine Sorgfaltspflicht wahrnimmt. Perplexity verfügt sogar über einen GPT-4-gesteuerten Co-Pilotenmodus, der mit zusätzlichen Antworten die Suche eingrenzen kann. 
+Bei jeder Frage gibt die KI am Ende jedes Satzes die Quelle an, wie z. B. Wikipedia, und leitet daraus auch tatsächlich etwas ab. Es ist also gut zu sehen, dass Perplexity seine Sorgfaltspflicht wahrnimmt. Perplexity verfügt sogar über einen GPT-4-gesteuerten Co-Pilotenmodus, der mit zusätzlichen Inputs die Suche eingrenzen kann. 
 
-#### Pro
+#### Eckdaten
 
 - benutzerfreundliches UI
 - Quellenangaben
-
+- nicht sehr akkurat
+- Modell: GPT-3.5 & 4 
+- mit Internetzugriff
+- kostenlos
 
 ## Jasper Chat
 
@@ -68,11 +77,14 @@ Nach Angaben des Unternehmens hat JasperChat bis Mitte 2021 aus Milliarden von A
 
 Jasper Chat selbst ist kostenlos, aber man benötigt den ein Abo, um alle Features nutzen zu können. Der günstigste Plan kostet 39 Dollars pro Monat.
 
-#### Pro
+#### Eckdaten
 
 - Fähig zu intelligenten Gesprächen
 - Entwickelt, um die Anforderungen von Marketingfachleuten zu erfüllen
-
+- älteres Datenset
+- Modell: GPT-3.5 & 4, Claude 2
+- mit Internetzugriff
+- ab 39 Dollars
 
 ## Chatsonic
 
@@ -82,12 +94,16 @@ Chatsonic ist eine der neuesten ChatGPT-Alternativen. Es wurde auf ChatGPT aufge
 
 Die Fähigkeit, Antworten auf der Grundlage von Internetergebnissen auszugeben, gibt Chatsonic die Möglichkeit, korrekte Informationen zu verbreiten, was ihn etwas weniger anfällig für Fehler macht. Der KI-Chatbot erinnert sich auch an Unterhaltungen und greift auf diese zurück, um den Gesprächsfluss fortzusetzen. Er verfügt über verschiedene Personas, von einem Buchhalter bis zu einem Dichter, für den Fall, dass man sich mit verschiedenen Personen unterhalten möchte.
 
-Neben Text verfügt Chatsonic auch über einen eingebauten Bildgenerator, der aus den eingegebenen Aufforderungen ganz anständige Bilder macht. Obwohl der Bot nicht kostenlos ist, erhält man jeden Tag 25 kostenlose Generationen. Ausserdem kann man diese ChatGPT-Alternative über eine Browsererweiterung und eine Android-App nutzen.
+Neben Text verfügt Chatsonic auch über einen eingebauten Bildgenerator, der aus den eingegebenen Aufforderungen ganz anständige Bilder macht. Obwohl der Bot nicht kostenlos ist, erhält man jeden Tag 25 kostenlose Anfragen. Ausserdem kann man diese ChatGPT-Alternative über eine Browsererweiterung und eine Android-App nutzen.
 
-#### Pro
+#### Eckdaten
 
 - Breiteres und aktuelles Wissen
 - Verschiedene Personas bringen Abwechslung in Gespräche
+- begrenzte Features in Gratisversion
+- Modell: GPT-3.5 & 4
+- mit Internetzugriff
+- ab 39 Dollars
 
 
 ## Fazit
