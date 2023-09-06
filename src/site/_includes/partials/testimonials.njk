@@ -7,7 +7,7 @@
             {% for testimonial in testimonials.items %}
                 <li class="testimonial">
                     <div class="person">
-                        {% image testimonial.imageUrl, testimonial.name,  {"class": "avatar"} %}
+                        {% image testimonial.imageUrl, testimonial.name,  {"class": "avatar", "widths":[100]} %}
                         <div>
                             <p class="name">{{ testimonial.name }}</p>
                             <p class="position">{{ testimonial.position }}</p>
