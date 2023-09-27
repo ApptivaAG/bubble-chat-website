@@ -1,6 +1,8 @@
 .section-features {
   --card-margin: 10px;
   --card-padding: 30px;
+  text-align: left;
+  font-size: 1em;
 
   background-color: var(--color-background-gray);
 
@@ -14,17 +16,41 @@
         background-color: var(--color-background-gray);
 
         & .content {
-          padding: var(--card-padding);
+          padding: 2em;
+          flex: 1;
           display: flex;
           flex-direction: column;
+          justify-content: space-between;
 
-          & h2 {
+          & h3 {
             margin-top: 1rem;
           }
 
           & .subtitle {
             padding-bottom: 1rem;
             font-weight: 300;
+          }
+
+          & a {
+            &::before {
+              content: "→";
+              display: inline-block;
+              text-decoration: none;
+              margin-right: 0.3em;
+            }
+          }
+        }
+
+        & .special {
+          background-color: var(--color-bubble-brand);
+          color: white;
+
+          & .subtitle {
+            color: white;
+          }
+
+          & a {
+            color: white;
           }
         }
 
