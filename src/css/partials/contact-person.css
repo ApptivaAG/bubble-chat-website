@@ -36,3 +36,11 @@
     }
   }
 }
+
+.contact-person-main-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-bottom: 2rem;
+}
