@@ -60,6 +60,7 @@ footer {
       }
 
       @media (--media-desktop-size) {
+        margin-top: -3em;
         grid-column: 1;
         grid-row: 2;
       }
