@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "name": "Silvio Burgermeister",
+      "position": "Leiter Support",
+      "company": "Amt für Informatik und Organisation des Kantons Bern",
+      "statement": "Durch die Automatisierung von simplen Anfragen mit Bubble Chat können sich die Mitarbeitenden im Support mehr auf die Tätigkeiten des First-Level-Supports konzentrieren. Dies wiederum bringt eine Effizienzsteigerung für alle Beteiligten.",
+      "imageUrl": "/img/testimonials/silvio-burgermeister.jpg"
+    },
+    {
+      "name": "Mario Tomas",
+      "position": "Abteilungsleiter ICT",
+      "company": "AKSO Ausgleichskasse des Kantons Solothurn",
+      "statement": "Wem ein partnerschaftliches Verhältnis mit einem kompetenten, unkomplizierten und respektvollen Chatbot-Provider wichtig ist, der sollte sich unbedingt mit dem Bubble Chat Team über einen gemeinsamen, zukünftigen Weg unterhalten. Es lohnt sich.",
+      "imageUrl": "/img/testimonials/mario-tomas.png"
+    },
+    {
       "name": "Linus Klemenjak",
       "position": "Project Manager Online Marketing",
       "company": "Luzerner Kantonsspital",
@@ -13,13 +27,6 @@
       "company": "OekoWatt AG",
       "statement": "Mit Hilfe von Bubble Chat können wir oft gestellte Energieberatungsfragen mehr und mehr automatisiert beantworten. Das gibt uns Zeit, uns vertieft mit komplexen Fragestellungen auseinander zu setzen. Das steigert die Qualität und die Zufriedenheit unserer Kundschaft.",
       "imageUrl": "/img/testimonials/elias-estermann.jpg"
-    },
-    {
-      "name": "Silvio Burgermeister",
-      "position": "Leiter Support",
-      "company": "Amt für Informatik und Organisation des Kantons Bern",
-      "statement": "Durch die Automatisierung von simplen Anfragen mit Bubble Chat können sich die Mitarbeitenden im Support mehr auf die Tätigkeiten des First-Level-Supports konzentrieren. Dies wiederum bringt eine Effizienzsteigerung für alle Beteiligten.",
-      "imageUrl": "/img/testimonials/silvio-burgermeister.jpg"
     }
   ]
 }
