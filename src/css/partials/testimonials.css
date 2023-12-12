@@ -17,11 +17,12 @@
   }
 
   & .testimonial {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     flex: 0 1 25em;
-    padding: 1rem;
+    padding-right: 5em;
+    padding-left: 1em;
+    padding-bottom: 2em;
     font-size: 0.9em;
   }
 

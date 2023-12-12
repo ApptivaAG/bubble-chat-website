@@ -3,10 +3,10 @@ const fs = require("fs");
 const Image = require("@11ty/eleventy-img");
 
 const DEFAULTS = {
-  title: "Bubble Chat",
+  title: "Kundenanfragen mit Künstlicher Intelligenz beantworten",
   url: "https://www.bubble-chat.ch",
   description:
-    "Bubble Chat beantwortet Kundenanfragen mit Hilfe von Künstlicher Intelligenz. Bubble Chat ermöglicht den Einsatz von Chatbots mit minimalem Aufwand.",
+    "Mit Chatbots Kundenanfragen schneller und besser beantworten - auf der Website oder in Messaging-Apps. ✅ Künstliche Intelligenz ✅ GPT ✅ Kostenlose Beratung",
   ogtype: "website",
   author: "Apptiva AG",
   twitter: "apptivateam",
@@ -33,9 +33,7 @@ module.exports = function (eleventyConfig) {
           },
         });
 
-        const title = data.title
-          ? `${data.title} - ${DEFAULTS.title}`
-          : DEFAULTS.title;
+        const title = data.title || DEFAULTS.title;
         const description = data.excerpt || DEFAULTS.description;
         const canonical = `${DEFAULTS.url}${this.page.url}`;
         const image = `${DEFAULTS.url}${stats["jpeg"][0].url}`;

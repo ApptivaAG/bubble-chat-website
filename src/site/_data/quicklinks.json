@@ -5,6 +5,10 @@
       "name": "Demo vereinbaren"
     },
     {
+      "url": "/funktionen/",
+      "name": "Funktionen"
+    },
+    {
       "url": "/blog/",
       "name": "Blog"
     },
@@ -15,14 +19,6 @@
     {
       "url": "/ueber-uns/",
       "name": "Unternehmen"
-    },
-    {
-      "url": "/datenschutz/",
-      "name": "Datenschutz"
-    },
-    {
-      "url": "/impressum/",
-      "name": "Impressum"
     },
     {
       "url": "/kontakt/",
