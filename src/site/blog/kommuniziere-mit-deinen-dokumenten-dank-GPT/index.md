@@ -2,9 +2,9 @@
 layout: blog
 tags: blog
 date: 2024-02-19
-title: Rede mit deinen Dokumenten dank GPT
+title: Kommuniziere mit deinen Dokumenten dank GPT
 excerpt: Die Verwendung von GPT-Modellen wird besonders interessant, wenn man auch eigene Dokumente dazu verwenden kann. In diesem Blogpost erklären wir, wie das geht.
-image: /blog/rede-mit-deinen-dokumenten-dank-GPT/ai.jpg
+image: /blog/kommuniziere-mit-deinen-dokumenten-dank-GPT/ai.jpg
 imageCopy: Foto von <a href="https://unsplash.com/de/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Steve Johnson</a> auf <a href="https://unsplash.com/de/fotos/ein-computergeneriertes-bild-des-buchstabens-a-ZPOoDQc8yMw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 autor: Markus Tanner
 ---
@@ -51,11 +51,10 @@ Prompt Engineering definiert, "was" und "wie" das LLM generiert. Es handelt sich
 - Erweiterte Anwendungsbereiche: RAG ermöglicht LLMs, Aufgaben zu erledigen, die sonst nicht möglich wären, z. B. Fragen zu spezifischen Dokumenten zu beantworten.
 - Bessere Kontrolle: Durch die Verwendung von Prompts kann die Generierung von Text durch GPT-Modelle besser kontrolliert werden.
 
-### RAG hat auch einige Nachteile
 
-- Komplexität: RAG ist ein komplexes Verfahren, das nicht einfach zu implementieren ist.
-- Erforderliche Rechenleistung: RAG kann rechenintensiv sein.
+> Bei Bubble Chat haben wir die RAG-Funktionalität mit der Hilfe von [Wissensdatenbanken](/funktionen/wissensdatenbanken/) integriert. So können Text-, Word- und PDF-Dokumente rasch und unkompliziert integriert werden. Der Chatbot weiss anschliessend sofort Bescheid über die Inhalte der Dokumente.
 
 ## Fazit und Ausblick
 
 Die Verwendung von GPT-Modellen ist sehr spannend. Aber noch spannender wird es, wenn man auch die eigenen Dokumente dazu verwenden kann und nicht nur das generelle Modell. RAG ist ein Verfahren, das dies ermöglicht und somit das Potenzial von LLMs deutlich erweitert. Es ist zu erwarten, dass die Verwendung von LLMs und RAG in Zukunft noch weiter zunehmen wird. Dies liegt daran, dass diese Technologien sehr vielseitig sind und für eine Vielzahl von Aufgaben eingesetzt werden können.
+
